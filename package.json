@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "lerna exec --no-bail -- npm run compile"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  }
+}
