@@ -1,5 +1,11 @@
-import { generatorFactory } from "../utils/generatorFactory";
+import {
+    generatorFactory,
+    OptionalGeneratorArguments,
+} from "../utils/generatorFactory";
 
-export function Repository(repoName?: string) {
-    return generatorFactory(repoName);
+export function Repository(
+    repoName?: string,
+    optionalArguments?: OptionalGeneratorArguments
+) {
+    return generatorFactory(repoName, optionalArguments);
 }

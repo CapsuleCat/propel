@@ -1,5 +1,11 @@
-import { generatorFactory } from "../utils/generatorFactory";
+import {
+    generatorFactory,
+    OptionalGeneratorArguments,
+} from "../utils/generatorFactory";
 
-export function Entity(serviceName?: string) {
-    return generatorFactory(serviceName);
+export function Entity(
+    serviceName?: string,
+    optionalArguments?: OptionalGeneratorArguments
+) {
+    return generatorFactory(serviceName, optionalArguments);
 }

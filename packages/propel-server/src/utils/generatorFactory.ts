@@ -1,6 +1,13 @@
 import { getAppBottle } from "../globals/bottle";
 
-export function generatorFactory(name?: string) {
+export interface OptionalGeneratorArguments {
+    when?: () => boolean;
+}
+
+export function generatorFactory(
+    name?: string,
+    { when }: OptionalGeneratorArguments = {}
+) {
     return function Decorator<T extends { new (...arg: any[]): any }>(
         constructor: T
     ) {
@@ -8,6 +15,10 @@ export function generatorFactory(name?: string) {
             return new constructor();
         };
 
-        getAppBottle().service(name ?? constructor.name, getGenerator);
+        const conditionalCheck = when ? when() : true;
+
+        if (conditionalCheck) {
+            getAppBottle().service(name ?? constructor.name, getGenerator);
+        }
     };
 }
