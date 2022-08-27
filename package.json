@@ -5,9 +5,11 @@
     "packages/*"
   ],
   "scripts": {
-    "compile": "lerna exec --no-bail -- npm run compile"
+    "compile": "lerna exec --no-bail -- npm run compile",
+    "test": "lerna exec --no-bail -- npm run test"
   },
   "devDependencies": {
+    "husky": "^8.0.1",
     "lerna": "^5.4.3"
   }
 }

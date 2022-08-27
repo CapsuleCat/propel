@@ -1,13 +1,5 @@
-import { getAppBottle } from "../globals/bottle";
+import { generatorFactory } from "../utils/generatorFactory";
 
 export function Repository(repoName?: string) {
-    return function RepositoryDecorator<T extends { new (...arg: any[]): any }>(
-        constructor: T
-    ) {
-        const getRepository = function getRepository() {
-            return new constructor();
-        };
-
-        getAppBottle().service(repoName ?? constructor.name, getRepository);
-    };
+    return generatorFactory(repoName);
 }
