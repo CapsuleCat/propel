@@ -2,6 +2,10 @@ export interface SomeObject {
     [key: string]: unknown;
 }
 
+export type WithRequiredProperty<Type, Key extends keyof Type> = Type & {
+    [Property in Key]-?: Type[Property];
+};
+
 export type Middleware = (
     req: Request,
     res: Response,

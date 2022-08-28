@@ -3,7 +3,9 @@ import { Logger } from "../types";
 
 @Service()
 export class HomeService {
-    @Inject("Logger")
+    @Inject("Logger", {
+        args: ["HomeService"],
+    })
     private logger!: Logger;
 
     @Bootstrap()

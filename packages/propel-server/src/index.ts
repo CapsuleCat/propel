@@ -5,7 +5,9 @@ export { getAppBottle } from "./globals/bottle";
 export { Bootstrap } from "./decorators/Bootstrap";
 export { Controller } from "./decorators/Controller";
 export { Entity } from "./decorators/Entity";
+export { Factory } from "./decorators/Factory";
 export { Inject } from "./decorators/Inject";
+export { InjectParam } from "./decorators/InjectParam";
 export { PropelApplication } from "./decorators/PropelApplication";
 export { Repository } from "./decorators/Repository";
 export {

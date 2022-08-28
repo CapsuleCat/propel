@@ -1,9 +1,17 @@
-import { Service } from "@capsule-cat/propel-server";
+import { Factory } from "@capsule-cat/propel-server";
 import { Logger } from "./types";
 
-@Service("Logger")
+@Factory("Logger", {
+    defaultArgs: ["default"],
+})
 export class MyLogger implements Logger {
+    private namespace: string;
+
+    constructor(namespace: string) {
+        this.namespace = namespace;
+    }
+
     log(...args: unknown[]) {
-        console.log(...args);
+        console.log(`[${this.namespace}]`, ...args);
     }
 }

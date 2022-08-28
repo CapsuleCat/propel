@@ -14,7 +14,9 @@ import { VisitsRepository } from "./VisitsRepository";
 class HomeController {
     private asdf = "asdf";
 
-    @Inject("Logger")
+    @Inject("Logger", {
+        args: ["HomeController"],
+    })
     private logger!: Logger;
 
     @Inject("HomeService")
