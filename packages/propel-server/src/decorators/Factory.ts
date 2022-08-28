@@ -6,13 +6,29 @@ export interface OptionalFactoryArguments extends OptionalGeneratorArguments {
 }
 
 /**
+ * Factory Decorator Factory
+ *
  * Annotate a class with the Factory decorator so that each time
  * it is Injected, a new instance will be created with provided
  * args, or the default args if none are provided.
+ *
+ * @param {string} name - name of the Factory. Defaults to the class name
+ * @param {OptionalFactoryArguments} options 
+ * @returns Decorator
+ * @example
+ * @Factory('Logger', {
+ *   defaultArgs: ["no namespace provided"]
+ * })
+ * class Logger {
+ *   private namespace: string;
+ *   constructor(namespace: string) {
+ *     this.namespace = namespace;
+ *   }
+ * }
  */
 export function Factory(
-    name: string,
-    { when, defaultArgs }: OptionalFactoryArguments
+    name?: string,
+    { when, defaultArgs }?: OptionalFactoryArguments
 ) {
     return function Decorator<T extends { new (...arg: any[]): any }>(
         constructor: T

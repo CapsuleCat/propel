@@ -5,7 +5,23 @@ export interface BootstrapProps {
 }
 
 /**
+ * Bootstrap Decorator Factory
+ *
+ * Add the decorated class method to the bootstrap sequence that happens at the start
+ * of the application. Propel will run all bootstrapped methods in sequence, awaiting
+ * any that are async.
+ *
  * The higher the number, the earlier the bootstrap will be called
+ *
+ * @param {BootstrapProps} bootstrapOptions - optional set of arguments for bootstrapping
+ * @example
+ * class MyClass {
+ *   \@Bootstrap
+ *   async init() {
+ *     // Do bootstrap work
+ *   }
+ * }
+ * @returns Decorator
  */
 export function Bootstrap(
     { priority = 10 }: BootstrapProps = {
