@@ -13,10 +13,9 @@ export interface OptionalFactoryArguments extends OptionalGeneratorArguments {
  * args, or the default args if none are provided.
  *
  * @param {string} name - name of the Factory. Defaults to the class name
- * @param {OptionalFactoryArguments} options 
- * @returns Decorator
+ * @param {OptionalFactoryArguments} options - optional params
  * @example
- * @Factory('Logger', {
+ * \@Factory('Logger', {
  *   defaultArgs: ["no namespace provided"]
  * })
  * class Logger {
@@ -25,15 +24,13 @@ export interface OptionalFactoryArguments extends OptionalGeneratorArguments {
  *     this.namespace = namespace;
  *   }
  * }
+ * @returns {import("../types").ClassDecorator} - a class decorator
  */
-export function Factory(
-    name?: string,
-    { when, defaultArgs }?: OptionalFactoryArguments
-) {
+export function Factory(name?: string, options?: OptionalFactoryArguments) {
     return function Decorator<T extends { new (...arg: any[]): any }>(
         constructor: T
     ) {
-        /**
+        /*
          * Factories return a wrapped constructor for the getter to unwrap
          * instead of a new instance of the constructor.
          */
@@ -41,6 +38,7 @@ export function Factory(
             const wrapperClass = class {
                 public static isFactory: true;
                 constructor(...args: any[]) {
+                    const defaultArgs = options?.defaultArgs;
                     const mergedArgs =
                         args?.length > 0 ? args : defaultArgs ?? [];
                     return new constructor(...mergedArgs);
@@ -53,6 +51,7 @@ export function Factory(
             return wrapperClass;
         };
 
+        const when = options?.when;
         const conditionalCheck = when ? when() : true;
 
         if (conditionalCheck) {

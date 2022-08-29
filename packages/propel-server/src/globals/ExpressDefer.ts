@@ -37,6 +37,11 @@ export class ExpressDefer {
     }
 }
 
+/**
+ * Factory for creating an express defer
+ *
+ * @returns {ExpressDefer} - the express defer
+ */
 export function getExpressDefer(): ExpressDefer {
     return new ExpressDefer();
 }

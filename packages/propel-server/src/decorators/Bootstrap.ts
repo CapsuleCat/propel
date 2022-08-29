@@ -21,7 +21,7 @@ export interface BootstrapProps {
  *     // Do bootstrap work
  *   }
  * }
- * @returns Decorator
+ * @returns {import("../types").MethodDecorator} - a method decorator
  */
 export function Bootstrap(
     { priority = 10 }: BootstrapProps = {

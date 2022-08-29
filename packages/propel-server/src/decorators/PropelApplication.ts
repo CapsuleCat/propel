@@ -7,12 +7,16 @@ export interface PropelApplicationProps {
     disableBodyParser?: boolean;
 }
 
+/**
+ * Propel Application Class Decorator Factory
+ *
+ * @param {PropelApplicationProps} optionalParams - optional params
+ * @returns {import("../types").ClassDecorator} - a class decorator
+ */
 export function PropelApplication({
     disableBodyParser = false,
 }: PropelApplicationProps = {}) {
-    return function PropelApplicationDecorator<
-        T extends { new (...arg: any[]): any }
-    >(constructor: T) {
+    return function PropelApplicationDecorator() {
         getAppBottle().container._ExpressDefer.expressSetup((app: IRouter) => {
             // TODO let downstream users turn these options on or off
 

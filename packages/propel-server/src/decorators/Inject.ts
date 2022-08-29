@@ -6,26 +6,26 @@ export interface InjectOptions {
 
 /**
  * Inject Decorator Factory
- * 
+ *
  * Automaticaly wire up a dependency into a class
  * property. Any Service, Entity, or Factory can be injected.
- * 
- * When injecting a Factory, `args` can be provided to 
+ *
+ * When injecting a Factory, `args` can be provided to
  * pass into the Factory.
- * 
+ *
  * @param {string} name - provide the name
- * @param {InjectOptions} options
- * @returns Decorator
+ * @param {InjectOptions} options - optional params
  * @example
  * class MyClass {
- *   @Entity("Logger")
+ *   \@Entity("Logger")
  *   loggger!: Logger;
  * }
  * @example <caption>Example using Factory</caption>
  * class MyClass {
- *   @Entity("Logger", { args: ["MyClass"] })
+ *   \@Entity("Logger", { args: ["MyClass"] })
  *   loggger!: Logger;
  * }
+ * @returns {import("../types").PropertyDecorator} - a property decorator
  */
 export function Inject(name: string, options?: InjectOptions) {
     return function InjectDecorator(target: any, propertyKey: string) {

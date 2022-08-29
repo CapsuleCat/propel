@@ -25,3 +25,17 @@ export type Optional<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>;
 export type MakeNullishOptional<T extends object> = T extends any
     ? Optional<T, NullishPropertiesOf<T>>
     : never;
+
+export type ClassDecorator = <T extends { new (...arg: any[]): any }>(
+    constructor: T
+) => void;
+
+export type PropertyDecorator = (target: any, propertyKey: string) => void;
+
+export type MethodDecorator = (target: any, propertyKey: string) => void;
+
+export type ParamDecorator = (
+    target: any,
+    propertyKey: string,
+    parameterIndex: number
+) => void;

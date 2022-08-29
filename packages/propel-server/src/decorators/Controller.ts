@@ -15,13 +15,13 @@ export type KnownRouteType =
 
 /**
  * Controller Decorator Factory
- * 
+ *
  * Register the decorated class as a Controller that will register all route
  * methods with Express auto-magically.
- * 
+ *
  * @param {string} baseUrl - base url for the route. Defaults to '/'
  * @param {RequestHandler[]} middlewares - list of middelwares to apply to all routes
- * @returns Decorator
+ * @returns {import('../types').Decorator} - a class decorator
  */
 export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
     return function ControllerDecorator<T extends { new (...arg: any[]): any }>(
@@ -99,7 +99,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
         getAppBottle().service(constructor.name, wrappedClass);
 
         getAppBottle().container._ExpressDefer.deferUse((app: IRouter) => {
-            const instance = getAppBottle().container[constructor.name];
+            getAppBottle().container[constructor.name];
 
             // TODO use a debug logger
             console.log("Added router:", path.join(url));
