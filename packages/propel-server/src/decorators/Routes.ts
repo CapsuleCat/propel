@@ -1,11 +1,15 @@
 import "reflect-metadata";
 import { RequestHandler } from "express";
-import path from "path";
 
-export function createPath(...pathParts: string[]) {
-    return path.join(...pathParts);
-}
-
+/**
+ * Get Route Decorator Factory
+ *
+ * Register the class method as a GET route.
+ *
+ * @param {string} routePath - The route path to register the method as.
+ * @param {RequestHandler[]} middlewares - optional middlewares to apply to the route
+ * @returns {import("../types").MethodDecorator} - Method decorator
+ */
 export function GetRoute(routePath: string, middlewares?: RequestHandler[]) {
     return function GetRouteDecorator(target: any, propertyKey: string) {
         // Annotate the property with the route path.
@@ -15,6 +19,15 @@ export function GetRoute(routePath: string, middlewares?: RequestHandler[]) {
     };
 }
 
+/**
+ * Post Route Decorator Factory
+ *
+ * Register the class method as a POST route.
+ *
+ * @param {string} routePath - The route path to register the method as.
+ * @param {RequestHandler[]} middlewares - optional middlewares to apply to the route
+ * @returns {import("../types").MethodDecorator} - Method decorator
+ */
 export function PostRoute(routePath: string, middlewares?: RequestHandler[]) {
     return function PostRouteDecorator(target: any, propertyKey: string) {
         // Annotate the property with the route path.
@@ -24,6 +37,15 @@ export function PostRoute(routePath: string, middlewares?: RequestHandler[]) {
     };
 }
 
+/**
+ * Patch Route Decorator Factory
+ *
+ * Register the class method as a PATCH route.
+ *
+ * @param {string} routePath - The route path to register the method as.
+ * @param {RequestHandler[]} middlewares - optional middlewares to apply to the route
+ * @returns {import("../types").MethodDecorator} - Method decorator
+ */
 export function PatchRoute(routePath: string, middlewares?: RequestHandler[]) {
     return function PatchRouteDecorator(target: any, propertyKey: string) {
         // Annotate the property with the route path.
@@ -33,6 +55,15 @@ export function PatchRoute(routePath: string, middlewares?: RequestHandler[]) {
     };
 }
 
+/**
+ * Delete Route Decorator Factory
+ *
+ * Register the class method as a DELETE route.
+ *
+ * @param {string} routePath - The route path to register the method as.
+ * @param {RequestHandler[]} middlewares - optional middlewares to apply to the route
+ * @returns {import("../types").MethodDecorator} - Method decorator
+ */
 export function DeleteRoute(routePath: string, middlewares?: RequestHandler[]) {
     return function DeleteRouteDecorator(target: any, propertyKey: string) {
         // Annotate the property with the route path.

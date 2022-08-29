@@ -6,9 +6,13 @@
         "plugin:prettier/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/recommended",
-        "plugin:import/typescript"
+        "plugin:import/typescript",
+        "plugin:jsdoc/recommended"
     ],
     "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "jsdoc"
+    ],
     "rules": {
         "@typescript-eslint/ban-types": "off",
         "@typescript-eslint/no-explicit-any": "off"

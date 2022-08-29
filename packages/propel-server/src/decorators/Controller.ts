@@ -14,7 +14,14 @@ export type KnownRouteType =
     | "head";
 
 /**
- * Class decorator to add the class to the dependency injection container.
+ * Controller Decorator Factory
+ *
+ * Register the decorated class as a Controller that will register all route
+ * methods with Express auto-magically.
+ *
+ * @param {string} baseUrl - base url for the route. Defaults to '/'
+ * @param {RequestHandler[]} middlewares - list of middelwares to apply to all routes
+ * @returns {import('../types').Decorator} - a class decorator
  */
 export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
     return function ControllerDecorator<T extends { new (...arg: any[]): any }>(
@@ -22,6 +29,9 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
     ) {
         const url = baseUrl ?? "/";
         const router = Router();
+
+        // Wrap the decorated class and automatically wrap any methods
+        // that look like routes.
         const wrappedClass = class extends constructor {
             public baseUrl: string = url;
             public router: Router = router;
@@ -38,6 +48,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
                         constructor.prototype,
                         method
                     );
+
                     if (
                         descriptor &&
                         descriptor.value &&
@@ -63,6 +74,9 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
                             method
                         );
 
+                        // Finally, wrap the function if it looks like
+                        // a route. IE it has "routePath" and "routeMethod"
+                        // data.
                         if (routePath && routeMethod) {
                             // TODO use a debug logger
                             console.log(
@@ -85,7 +99,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
         getAppBottle().service(constructor.name, wrappedClass);
 
         getAppBottle().container._ExpressDefer.deferUse((app: IRouter) => {
-            const instance = getAppBottle().container[constructor.name];
+            getAppBottle().container[constructor.name];
 
             // TODO use a debug logger
             console.log("Added router:", path.join(url));

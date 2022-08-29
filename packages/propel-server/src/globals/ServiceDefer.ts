@@ -1,3 +1,7 @@
+/**
+ * The ServiceDefer class is used to accumulate service bootstrap functions
+ * and then run them.
+ */
 export class ServiceDefer {
     private defers: Array<{ cb: () => Promise<void>; priority: number }> = [];
 
@@ -20,6 +24,11 @@ export class ServiceDefer {
     }
 }
 
+/**
+ * Factory for creating a service defer
+ *
+ * @returns {ServiceDefer} - the service defer
+ */
 export function getServiceDefer(): ServiceDefer {
     return new ServiceDefer();
 }

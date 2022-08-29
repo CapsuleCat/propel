@@ -46,8 +46,9 @@ class Tester {
 }
 
 @PropelApplication()
-class Bootstrapper {
+export class Bootstrapper {
     @Inject("Express")
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     private express!: any;
 
     @Inject("Logger")

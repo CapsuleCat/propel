@@ -14,6 +14,11 @@ appBottle.service(
     "_ExpressDefer"
 );
 
+/**
+ * Get the app bottle
+ *
+ * @returns {Bottle} - the bottle
+ */
 export function getAppBottle(): Bottle {
     return appBottle;
 }

@@ -11,9 +11,7 @@ import { HomeService } from "./HomeSerivce";
 import { VisitsRepository } from "./VisitsRepository";
 
 @Controller("/home")
-class HomeController {
-    private asdf = "asdf";
-
+export class HomeController {
     @Inject("Logger", {
         args: ["HomeController"],
     })

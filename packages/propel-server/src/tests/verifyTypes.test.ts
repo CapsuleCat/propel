@@ -33,6 +33,11 @@ describe("Verify that types don't change so much that they would break old code"
         const optionalEntity = getAppBottle().container.myOptionalEntity;
 
         expect(typeof optionalEntity).toBe("undefined");
+
+        // Here just so eslint doesn't complain
+        const optionalEntityInstance = new OptionalEntity();
+
+        expect(typeof optionalEntityInstance).toBe("object");
     });
 
     test("Repository", () => {
