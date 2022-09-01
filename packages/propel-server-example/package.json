@@ -1,7 +1,7 @@
 {
   "name": "@capsule-cat/propel-server-example",
   "private": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "scripts": {
     "start": "ts-node ./src/index.ts",
@@ -31,7 +31,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@capsule-cat/propel-server": "^0.0.5",
+    "@capsule-cat/propel-server": "^0.0.6",
     "body-parser": "^1.20.0",
     "bottlejs": "^2.0.1",
     "cross-fetch": "^3.1.5",
