@@ -2,6 +2,7 @@ import { getAppBottle } from "../globals/bottle";
 
 export interface InjectOptions {
     args?: any[];
+    unbox?: (instance: any) => any;
 }
 
 /**
@@ -48,6 +49,10 @@ export function Inject(name: string, options?: InjectOptions) {
              */
             if (typeof service === "function" && service.isFactory) {
                 return new service(...(options?.args ?? []));
+            }
+
+            if (options?.unbox) {
+                return options.unbox(service);
             }
 
             return service;

@@ -1,6 +1,7 @@
 import { getAppBottle } from "../globals/bottle";
 
 export interface BootstrapProps {
+    serviceName?: string;
     priority: number;
 }
 
@@ -24,13 +25,24 @@ export interface BootstrapProps {
  * @returns {import("../types").MethodDecorator} - a method decorator
  */
 export function Bootstrap(
-    { priority = 10 }: BootstrapProps = {
+    { serviceName, priority = 10 }: BootstrapProps = {
         priority: 10,
     }
 ) {
     return function BootstrapDecorator(target: any, propertyKey: string) {
+        // Try to get the service's name
+        const bottleName = serviceName ?? target.constructor.name;
+
         getAppBottle().container._ServiceDefer.push(() => {
-            return target[propertyKey]();
+            // Try to get the service from the bottle
+            const service = getAppBottle().container[bottleName];
+
+            if (!service) {
+                return target[propertyKey]();
+            }
+
+            // If the service exists, call the method on it
+            return service[propertyKey]();
         }, priority);
     };
 }
