@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import {
     Bootstrap,
     Controller,
+    Autowired,
     Inject,
     GetRoute,
     PostRoute,
@@ -17,10 +18,10 @@ export class HomeController {
     })
     private logger!: Logger;
 
-    @Inject("HomeService")
-    private myService!: HomeService;
+    @Autowired()
+    private homeService!: HomeService;
 
-    @Inject("VisitsRepository")
+    @Autowired()
     private visitsRepository!: VisitsRepository;
 
     @Bootstrap()
@@ -39,7 +40,7 @@ export class HomeController {
         visits.visits++;
         await this.visitsRepository.set(visits);
 
-        this.myService.test();
+        this.homeService.test();
 
         res.json({
             message: "GET Hello World!",

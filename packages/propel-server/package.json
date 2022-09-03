@@ -51,5 +51,8 @@
     "bottlejs": "^2.0.1",
     "express": "^4.18.1",
     "reflect-metadata": "^0.1.13"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
   }
 }

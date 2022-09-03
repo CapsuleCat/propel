@@ -2,6 +2,7 @@ import "reflect-metadata";
 import { IRouter, RequestHandler, Router } from "express";
 import { getAppBottle } from "../globals/bottle";
 import path from "path";
+import { logger } from "../utils/debugLogger";
 
 export type KnownRouteType =
     | "all"
@@ -39,6 +40,8 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
             constructor(...args: any[]) {
                 super(...args);
 
+                logger("controller", `Registering ${constructor.name}`);
+
                 // Find all annotated methods and add them to the router.
                 const methods = Object.getOwnPropertyNames(
                     constructor.prototype
@@ -48,6 +51,8 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
                         constructor.prototype,
                         method
                     );
+
+                    logger("controller", `Found property ${method}`);
 
                     if (
                         descriptor &&
@@ -74,14 +79,21 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
                             method
                         );
 
+                        logger(
+                            "controller",
+                            `Found route ${routePath} with method ${routeMethod}`
+                        );
+
                         // Finally, wrap the function if it looks like
                         // a route. IE it has "routePath" and "routeMethod"
                         // data.
                         if (routePath && routeMethod) {
-                            // TODO use a debug logger
-                            console.log(
-                                "Added route:",
-                                path.join(url, routePath)
+                            logger(
+                                "controller",
+                                `Adding route ${path.join(
+                                    url,
+                                    routePath
+                                )} with method ${routeMethod}`
                             );
                             router
                                 .route(routePath)
@@ -100,9 +112,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
 
         getAppBottle().container._ExpressDefer.deferUse((app: IRouter) => {
             getAppBottle().container[constructor.name];
-
-            // TODO use a debug logger
-            console.log("Added router:", path.join(url));
+            logger("controller", `Adding router ${path.join(url)}`);
             app.use(url, ...(middlewares ?? []), router);
         });
 

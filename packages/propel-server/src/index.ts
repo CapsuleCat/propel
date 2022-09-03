@@ -7,6 +7,7 @@ export { Controller } from "./decorators/Controller";
 export { Entity } from "./decorators/Entity";
 export { Factory } from "./decorators/Factory";
 export { Inject } from "./decorators/Inject";
+export { Autowired } from "./decorators/Autowired";
 export { InjectParam } from "./decorators/InjectParam";
 export { PropelApplication } from "./decorators/PropelApplication";
 export { Repository } from "./decorators/Repository";
