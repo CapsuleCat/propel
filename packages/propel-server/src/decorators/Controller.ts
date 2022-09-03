@@ -57,7 +57,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
                     if (
                         descriptor &&
                         descriptor.value &&
-                        descriptor.value.constructor.name === "Function"
+                        typeof descriptor.value === "function"
                     ) {
                         const fn = descriptor.value;
                         const fnMiddlewares = middlewares ?? [];
