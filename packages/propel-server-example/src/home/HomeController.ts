@@ -1,11 +1,9 @@
-import { Request, Response } from "express";
 import {
     Bootstrap,
     Controller,
     Autowired,
     Inject,
-    GetRoute,
-    PostRoute,
+    RequestMapping,
 } from "@capsule-cat/propel-server";
 import { Logger } from "../types";
 import { HomeService } from "./HomeSerivce";
@@ -31,8 +29,8 @@ export class HomeController {
         this.logger.log("HomeController.init() was called");
     }
 
-    @GetRoute("/")
-    async test(req: Request, res: Response) {
+    @RequestMapping("/", RequestMapping.GET)
+    async test() {
         this.logger.log("HomeController.test() was called");
 
         const entry = await this.visitsRepository.get();
@@ -42,18 +40,18 @@ export class HomeController {
 
         this.homeService.test();
 
-        res.json({
+        return {
             message: "GET Hello World!",
             visits: visits.visits,
-        });
+        };
     }
 
-    @PostRoute("/")
-    async testPost(req: Request, res: Response) {
+    @RequestMapping("/", RequestMapping.POST)
+    async testPost() {
         this.logger.log("MyController.testPost() was called");
 
-        res.json({
+        return {
             message: "POST Hello World!",
-        });
+        };
     }
 }

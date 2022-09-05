@@ -8,7 +8,6 @@ export { Entity } from "./decorators/Entity";
 export { Factory } from "./decorators/Factory";
 export { Inject } from "./decorators/Inject";
 export { Autowired } from "./decorators/Autowired";
-export { InjectParam } from "./decorators/InjectParam";
 export { PropelApplication } from "./decorators/PropelApplication";
 export { Repository } from "./decorators/Repository";
 export {
@@ -17,7 +16,14 @@ export {
     PatchRoute,
     PostRoute,
 } from "./decorators/Routes";
+export {
+    RequestMapping,
+    RequestParam,
+    RequestBody,
+} from "./decorators/RequestMapping";
 export { Service } from "./decorators/Service";
+export { Validate } from "./decorators/Validate";
+export { type Validator } from "./defintions/Validator";
 
 export { BaseEntity } from "./defintions/BaseEntity";
 export { BaseRepository } from "./defintions/BaseRepository";

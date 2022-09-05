@@ -12,6 +12,7 @@ import { Logger } from "./types";
 // NOTE these have side-effects! You can't tree-shake.
 import "./Logger";
 import "./SequelizeDB";
+import "./html/HtmlController";
 import "./users/User";
 import "./users/UserRepository";
 import "./users/UserController";
