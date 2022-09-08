@@ -39,5 +39,5 @@ class ModelProxier<T> {
 }
 
 export const BaseEntity = ModelProxier as {
-    new <T>(): Pick<T, keyof T> & ModelProxier<T>;
+    new <T>(): T & ModelProxier<T>;
 };

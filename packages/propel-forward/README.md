@@ -14,3 +14,6 @@ Add the following import as the first import of your application:
 ```ts
 import "@capsule-cat/propel-forward/bootstrap";
 ```
+
+When starting your application, we recommend running with `DEBUG=propel:forward,YOUR_APP_NAMESPACE:*` passed in either
+through the command line or in your `.env` file.

@@ -1,6 +1,6 @@
 import debug from "debug";
 
-export const logger = debug("propel:boost");
+export const logger = debug("propel:forward");
 
 /**
  * Utility function to log a message to the console.

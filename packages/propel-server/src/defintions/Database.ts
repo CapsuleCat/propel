@@ -29,5 +29,5 @@ class DBProxier<T> {
 }
 
 export const Database = DBProxier as {
-    new <T>(): Pick<T, keyof T> & DBProxier<T>;
+    new <T>(): T & DBProxier<T>;
 };
