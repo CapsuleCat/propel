@@ -1,12 +1,12 @@
+import { Log } from "@capsule-cat/propel-forward";
 import { Bootstrap, Inject, Service } from "@capsule-cat/propel-server";
-import { Logger } from "../types";
 
 @Service()
 export class HomeService {
     @Inject("Logger", {
         args: ["HomeService"],
     })
-    private logger!: Logger;
+    private logger!: Log;
 
     @Bootstrap()
     async init() {

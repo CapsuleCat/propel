@@ -1,3 +1,4 @@
+import { Log } from "@capsule-cat/propel-forward";
 import {
     Bootstrap,
     Controller,
@@ -5,7 +6,6 @@ import {
     Inject,
     RequestMapping,
 } from "@capsule-cat/propel-server";
-import { Logger } from "../types";
 import { HomeService } from "./HomeSerivce";
 import { VisitsRepository } from "./VisitsRepository";
 
@@ -14,7 +14,7 @@ export class HomeController {
     @Inject("Logger", {
         args: ["HomeController"],
     })
-    private logger!: Logger;
+    private logger!: Log;
 
     @Autowired()
     private homeService!: HomeService;

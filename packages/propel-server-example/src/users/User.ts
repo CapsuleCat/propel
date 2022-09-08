@@ -10,7 +10,8 @@ export class User extends BaseEntity<UserModel> {
 
     constructor() {
         super();
-        this.model = this.db.getSequelize().define(
+
+        this.model = this.db.define(
             "User",
             {
                 id: {

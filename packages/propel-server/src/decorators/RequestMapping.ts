@@ -97,11 +97,7 @@ export function RequestMapping(
                 const expectedNumberOfArguments = originalMethod.length;
                 const newArgs: any[] = [];
 
-                log(
-                    "RequestMapping",
-                    "Running automatic request mapping for %s",
-                    routePath
-                );
+                log("Running automatic request mapping for", routePath);
 
                 new Array(expectedNumberOfArguments)
                     .fill(0)

@@ -15,7 +15,7 @@ export class UserRepository extends CRUDRepository<UserData, number> {
     @Bootstrap()
     async bootstrap() {
         if (process.env.NODE_ENV !== "production") {
-            await this.model.getModel().sync({ force: true });
+            await this.model.sync({ force: true });
         }
     }
 }

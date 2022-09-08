@@ -1,6 +1,6 @@
 export { bootstrap } from "./bootstrap";
 
-export { getAppBottle } from "./globals/bottle";
+export { createAppBottle, getAppBottle } from "./globals/bottle";
 
 export { Bootstrap } from "./decorators/Bootstrap";
 export { Controller } from "./decorators/Controller";
@@ -28,4 +28,5 @@ export { type Validator } from "./defintions/Validator";
 export { BaseEntity } from "./defintions/BaseEntity";
 export { BaseRepository } from "./defintions/BaseRepository";
 export { CRUDRepository } from "./defintions/CRUDRepository";
+export { Database } from "./defintions/Database";
 export { SingletonRepository } from "./defintions/SingletonRepository";

@@ -1,5 +1,31 @@
-export abstract class BaseEntity<T> {
+class ModelProxier<T> {
     protected model: T | undefined;
+
+    constructor() {
+        // Proxy access to the db instance
+        return new Proxy(this, {
+            get: (target, prop) => {
+                if (prop in target) {
+                    return target[prop as keyof typeof target];
+                }
+
+                if (target.model) {
+                    if (prop in target.model) {
+                        const key = prop as keyof T;
+                        if (typeof target.model[key] === "function") {
+                            return (
+                                target.model[key] as unknown as CallableFunction
+                            ).bind(target.model);
+                        }
+
+                        return target.model[key];
+                    }
+                }
+
+                throw new Error(`Unknown property ${String(prop)}`);
+            },
+        });
+    }
 
     public getModel(): T {
         if (!this.model) {
@@ -11,3 +37,7 @@ export abstract class BaseEntity<T> {
         return this.model;
     }
 }
+
+export const BaseEntity = ModelProxier as {
+    new <T>(): Pick<T, keyof T> & ModelProxier<T>;
+};

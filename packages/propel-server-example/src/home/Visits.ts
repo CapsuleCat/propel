@@ -11,7 +11,7 @@ export class Visits extends BaseEntity<VisitsModel> {
     constructor() {
         super();
 
-        this.model = this.db.getSequelize().define(
+        this.model = this.db.define(
             "Visits",
             {
                 visits: DataTypes.INTEGER,

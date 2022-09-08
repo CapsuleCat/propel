@@ -4,6 +4,7 @@ import { logger } from "../utils/debugLogger";
 export interface InjectOptions {
     args?: any[];
     unbox?: (instance: any) => any;
+    failIfMissing?: boolean;
 }
 
 /**
@@ -25,7 +26,10 @@ export function createInjectGetter(name: string, options?: InjectOptions) {
 
         if (!service) {
             logger("inject", `Service ${name} not found`);
-            throw new Error(`Service ${name} not found`);
+
+            if (options?.failIfMissing !== false) {
+                throw new Error(`Service ${name} not found`);
+            }
         }
 
         /*
