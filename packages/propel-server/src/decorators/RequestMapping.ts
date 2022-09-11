@@ -1,4 +1,5 @@
 import { Request, RequestHandler, Response } from "express";
+import { ParsedQs } from "qs";
 import "reflect-metadata";
 import createHttpError, { HttpError } from "http-errors";
 import { log } from "../utils/debugLogger";
@@ -6,6 +7,34 @@ import { setRouteMetadata } from "../utils/setRouteMetadata";
 import { ValidatorClass } from "./Validate";
 
 export type RouteMapping = "get" | "post" | "patch" | "delete";
+
+/**
+ * Request Query Decorator Factory
+ *
+ * Returns a parameter decorator that maps the query to the parameter.
+ *
+ * @param {string} queryName - The name of the query to map
+ * @returns {import('../types').ParamDecorator} - Parameter decorator
+ */
+export function RequestQuery(queryName?: string) {
+    return function RequestQueryDecorator(
+        target: any,
+        propertyKey: string,
+        parameterIndex: number
+    ) {
+        // Annotate the property with what we want to map from
+        // the express request
+        Reflect.defineMetadata(
+            `requestQuery_${parameterIndex}`,
+            queryName ?? true,
+            target,
+            propertyKey
+        );
+    };
+}
+
+// Express ParsedQs type for convenience
+export type RequestQuery = ParsedQs;
 
 /**
  * Request Mapping Decorator Factory
@@ -102,6 +131,39 @@ export function RequestMapping(
                 new Array(expectedNumberOfArguments)
                     .fill(0)
                     .forEach((_, index) => {
+                        const Validators = Reflect.getMetadata(
+                            `validator_${index}`,
+                            target,
+                            propertyKey
+                        ) as ValidatorClass<any, any>[];
+
+                        // Check request queries
+                        const requestQuery = Reflect.getMetadata(
+                            `requestQuery_${index}`,
+                            target,
+                            propertyKey
+                        );
+
+                        if (requestQuery) {
+                            let value: any;
+
+                            if (typeof requestQuery === "string") {
+                                value = req.query[requestQuery];
+                            } else {
+                                value = req.query;
+                            }
+
+                            if (Validators) {
+                                Validators.forEach((Validator) => {
+                                    value = new Validator().validate(value);
+                                });
+                            }
+
+                            newArgs[index] = value;
+                            return;
+                        }
+
+                        // Check request params
                         const requestParam = Reflect.getMetadata(
                             `requestParam_${index}`,
                             target,
@@ -115,17 +177,12 @@ export function RequestMapping(
                             return;
                         }
 
+                        // Check request body
                         const requestBody = Reflect.getMetadata(
                             `requestBody_${index}`,
                             target,
                             propertyKey
                         );
-
-                        const Validators = Reflect.getMetadata(
-                            `validator_${index}`,
-                            target,
-                            propertyKey
-                        ) as ValidatorClass<any, any>[];
 
                         if (requestBody) {
                             let value: any;
