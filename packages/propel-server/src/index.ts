@@ -17,6 +17,7 @@ export {
     PostRoute,
 } from "./decorators/Routes";
 export {
+    RequestQuery,
     RequestMapping,
     RequestParam,
     RequestBody,
