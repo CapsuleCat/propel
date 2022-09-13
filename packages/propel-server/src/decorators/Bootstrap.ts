@@ -17,7 +17,7 @@ export interface BootstrapProps {
  * @param {BootstrapProps} bootstrapOptions - optional set of arguments for bootstrapping
  * @example
  * class MyClass {
- *   \@Bootstrap
+ *   \@Bootstrap()
  *   async init() {
  *     // Do bootstrap work
  *   }
