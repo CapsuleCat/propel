@@ -1,6 +1,6 @@
 {
   "name": "@capsule-cat/propel-forward",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
     "@babel/plugin-proposal-optional-chaining": "^7.18.9",
     "@babel/preset-env": "^7.18.10",
     "@babel/preset-typescript": "^7.18.6",
-    "@capsule-cat/propel-server": "^0.0.17",
+    "@capsule-cat/propel-server": "^0.0.18",
     "@types/express": "^4.17.13",
     "@types/http-errors": "^1.8.2",
     "@types/jest": "^28.1.8",
