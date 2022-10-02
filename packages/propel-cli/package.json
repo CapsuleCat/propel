@@ -1,6 +1,6 @@
 {
   "name": "@capsule-cat/propel-cli",
-  "version": "1.0.0",
+  "version": "0.0.17",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -13,7 +13,10 @@
   "scripts": {
     "precompile": "rm -rf dist",
     "compile": "tsc --build",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "prepublish": "npm run lint && npm run test && npm run compile",
+    "lint": "eslint src",
+    "lint-staged": "lint-staged",
+    "test": "echo \"No tests\" && exit 0"
   },
   "author": "",
   "license": "MIT",
