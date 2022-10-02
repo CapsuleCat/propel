@@ -11,8 +11,9 @@
     "access": "public"
   },
   "scripts": {
-    "precompile": "rm -rf dist",
+    "precompile": "rm -rf dist && npm run copy-files",
     "compile": "tsc --build",
+    "copy-files": "cp node_modules/mermaid/dist/mermaid.min.js files/mermaid.min.js",
     "prepublish": "npm run lint && npm run test && npm run compile",
     "lint": "eslint src",
     "lint-staged": "lint-staged",
