@@ -1,6 +1,6 @@
 {
   "name": "@capsule-cat/propel-server",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
