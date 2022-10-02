@@ -1,5 +1,5 @@
 import { getAppBottle } from "../globals/bottle";
-import { logger } from "../utils/debugLogger";
+import { graphLogger, logger } from "../utils/debugLogger";
 
 export interface InjectOptions {
     args?: any[];
@@ -77,6 +77,7 @@ export function createInjectGetter(name: string, options?: InjectOptions) {
  */
 export function Inject(name: string, options?: InjectOptions) {
     return function InjectDecorator(target: any, propertyKey: string) {
+        graphLogger("Injecting %s into %s", name, target.constructor.name);
         const getter = createInjectGetter(name, options);
 
         Object.defineProperty(target, propertyKey, {

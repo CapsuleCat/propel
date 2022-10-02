@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { IRouter, RequestHandler, Router } from "express";
 import { getAppBottle } from "../globals/bottle";
 import path from "path";
-import { logger } from "../utils/debugLogger";
+import { graphLogger, logger } from "../utils/debugLogger";
 
 export type KnownRouteType =
     | "all"
@@ -108,6 +108,7 @@ export function Controller(baseUrl?: string, middlewares?: RequestHandler[]) {
             }
         };
 
+        graphLogger("Registering Controller %s", constructor.name);
         getAppBottle().service(constructor.name, wrappedClass);
 
         getAppBottle().container._ExpressDefer.deferUse((app: IRouter) => {

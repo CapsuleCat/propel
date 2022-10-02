@@ -1,4 +1,5 @@
 import { getAppBottle } from "../globals/bottle";
+import { graphLogger } from "../utils/debugLogger";
 import { OptionalGeneratorArguments } from "../utils/generatorFactory";
 
 /**
@@ -25,6 +26,10 @@ export function Entity(
         const conditionalCheck = when ? when() : true;
 
         if (conditionalCheck) {
+            graphLogger(
+                "Registering Entity %s",
+                entityName ?? constructor.name
+            );
             getAppBottle().service(
                 entityName ?? constructor.name,
                 getGenerator

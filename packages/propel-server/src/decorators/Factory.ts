@@ -1,4 +1,5 @@
 import { getAppBottle } from "../globals/bottle";
+import { graphLogger } from "../utils/debugLogger";
 import { OptionalGeneratorArguments } from "../utils/generatorFactory";
 
 export interface OptionalFactoryArguments extends OptionalGeneratorArguments {
@@ -55,6 +56,7 @@ export function Factory(name?: string, options?: OptionalFactoryArguments) {
         const conditionalCheck = when ? when() : true;
 
         if (conditionalCheck) {
+            graphLogger("Registering Factory %s", name ?? constructor.name);
             getAppBottle().service(name ?? constructor.name, getGenerator);
         }
     };

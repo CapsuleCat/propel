@@ -1,4 +1,5 @@
 import { getAppBottle } from "../globals/bottle";
+import { graphLogger } from "./debugLogger";
 
 export interface OptionalGeneratorArguments {
     when?: () => boolean;
@@ -26,6 +27,7 @@ export function generatorFactory(
         const conditionalCheck = when ? when() : true;
 
         if (conditionalCheck) {
+            graphLogger("Registering Service %s", name ?? constructor.name);
             getAppBottle().service(name ?? constructor.name, getGenerator);
         }
     };

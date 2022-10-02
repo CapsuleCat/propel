@@ -1,3 +1,4 @@
+import { graphLogger } from "../utils/debugLogger";
 import { createInjectGetter, InjectOptions } from "./Inject";
 
 /**
@@ -16,6 +17,7 @@ export function Autowired(options?: InjectOptions) {
         // Capitalize the first letter of the property
         const name = propertyKey.charAt(0).toUpperCase() + propertyKey.slice(1);
 
+        graphLogger("Injecting %s into %s", name, target.constructor.name);
         // Defer bottle access until after initialization
         const getter = createInjectGetter(name, options);
 

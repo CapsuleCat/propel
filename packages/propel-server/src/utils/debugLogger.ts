@@ -11,3 +11,5 @@ export const logger = debug("propel");
 export function log(...args: unknown[]) {
     logger("", ...args);
 }
+
+export const graphLogger = debug("propel:graph");
