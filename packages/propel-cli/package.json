@@ -6,6 +6,10 @@
   "bin": {
     "propel": "bin/propel"
   },
+  "repository": "git://github.com/CapsuleCat/propel.git",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precompile": "rm -rf dist",
     "compile": "tsc --build",
