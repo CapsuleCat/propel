@@ -1,4 +1,5 @@
 import { getAppBottle } from "../globals/bottle";
+import { logger } from "../utils/debugLogger";
 
 export interface BootstrapProps {
     serviceName?: string;
@@ -38,7 +39,8 @@ export function Bootstrap(
             const service = getAppBottle().container[bottleName];
 
             if (!service) {
-                return target[propertyKey].call(target);
+                // We don't call bootstrapped methods on services that aren't registered
+                return;
             }
 
             // If the service exists, call the method on it
