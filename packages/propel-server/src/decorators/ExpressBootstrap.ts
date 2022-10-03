@@ -34,10 +34,10 @@ export function ExpressBootstrap({ serviceName }: ExpressBootstrapProps = {}) {
         let cb;
 
         if (!service) {
-            cb = target[propertyKey];
+            cb = target[propertyKey].bind(target);
         } else {
             // If the service exists, call the method on it
-            cb = service[propertyKey];
+            cb = service[propertyKey].bind(service);
         }
 
         getAppBottle().container._ExpressDefer.expressSetup(cb);

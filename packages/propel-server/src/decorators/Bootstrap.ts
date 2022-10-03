@@ -38,11 +38,11 @@ export function Bootstrap(
             const service = getAppBottle().container[bottleName];
 
             if (!service) {
-                return target[propertyKey]();
+                return target[propertyKey].call(target);
             }
 
             // If the service exists, call the method on it
-            return service[propertyKey]();
+            return service[propertyKey].call(service);
         }, priority);
     };
 }
