@@ -4,7 +4,7 @@ export class ExpressDefer {
     private defers: Array<() => void> = [];
     private setupDeferrals: Array<(app: IRouter) => void> = [];
 
-    private app: IRouter | undefined;
+    private app: IRouter = express();
 
     push(defer: () => void) {
         this.defers.push(defer);
@@ -20,12 +20,8 @@ export class ExpressDefer {
     }
 
     execute() {
-        const app = express();
-
         this.defers.forEach((defer) => defer());
-        this.setupDeferrals.forEach((defer) => defer(app));
-
-        this.app = app;
+        this.setupDeferrals.forEach((defer) => defer(this.app));
     }
 
     getApp(): IRouter {

@@ -28,5 +28,10 @@ export function PropelApplication({
                 app.use(bodyParser.json());
             }
         });
+
+        const getGenerator = function getGenerator() {
+            return new constructor();
+        };
+        getAppBottle().service(constructor.name, getGenerator);
     };
 }
