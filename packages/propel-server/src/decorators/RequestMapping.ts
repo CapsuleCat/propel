@@ -171,7 +171,14 @@ export function RequestMapping(
                         );
 
                         if (requestParam) {
-                            const value = req.params[requestParam];
+                            let value = req.params[requestParam];
+
+                            if (Validators) {
+                                Validators.forEach((Validator) => {
+                                    value = new Validator().validate(value);
+                                });
+                            }
+
                             newArgs[index] = value;
 
                             return;

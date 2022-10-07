@@ -38,3 +38,10 @@ export function getAppBottle(): Bottle {
 
     return appBottle;
 }
+
+/**
+ *
+ */
+export function resetAppBottle() {
+    appBottle = undefined;
+}

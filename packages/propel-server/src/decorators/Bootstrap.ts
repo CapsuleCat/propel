@@ -1,9 +1,8 @@
 import { getAppBottle } from "../globals/bottle";
-import { logger } from "../utils/debugLogger";
 
 export interface BootstrapProps {
     serviceName?: string;
-    priority: number;
+    priority?: number;
 }
 
 /**
