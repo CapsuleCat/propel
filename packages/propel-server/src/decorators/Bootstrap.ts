@@ -42,6 +42,12 @@ export function Bootstrap(
                 return;
             }
 
+            if (!service[propertyKey]) {
+                throw new Error(
+                    `Service ${bottleName} does not have a method named ${propertyKey}`
+                );
+            }
+
             // If the service exists, call the method on it
             return service[propertyKey].call(service);
         }, priority);
