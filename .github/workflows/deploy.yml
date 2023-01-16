@@ -1,0 +1,47 @@
+name: Deploy
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ui-dist
+          path: dist
+  site:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - uses: actions/download-artifact@v3
+        with:
+          name: ui-dist
+          path: dist
+
+    # TODO your deployment step here
+  healthcheck:
+    needs: [site]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the deployed service URL
+        uses: jtalk/url-health-check-action@v3
+        with:
+          # Check the following URLs one by one sequentially
+          # TODO your site endpoint here
+          url: https://google.com
+          follow-redirect: false
+          max-attempts: 3
+          retry-delay: 5s

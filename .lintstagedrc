@@ -1,0 +1,5 @@
+{
+    "*.(ts|js)(x)?": "eslint --fix",
+    "*.json": "prettier",
+    "*.mdx": "prettier"
+}
