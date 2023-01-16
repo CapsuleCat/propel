@@ -1,9 +1,6 @@
-import {
-    AccessorKey,
-    createAccessorKey,
-    getDependency,
-} from "@capsule-cat/propel-core";
-import { IRouter, Router } from "express";
+import type { AccessorKey } from "@capsule-cat/propel-core";
+import { createAccessorKey, getDependency } from "@capsule-cat/propel-core";
+import type { IRouter, Router } from "express";
 
 interface ControllerStackItem {
     accessorKey: AccessorKey;

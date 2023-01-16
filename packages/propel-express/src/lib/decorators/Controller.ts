@@ -1,13 +1,14 @@
 import "reflect-metadata";
 
+import type { AccessorOptions } from "@capsule-cat/propel-core";
 import {
-    AccessorOptions,
     logger,
     register,
     toClass,
     createAccessorKey,
 } from "@capsule-cat/propel-core";
-import { RequestHandler, Router } from "express";
+import type { RequestHandler } from "express";
+import { Router } from "express";
 import { registerExpress } from "../utilities/ioc";
 
 export type RouteType =

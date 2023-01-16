@@ -1,5 +1,5 @@
+import type { AccessorOptions } from "@capsule-cat/propel-core";
 import {
-    AccessorOptions,
     createAccessorKey,
     getDependency,
     toClass,

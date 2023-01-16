@@ -1,4 +1,4 @@
-import { AccessorOptions } from "@capsule-cat/propel-core";
+import type { AccessorOptions } from "@capsule-cat/propel-core";
 
 export type AccessorKey = string;
 

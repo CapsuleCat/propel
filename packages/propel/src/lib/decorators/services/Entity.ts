@@ -1,5 +1,5 @@
 import { EntityDecoratorBuilder } from "../../builders/EntityDecoratorBuilder";
-import { EntityOptions } from "../../types";
+import type { EntityOptions } from "../../types";
 
 /**
  * Entity Decorator Factory

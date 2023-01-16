@@ -1,4 +1,4 @@
-import { AccessorKey, AccessorOptions } from "./types";
+import type { AccessorKey, AccessorOptions } from "./types";
 
 /**
  * Create a unique key for an accessor

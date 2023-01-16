@@ -1,5 +1,5 @@
 import { logger, getDependency } from "@capsule-cat/propel-core";
-import { AccessorKey } from "../types";
+import type { AccessorKey } from "../types";
 
 interface DeferStackItem {
     accessorKey: AccessorKey;

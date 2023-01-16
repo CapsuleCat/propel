@@ -1,5 +1,5 @@
 import Bottle from "bottlejs";
-import { AccessorKey } from "./types";
+import type { AccessorKey } from "./types";
 
 let appBottle: Bottle | undefined;
 

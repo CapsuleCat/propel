@@ -4,8 +4,8 @@ import {
     register,
     toClass,
 } from "@capsule-cat/propel-core";
-import { IBuilder } from "./types";
-import { EntityOptions } from "../types";
+import type { IBuilder } from "./types";
+import type { EntityOptions } from "../types";
 
 type DecoratorBuilder = IBuilder<ClassDecorator>;
 

@@ -1,7 +1,7 @@
 import type { AccessorKey, InjectOptions } from "@capsule-cat/propel-core";
 import { logger, getDependency } from "@capsule-cat/propel-core";
-import { ServiceFactory } from "../types";
-import { IBuilder } from "./types";
+import type { ServiceFactory } from "../types";
+import type { IBuilder } from "./types";
 
 type PropertyGetter<T = unknown> = () => T;
 
