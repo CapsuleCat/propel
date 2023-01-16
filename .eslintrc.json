@@ -5,12 +5,7 @@
     "settings": {
         "import/resolver": {
             "node": {
-                "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".ts",
-                    ".tsx"
-                ]
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
             }
         }
     },
@@ -45,9 +40,7 @@
                 "plugin:security/recommended",
                 "plugin:jsdoc/recommended"
             ],
-            "plugins": [
-                "jsdoc"
-            ],
+            "plugins": ["jsdoc"],
             "rules": {
                 "prettier/prettier": "error",
                 "@nrwl/nx/enforce-module-boundaries": [
