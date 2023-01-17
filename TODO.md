@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] Factory
 - [ ] Inject
 - [ ] PropelApplication?
 - [ ] Repository
