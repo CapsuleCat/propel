@@ -1,11 +1,5 @@
 # TODO
 
-- [ ] Eslint sort order
-- [ ] TS type imports
-- [ ] Docs build pipeline
-
-- [ ] Rename `@capsule-cat/propel` to `@capsule-cat/propel-server`
-
 - [ ] Factory
 - [ ] Inject
 - [ ] PropelApplication?
@@ -43,3 +37,6 @@
 - [ ] Blog entry
 - [ ] Project entry
 - [ ] README
+- [ ] Eslint import sort order
+- [ ] Docs build pipeline
+- [ ] Merge as a branch onto existing repo

@@ -3,9 +3,9 @@
     "ignorePatterns": ["!**/*"],
     "parserOptions": {
         "project": [
-            "packages/propel/tsconfig.json",
-            "packages/propel/tsconfig.lib.json",
-            "packages/propel/tsconfig.spec.json"
+            "packages/propel-server/tsconfig.json",
+            "packages/propel-server/tsconfig.lib.json",
+            "packages/propel-server/tsconfig.spec.json"
         ]
     },
     "overrides": [

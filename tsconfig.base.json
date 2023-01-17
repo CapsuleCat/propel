@@ -8,10 +8,6 @@
         "strict": true,
         "skipLibCheck": true,
         "paths": {
-            "@capsule-cat/propel": [
-                "packages/propel/src/index.ts",
-                "../propel/src/index.ts"
-            ],
             "@capsule-cat/propel-core": [
                 "packages/propel-core/src/index.ts",
                 "../propel-core/src/index.ts"
@@ -19,6 +15,10 @@
             "@capsule-cat/propel-express": [
                 "packages/propel-express/src/index.ts",
                 "../propel-express/src/index.ts"
+            ],
+            "propel-server": [
+                "packages/propel-server/src/index.ts",
+                "../propel-server/src/index.ts"
             ]
         }
     }
