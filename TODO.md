@@ -1,8 +1,5 @@
 # TODO
 
-- [ ] Inject
-- [ ] PropelApplication?
-- [ ] Repository
 - [ ] RequestMapping
 - [ ] Routes
 - [ ] Service

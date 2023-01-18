@@ -56,7 +56,24 @@ export function registerBootstrap(fn: CallableFunction) {
  * Execute the bootstrap stack
  */
 export async function executeBootstrapStack() {
+    const expressKey = createAccessorKey("Express");
+    const express = getDependency<IRouter>(expressKey);
+
     for (const fn of bootstrapStack) {
-        await fn();
+        await fn(express);
     }
+}
+
+/**
+ *
+ */
+export function clearControllerStack() {
+    controllerStack.length = 0;
+}
+
+/**
+ *
+ */
+export function clearBootstrapStack() {
+    bootstrapStack.length = 0;
 }
