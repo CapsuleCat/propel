@@ -9,7 +9,7 @@ import {
 } from "@capsule-cat/propel-core";
 import type { RequestHandler } from "express";
 import { Router } from "express";
-import { registerExpress } from "../utilities/ioc";
+import { registerExpress } from "../../utilities/ioc";
 
 export type RouteType =
     | "all"

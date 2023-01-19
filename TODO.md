@@ -1,16 +1,11 @@
 # TODO
 
-- [ ] RequestMapping
-- [ ] Routes
-- [ ] Service
-- [ ] Validate
-
-- [ ] BaseEntity
-- [ ] BaseRespository
-- [ ] CRUDRepository
-- [ ] Database
-- [ ] SingletonRepository
-- [ ] Validator
+- [X] BaseEntity
+- [X] BaseRespository
+- [X] CRUDRepository
+- [X] Database
+- [X] SingletonRepository
+- [X] Validator
 
 - [ ] PropelForward
     - [ ] Logger
