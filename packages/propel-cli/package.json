@@ -1,0 +1,15 @@
+{
+    "name": "@capsule-cat/propel-cli",
+    "version": "0.0.1",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "bin": {
+        "propel": "bin/propel"
+    },
+    "dependencies": {
+        "@mermaid-js/mermaid-cli": "^9.1.6",
+        "commander": "^9.4.1",
+        "mermaid": "^9.1.7",
+        "puppeteer": "^18.0.5"
+    }
+}

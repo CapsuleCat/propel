@@ -23,7 +23,8 @@
                 "packages/propel-server/src/index.ts",
                 "../propel-server/src/index.ts"
             ],
-            "propel-forward": ["packages/propel-forward/src/index.ts"]
+            "@capsule-cat/propel-cli": ["packages/propel-cli/src/index.ts"],
+            "@capsule-cat/propel-forward": ["packages/propel-forward/src/index.ts"]
         }
     }
 }
