@@ -1,18 +1,5 @@
 # TODO
 
-- [X] BaseEntity
-- [X] BaseRespository
-- [X] CRUDRepository
-- [X] Database
-- [X] SingletonRepository
-- [X] Validator
-
-- [ ] PropelForward
-    - [ ] Logger
-    - [ ] SafeEnv
-    - [ ] Cache
-    - [ ] ExceptionLogger
-
 - [ ] Propel CLI
     - [ ] Graph command
 

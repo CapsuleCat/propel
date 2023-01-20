@@ -16,11 +16,14 @@
                 "packages/propel-express/src/index.ts",
                 "../propel-express/src/index.ts"
             ],
-            "@capsule-cat/propel-sequelize": ["packages/propel-sequelize/src/index.ts"],
+            "@capsule-cat/propel-sequelize": [
+                "packages/propel-sequelize/src/index.ts"
+            ],
             "@capsule-cat/propel-server": [
                 "packages/propel-server/src/index.ts",
                 "../propel-server/src/index.ts"
-            ]
+            ],
+            "propel-forward": ["packages/propel-forward/src/index.ts"]
         }
     }
 }

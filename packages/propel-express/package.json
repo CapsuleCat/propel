@@ -1,4 +1,10 @@
 {
     "name": "@capsule-cat/propel-express",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "peerDependencies": {
+        "body-parser": "^1.20.1",
+        "express": "^4.0.0",
+        "http-errors": "^2.0.0",
+        "reflect-metadata": "^0.1.13"
+    }
 }

@@ -1,4 +1,7 @@
 {
     "name": "@capsule-cat/propel-sequelize",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "peerDependencies": {
+        "sequelize": "^6.28.0"
+    }
 }
