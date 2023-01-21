@@ -1,5 +1,6 @@
 import Bottle from "bottlejs";
 import type { AccessorKey } from "./types";
+import type { TargetClass } from "./toClass";
 
 let appBottle: Bottle | undefined;
 
@@ -28,6 +29,7 @@ export function getDependency<T = SomeInstance>(name: string): T | undefined {
     if (!appBottle) {
         appBottle = createAppBottle();
     }
+
     return appBottle.container[name] as T | undefined;
 }
 
@@ -46,11 +48,23 @@ export function resetAppBottle() {
  */
 export function register(
     accessorKey: AccessorKey,
-    service: (...any: unknown[]) => unknown
+    service: ((...any: unknown[]) => unknown) | TargetClass
 ) {
     if (!appBottle) {
         appBottle = createAppBottle();
     }
 
-    appBottle.service(accessorKey, service);
+    const unsafeService = service as unknown as (...any: unknown[]) => unknown;
+
+    appBottle.service(accessorKey, unsafeService);
+}
+
+/**
+ *
+ */
+export function debugBottle() {
+    if (!appBottle) {
+        appBottle = createAppBottle();
+    }
+    console.log(appBottle.container);
 }

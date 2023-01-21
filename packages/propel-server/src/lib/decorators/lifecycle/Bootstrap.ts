@@ -1,9 +1,10 @@
 import { createAccessorKey, logger, toClass } from "@capsule-cat/propel-core";
-import type { AccessorOptions } from "@capsule-cat/propel-core";
+import type { AccessorOptions, WhenCallback } from "@capsule-cat/propel-core";
 import { deferCall } from "../../utilities/defer";
 
 export interface BootstrapOptions extends AccessorOptions {
     priority?: number;
+    when?: WhenCallback;
 }
 
 /**
@@ -29,6 +30,8 @@ export function Bootstrap(options?: BootstrapOptions): MethodDecorator {
     return function (target: any, propertyKey: string | symbol) {
         const targetClass = toClass(target);
 
+        const when = options?.when ?? (() => true);
+
         const accessorKey = createAccessorKey(
             targetClass.constructor.name,
             options
@@ -36,6 +39,8 @@ export function Bootstrap(options?: BootstrapOptions): MethodDecorator {
 
         logger.debug(`Bootstrap ${accessorKey}.${String(propertyKey)}`);
 
-        deferCall(accessorKey, propertyKey, options?.priority ?? 10);
+        if (when()) {
+            deferCall(accessorKey, propertyKey, options?.priority ?? 10);
+        }
     };
 }

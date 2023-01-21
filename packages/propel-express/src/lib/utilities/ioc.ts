@@ -37,6 +37,8 @@ export function executeControllerStack() {
     }
 
     for (const item of controllerStack) {
+        // Access the router to ensure it is registered
+        getDependency(item.accessorKey);
         express.use(item.url, item.router);
     }
 }

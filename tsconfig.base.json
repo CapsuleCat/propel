@@ -8,6 +8,7 @@
         "strict": true,
         "skipLibCheck": true,
         "paths": {
+            "@capsule-cat/propel-cli": ["packages/propel-cli/src/index.ts"],
             "@capsule-cat/propel-core": [
                 "packages/propel-core/src/index.ts",
                 "../propel-core/src/index.ts"
@@ -16,15 +17,18 @@
                 "packages/propel-express/src/index.ts",
                 "../propel-express/src/index.ts"
             ],
+            "@capsule-cat/propel-forward": [
+                "packages/propel-forward/src/index.ts",
+                "../propel-forward/src/index.ts"
+            ],
             "@capsule-cat/propel-sequelize": [
-                "packages/propel-sequelize/src/index.ts"
+                "packages/propel-sequelize/src/index.ts",
+                "../propel-sequelize/src/index.ts"
             ],
             "@capsule-cat/propel-server": [
                 "packages/propel-server/src/index.ts",
                 "../propel-server/src/index.ts"
-            ],
-            "@capsule-cat/propel-cli": ["packages/propel-cli/src/index.ts"],
-            "@capsule-cat/propel-forward": ["packages/propel-forward/src/index.ts"]
+            ]
         }
     }
 }

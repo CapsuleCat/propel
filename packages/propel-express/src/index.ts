@@ -10,3 +10,4 @@ export * from "./lib/decorators/requests/RequestParam";
 export * from "./lib/decorators/requests/RequestQuery";
 export * from "./lib/decorators/requests/Validate";
 export * from "./lib/decorators/services/Controller";
+export type { Validator } from "./lib/types";

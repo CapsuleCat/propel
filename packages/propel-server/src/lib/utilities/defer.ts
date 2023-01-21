@@ -7,7 +7,7 @@ interface DeferStackItem {
     priority: number;
 }
 
-let deferStack: DeferStackItem[];
+let deferStack: DeferStackItem[] = [];
 
 /**
  * Defer a method call until the end of the bootstrap process.

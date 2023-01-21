@@ -1,14 +1,7 @@
 # TODO
 
-- [ ] Propel CLI
-    - [ ] Graph command
-
 - [ ] Doc Website
-
-- [ ] Example site
-
 - [ ] Unit testing
-
 - [ ] Version script
 - [ ] Deploy script
 - [ ] Deploy

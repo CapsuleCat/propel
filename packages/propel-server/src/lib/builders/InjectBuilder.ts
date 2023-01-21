@@ -44,7 +44,7 @@ function unbox<Input = unknown, Output = unknown>(
 
     if (typeof unsafeFactory === "function" && unsafeFactory.isFactory) {
         logger("inject", "Creating a new instance of %s", accessorKey);
-        return unsafeFactory(...(options?.args ?? [])) as Output;
+        return new unsafeFactory(...(options?.args ?? [])) as Output;
     }
 
     if (typeof injectable === "function") {

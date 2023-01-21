@@ -44,7 +44,7 @@ export function Controller(
 
     return function ControllerDecorator(target: any) {
         const targetClass = toClass(target);
-        const defaultKey = targetClass.constructor.name;
+        const defaultKey = targetClass.name;
         const accessorKey = createAccessorKey(defaultKey, options);
 
         const Constructor = targetClass;
@@ -100,7 +100,7 @@ export function Controller(
 
         logger.graph("Registering Controller %s", accessorKey);
 
-        register(accessorKey, () => new WrappedClass());
+        register(accessorKey, WrappedClass);
         registerExpress(accessorKey, url, router);
     };
 }

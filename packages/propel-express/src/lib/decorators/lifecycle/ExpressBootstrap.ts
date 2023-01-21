@@ -34,10 +34,7 @@ export function ExpressBootstrap(
         propertyKey: string | symbol
     ) {
         const targetClass = toClass(target);
-        const accessorKey = createAccessorKey(
-            targetClass.constructor.name,
-            options
-        );
+        const accessorKey = createAccessorKey(targetClass.name, options);
 
         const service = getDependency(accessorKey);
 

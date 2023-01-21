@@ -92,16 +92,16 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                         });
                     }
                 }
-
-                // Add the target to the router
-                setRouteMetadata(
-                    routePath,
-                    method,
-                    middleware,
-                    target,
-                    propertyKey
-                );
             };
+
+            // Add the target to the router
+            setRouteMetadata(
+                routePath,
+                method,
+                middleware,
+                target,
+                propertyKey
+            );
         };
     }
 }

@@ -15,5 +15,5 @@ export function createAccessorKey(
         .replace(/[^\dA-Za-z]/g, "_")
         .toLocaleLowerCase();
 
-    return `__${safePropertyKey}__`;
+    return `${safePropertyKey}`;
 }

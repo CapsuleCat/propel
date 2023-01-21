@@ -56,7 +56,7 @@ export class EntityDecoratorBuilder implements DecoratorBuilder {
             return this.createFactoryGetter(targetClass);
         } else {
             // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-            return () => new targetClass();
+            return targetClass;
         }
     }
 
@@ -67,10 +67,7 @@ export class EntityDecoratorBuilder implements DecoratorBuilder {
 
         return function Decorator(target: any) {
             const targetClass = toClass(target);
-            const accessorKey = createAccessorKey(
-                targetClass.constructor.name,
-                options
-            );
+            const accessorKey = createAccessorKey(targetClass.name, options);
 
             const service = getter(targetClass);
 

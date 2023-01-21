@@ -1,11 +1,13 @@
-import type { AccessorOptions } from "@capsule-cat/propel-core";
+import type { AccessorOptions, WhenCallback } from "@capsule-cat/propel-core";
 
 export type AccessorKey = string;
 
-export type ServiceFactory = ((...args: unknown[]) => unknown) & {
+type SomeClass = new (...args: unknown[]) => unknown;
+
+export type ServiceFactory = SomeClass & {
     isFactory: true;
 };
 
 export interface EntityOptions extends AccessorOptions {
-    when?: () => boolean;
+    when?: WhenCallback;
 }

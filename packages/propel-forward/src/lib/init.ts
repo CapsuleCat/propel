@@ -1,3 +1,6 @@
+import "./common/SafeEnv";
+import "./common/Logger";
+
 import type { PropelPlugin } from "@capsule-cat/propel-core";
 import { propel } from "@capsule-cat/propel-server";
 import { PropelForwardPlugin } from "./PropelForwardPlugin";
