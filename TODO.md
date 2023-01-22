@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] LICENSE
 - [ ] Deploy
 - [ ] Doc Website
 - [ ] Docs build pipeline

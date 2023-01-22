@@ -1,4 +1,5 @@
 {
     "name": "@capsule-cat/propel-server",
+    "license": "MIT",
     "version": "0.1.0"
 }
