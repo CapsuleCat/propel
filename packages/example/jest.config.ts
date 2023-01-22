@@ -12,4 +12,5 @@ export default {
     },
     moduleFileExtensions: ["ts", "js", "html"],
     coverageDirectory: "../../coverage/packages/example",
+    collectCoverageFrom: ["src/**/*.{ts,tsx,js,jsx}"],
 };

@@ -12,4 +12,5 @@ export default {
     },
     moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
     coverageDirectory: "../../coverage/packages/propel-express",
+    collectCoverageFrom: ["src/**/*.{ts,tsx,js,jsx}"],
 };

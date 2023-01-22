@@ -11,4 +11,5 @@ export default {
     },
     moduleFileExtensions: ["ts", "js", "html"],
     coverageDirectory: "../../coverage/packages/propel-cli",
+    collectCoverageFrom: ["src/**/*.{ts,tsx,js,jsx}"],
 };

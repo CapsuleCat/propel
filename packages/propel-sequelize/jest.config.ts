@@ -11,4 +11,5 @@ export default {
     },
     moduleFileExtensions: ["ts", "js", "html"],
     coverageDirectory: "../../coverage/packages/propel-sequelize",
+    collectCoverageFrom: ["src/**/*.{ts,tsx,js,jsx}"],
 };

@@ -15,8 +15,6 @@ type SomeInstance = Record<string | symbol, () => Promise<void> | undefined>;
 export function createAppBottle(bottleInstance?: Bottle) {
     appBottle = bottleInstance ?? new Bottle();
 
-    // TODO add pre-defined services here
-
     return appBottle;
 }
 
