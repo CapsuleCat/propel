@@ -1,7 +1,5 @@
 # TODO
 
-- [X] Doc Website
-- [ ] Docs build pipeline
 - [ ] Deploy
 - [ ] Unit testing
 - [ ] Blog entry

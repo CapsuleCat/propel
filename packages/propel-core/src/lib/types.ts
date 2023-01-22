@@ -13,6 +13,9 @@ export interface InjectOptions extends AccessorOptions {
     unbox?: (injectable: unknown) => unknown;
 }
 
+/**
+ * A plugin is a function that is registered with Propel and called when Propel is initialized.
+ */
 export interface PropelPlugin {
     init?: () => Promise<void>;
 }
