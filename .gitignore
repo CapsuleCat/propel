@@ -4,6 +4,9 @@
 ### Testing ###
 .db
 
+### NX ###
+tmp
+
 ### NextJS ###
 # Dependencies
 /node_modules

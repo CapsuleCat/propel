@@ -1,6 +1,6 @@
 {
     "name": "@capsule-cat/propel-cli",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "type": "commonjs",
     "main": "dist/index.js",
     "bin": {

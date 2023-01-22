@@ -1,6 +1,6 @@
 {
     "name": "@capsule-cat/propel-core",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "peerDependencies": {
         "bottlejs": "^2.0.0"
     }

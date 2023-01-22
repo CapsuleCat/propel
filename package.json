@@ -1,11 +1,9 @@
 {
     "name": "@capsule-cat/propel",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "license": "MIT",
     "scripts": {
         "build": "nx run-many --target=build",
-        "export": "nx run-many --target=export",
-        "e2e": "nx e2e main-e2e",
         "lint": "npm-run-all lint:*",
         "lint:projects": "nx run-many --target=lint --fix",
         "lint:json": "npx prettier --write \"**/*.json\"",
