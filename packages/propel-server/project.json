@@ -29,6 +29,12 @@
                 "jestConfig": "packages/propel-server/jest.config.ts",
                 "passWithNoTests": true
             }
+        },
+        "version": {
+            "executor": "@jscutlery/semver:version",
+            "options": {
+                "preset": "conventional"
+            }
         }
     },
     "tags": []
