@@ -7,6 +7,13 @@
         "lint": "npm-run-all lint:*",
         "lint:projects": "nx run-many --target=lint --fix",
         "lint:json": "npx prettier --write \"**/*.json\"",
+        "publish": "npm-run-all publish:* --serial",
+        "publish-dry-run": "npm-run-all \"publish:* -- --dry-run\" --serial",
+        "publish:core": "nx deploy propel-core",
+        "publish:server": "nx deploy propel-server",
+        "publish:sequelize": "nx deploy propel-sequelize",
+        "publish:express": "nx deploy propel-express",
+        "publish:cli": "nx deploy propel-cli",
         "test": "nx run-many --target=test",
         "prepare": "husky install",
         "start": "nx run-many --target=serve",
@@ -14,6 +21,9 @@
         "version": "nx affected --target version"
     },
     "private": true,
+    "overrides": {
+        "@nrwl/devkit": "^15.4.5"
+    },
     "devDependencies": {
         "@babel/core": "7.12.13",
         "@babel/preset-typescript": "7.12.13",
@@ -64,6 +74,7 @@
         "jest-environment-jsdom": "28.1.1",
         "lint-staged": "^13.0.3",
         "mermaid": "^9.3.0",
+        "ngx-deploy-npm": "^4.3.10",
         "npm-run-all": "^4.1.5",
         "nx": "15.5.1",
         "prettier": "^2.7.1",

@@ -1,12 +1,11 @@
 # TODO
 
-- [ ] Version script
+- [ ] README
+- [ ] Deploy
+
 - [ ] Eslint import sort order
 - [ ] Doc Website
 - [ ] Docs build pipeline
-- [ ] Deploy script
-- [ ] Deploy
-- [ ] README
 - [ ] Unit testing
 - [ ] Blog entry
 - [ ] Project entry
