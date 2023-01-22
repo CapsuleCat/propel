@@ -1,5 +1,5 @@
 import type { AccessorKey, InjectOptions } from "@capsule-cat/propel-core";
-import { logger, getDependency } from "@capsule-cat/propel-core";
+import { getDependency, logger } from "@capsule-cat/propel-core";
 import type { ServiceFactory } from "../types";
 import type { IBuilder } from "./types";
 

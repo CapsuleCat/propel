@@ -1,11 +1,25 @@
-# propel-cli
+# @capsule-cat/propel-cli
 
-This library was generated with [Nx](https://nx.dev).
+Run CLI commands to compliment the `@capsule-cat/propel-*` packages.
 
-## Building
+## Getting Started
 
-Run `nx build propel-cli` to build the library.
+To install the package, run the following command:
 
-## Running unit tests
+```bash
+npm install -D @capsule-cat/propel-cli
+```
 
-Run `nx test propel-cli` to execute the unit tests via [Jest](https://jestjs.io).
+This will install the package as a development dependency.
+
+## Usage
+
+The `propel` command can be used to run various commands to compliment the `@capsule-cat/propel-*` packages.
+
+Currently, the following commands are available:
+
+```bash
+propel graph
+```
+
+This will generate a graph of the dependency injection containers.

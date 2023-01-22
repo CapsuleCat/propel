@@ -1,9 +1,7 @@
 # TODO
 
-- [ ] README
+- [ ] LICENSE
 - [ ] Deploy
-
-- [ ] Eslint import sort order
 - [ ] Doc Website
 - [ ] Docs build pipeline
 - [ ] Unit testing

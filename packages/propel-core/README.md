@@ -1,11 +1,7 @@
-# propel-core
+# @capsule-cat/propel-core
 
-This library was generated with [Nx](https://nx.dev).
+Propel core utilities.
 
-## Running unit tests
+## Getting Started
 
-Run `nx test propel-core` to execute the unit tests via [Jest](https://jestjs.io).
-
-## Running lint
-
-Run `nx lint propel-core` to execute the lint via [ESLint](https://eslint.org/).
+This package is a dependency of the `@capsule-cat/propel-*` packages. It is not intended to be used directly.

@@ -2,8 +2,8 @@ import Bottle from "bottlejs";
 import {
     createAppBottle,
     getDependency,
-    resetAppBottle,
     register,
+    resetAppBottle,
 } from "./ioc";
 
 describe("createAppBottle", () => {

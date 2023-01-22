@@ -1,4 +1,4 @@
-import { toClass, createAccessorKey, logger } from "@capsule-cat/propel-core";
+import { createAccessorKey, logger, toClass } from "@capsule-cat/propel-core";
 import type { InjectOptions } from "@capsule-cat/propel-core";
 import { InjectBuilder } from "../../builders/InjectBuilder";
 

@@ -1,11 +1,17 @@
-# propel-sequelize
+# @capsule-cat/propel-sequelize
 
-This library was generated with [Nx](https://nx.dev).
+Propel Plugin and decorators to supplement Sequelize usage with `@capsule-cat/propel-server`.
 
-## Building
+## Getting Started
 
-Run `nx build propel-sequelize` to build the library.
+To install the package, run the following command:
 
-## Running unit tests
+```bash
+npm install --save @capsule-cat/propel-sequelize
+```
 
-Run `nx test propel-sequelize` to execute the unit tests via [Jest](https://jestjs.io).
+This will install the package as a dependency.
+
+## Usage
+
+There is no Propel Plugin for this package. Instead, the decorators can be used to supplement Sequelize usage with `@capsule-cat/propel-server`.

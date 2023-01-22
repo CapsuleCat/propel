@@ -1,11 +1,28 @@
-# propel-express
+# @capsule-cat/propel-express
 
-This library was generated with [Nx](https://nx.dev).
+Propel Plugin and decorators to supplement Express usage with `@capsule-cat/propel-server`.
 
-## Running unit tests
+## Getting Started
 
-Run `nx test propel-express` to execute the unit tests via [Jest](https://jestjs.io).
+To install the package, run the following command:
 
-## Running lint
+```bash
+npm install --save @capsule-cat/propel-express
+```
 
-Run `nx lint propel-express` to execute the lint via [ESLint](https://eslint.org/).
+This will install the package as a dependency.
+
+## Usage
+
+Add the Propel Express plugin to the initialization of the `@capsule-cat/propel-forward` package.
+
+```typescript
+import { PropelExpressPlugin } from "@capsule-cat/propel-express";
+import { init } from "@capsule-cat/propel-forward";
+
+async function main() {
+    await init([new PropelExpressPlugin()]);
+}
+```
+
+This will add Express to the dependency injection container, and will auto-start an Express server on default port 3000 for you.

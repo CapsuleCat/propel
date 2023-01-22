@@ -2,10 +2,10 @@ import "reflect-metadata";
 
 import type { AccessorOptions } from "@capsule-cat/propel-core";
 import {
+    createAccessorKey,
     logger,
     register,
     toClass,
-    createAccessorKey,
 } from "@capsule-cat/propel-core";
 import type { RequestHandler } from "express";
 import { Router } from "express";

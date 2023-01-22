@@ -1,11 +1,27 @@
-# propel-server
+# @capsule-cat/propel-server
 
-This library was generated with [Nx](https://nx.dev).
+Set of utilities and pre-made services to quickly get started with writing a server using `@capsule-cat/propel-*` packages.
 
-## Running unit tests
+## Getting Started
 
-Run `nx test propel-server` to execute the unit tests via [Jest](https://jestjs.io).
+To install the package, run the following command:
 
-## Running lint
+```bash
+npm install --save @capsule-cat/propel-server
+```
 
-Run `nx lint propel-server` to execute the lint via [ESLint](https://eslint.org/).
+This will install the package as a dependency.
+
+## Usage
+
+If you are not using the `@capsule-cat/propel-forward` package, you can use the `propel` function to initialize the dependency injection container:
+
+```typescript
+import { propel } from "@capsule-cat/propel-server";
+
+async function main() {
+    const instance = propel();
+
+    await instance.init();
+}
+```

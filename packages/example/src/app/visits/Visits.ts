@@ -1,7 +1,7 @@
-import { DataTypes } from "sequelize";
-import { Entity, BaseEntity, Autowired } from "@capsule-cat/propel-server";
-import type { VisitsModel } from "./types";
+import { Autowired, BaseEntity, Entity } from "@capsule-cat/propel-server";
 import type { DB } from "../db/SequelizeDB";
+import { DataTypes } from "sequelize";
+import type { VisitsModel } from "./types";
 
 @Entity()
 export class Visits extends BaseEntity<VisitsModel> {

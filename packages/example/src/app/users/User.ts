@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import { Entity, BaseEntity, Autowired } from "@capsule-cat/propel-server";
+import { Autowired, BaseEntity, Entity } from "@capsule-cat/propel-server";
 import type { UserModel } from "./types";
 import type { DB } from "../db/SequelizeDB";
 

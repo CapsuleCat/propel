@@ -1,11 +1,29 @@
-# propel-forward
+# @capsule-cat/propel-forward
 
-This library was generated with [Nx](https://nx.dev).
+Set of utilities and pre-made services to quickly get started with writing a server using `@capsule-cat/propel-*` packages.
 
-## Building
+## Getting Started
 
-Run `nx build propel-forward` to build the library.
+To install the package, run the following command:
 
-## Running unit tests
+```bash
+npm install --save @capsule-cat/propel-forward
+```
 
-Run `nx test propel-forward` to execute the unit tests via [Jest](https://jestjs.io).
+This will install the package as a dependency.
+
+## Usage
+
+To use as your entrypoint, import the `init` function from the package and call it with an array of plugins.
+
+```typescript
+import { init } from "@capsule-cat/propel-forward";
+
+async function main() {
+    await init([
+        // Add any Propel plugins here
+    ]);
+}
+```
+
+This will initialize the dependency injection container and any Bootstrap methods.
