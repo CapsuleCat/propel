@@ -4,6 +4,9 @@
     "license": "MIT",
     "scripts": {
         "build": "nx run-many --target=build",
+        "doc": "npm-run-all doc:*",
+        "doc:html": "typedoc --entryPointStrategy packages . --exclude **/*.spec.ts --tsconfig tsconfig.base.json --out build/docs",
+        "doc:json": "typedoc --entryPointStrategy packages . --exclude **/*.spec.ts --tsconfig tsconfig.base.json --json build/docs/typedoc.json",
         "lint": "npm-run-all lint:*",
         "lint:projects": "nx run-many --target=lint --fix",
         "lint:json": "npx prettier --write \"**/*.json\"",
@@ -85,6 +88,7 @@
         "ts-jest": "28.0.5",
         "ts-node": "10.9.1",
         "tslib": "^2.3.0",
+        "typedoc": "^0.23.24",
         "typescript": "^4.8.4",
         "webpack": "^5.74.0"
     },

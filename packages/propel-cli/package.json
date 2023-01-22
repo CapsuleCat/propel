@@ -7,6 +7,12 @@
     "bin": {
         "propel": "bin/propel"
     },
+    "typedoc": {
+        "entryPoint": "./src/index.ts",
+        "readmeFile": "./README.md",
+        "displayName": "@capsule-cat/propel-cli",
+        "tsconfig": "./tsconfig.lib.json"
+    },
     "dependencies": {
         "@mermaid-js/mermaid-cli": "^9.1.6",
         "commander": "^9.4.1",

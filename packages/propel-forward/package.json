@@ -2,5 +2,11 @@
     "name": "@capsule-cat/propel-forward",
     "license": "MIT",
     "version": "0.1.0",
-    "type": "commonjs"
+    "type": "commonjs",
+    "typedoc": {
+        "entryPoint": "./src/index.ts",
+        "readmeFile": "./README.md",
+        "displayName": "@capsule-cat/propel-forward",
+        "tsconfig": "./tsconfig.lib.json"
+    }
 }

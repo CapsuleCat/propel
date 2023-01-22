@@ -2,6 +2,12 @@
     "name": "@capsule-cat/propel-sequelize",
     "license": "MIT",
     "version": "0.1.0",
+    "typedoc": {
+        "entryPoint": "./src/index.ts",
+        "readmeFile": "./README.md",
+        "displayName": "@capsule-cat/propel-sequelize",
+        "tsconfig": "./tsconfig.lib.json"
+    },
     "peerDependencies": {
         "sequelize": "^6.28.0"
     }

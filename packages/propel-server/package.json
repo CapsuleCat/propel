@@ -1,5 +1,11 @@
 {
     "name": "@capsule-cat/propel-server",
     "license": "MIT",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "typedoc": {
+        "entryPoint": "./src/index.ts",
+        "readmeFile": "./README.md",
+        "displayName": "@capsule-cat/propel-server",
+        "tsconfig": "./tsconfig.lib.json"
+    }
 }

@@ -2,6 +2,12 @@
     "name": "@capsule-cat/propel-core",
     "license": "MIT",
     "version": "0.1.0",
+    "typedoc": {
+        "entryPoint": "./src/index.ts",
+        "readmeFile": "./README.md",
+        "displayName": "@capsule-cat/propel-core",
+        "tsconfig": "./tsconfig.lib.json"
+    },
     "peerDependencies": {
         "bottlejs": "^2.0.0"
     }
