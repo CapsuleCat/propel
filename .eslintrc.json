@@ -1,0 +1,107 @@
+{
+    "root": true,
+    "ignorePatterns": ["**/*"],
+    "plugins": ["@nrwl/nx", "prettier", "sonarjs", "no-secrets"],
+    "settings": {
+        "ignorePatterns": ["mermaid.min.js"],
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "overrides": [
+        {
+            "files": [
+                "**/__tests__ /**/*.[jt]s?(x)",
+                "**/?(*.)+(spec|test).[jt]s?(x)"
+            ],
+            "extends": [
+                "plugin:testing-library/react",
+                "plugin:jest/recommended",
+                "plugin:jest/style",
+                "plugin:jest-formatting/recommended"
+            ]
+        },
+        {
+            "files": ["*.mdx"],
+            "extends": ["plugin:mdx/recommended"],
+            "rules": {
+                "mdx/code-blocks": "error"
+            }
+        },
+        {
+            "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+            "excludedFiles": ["**/.next/**"],
+            "extends": [
+                "plugin:react-hooks/recommended",
+                "plugin:jsx-a11y/recommended",
+                "plugin:unicorn/recommended",
+                "plugin:sonarjs/recommended",
+                "plugin:security/recommended",
+                "plugin:jsdoc/recommended"
+            ],
+            "plugins": ["jsdoc"],
+            "rules": {
+                "prettier/prettier": "error",
+                "@nrwl/nx/enforce-module-boundaries": [
+                    "error",
+                    {
+                        "enforceBuildableLibDependency": true,
+                        "allow": [],
+                        "depConstraints": [
+                            {
+                                "sourceTag": "*",
+                                "onlyDependOnLibsWithTags": ["*"]
+                            }
+                        ]
+                    }
+                ],
+                "import/no-anonymous-default-export": "off",
+                "no-secrets/no-secrets": [
+                    "error",
+                    {
+                        "ignoreContent": "^https://"
+                    }
+                ],
+                "react/jsx-no-useless-fragment": "error",
+                "sonarjs/no-duplicate-string": "off",
+                "security/detect-non-literal-fs-filename": "off",
+                "security/detect-object-injection": "off",
+                "security/detect-non-literal-regexp": "off",
+                "unicorn/filename-case": "off",
+                "unicorn/import-style": "off",
+                "unicorn/no-null": "off",
+                "unicorn/prefer-module": "off",
+                "unicorn/prevent-abbreviations": "off",
+                "jsdoc/require-jsdoc": [
+                    "error",
+                    {
+                        "publicOnly": true
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "extends": [
+                "plugin:@nrwl/nx/typescript",
+                "plugin:@typescript-eslint/recommended",
+                "plugin:@typescript-eslint/recommended-requiring-type-checking",
+                "plugin:@typescript-eslint/strict"
+            ],
+            "rules": {
+                "@typescript-eslint/no-explicit-any": "error",
+                "@typescript-eslint/no-unused-vars": "error",
+                "@typescript-eslint/no-unnecessary-condition": "off",
+                "@typescript-eslint/no-unsafe-assignment": "off",
+                "@typescript-eslint/consistent-type-imports": "error"
+            }
+        },
+        {
+            "files": ["*.js", "*.jsx"],
+            "extends": ["plugin:@nrwl/nx/javascript"],
+            "rules": {}
+        }
+    ]
+}

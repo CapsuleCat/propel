@@ -1,7 +1,5 @@
-#!/usr/bin/env node
-
 import { Command } from "commander";
-import { graph } from "./commands/graph";
+import { graph } from "./lib/commands/graph";
 
 const program = new Command();
 

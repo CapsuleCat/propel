@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2016",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "paths": {
+            "@capsule-cat/propel-cli": ["packages/propel-cli/src/index.ts"],
+            "@capsule-cat/propel-core": [
+                "packages/propel-core/src/index.ts",
+                "../propel-core/src/index.ts"
+            ],
+            "@capsule-cat/propel-express": [
+                "packages/propel-express/src/index.ts",
+                "../propel-express/src/index.ts"
+            ],
+            "@capsule-cat/propel-forward": [
+                "packages/propel-forward/src/index.ts",
+                "../propel-forward/src/index.ts"
+            ],
+            "@capsule-cat/propel-sequelize": [
+                "packages/propel-sequelize/src/index.ts",
+                "../propel-sequelize/src/index.ts"
+            ],
+            "@capsule-cat/propel-server": [
+                "packages/propel-server/src/index.ts",
+                "../propel-server/src/index.ts"
+            ]
+        }
+    }
+}

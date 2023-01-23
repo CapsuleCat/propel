@@ -1,0 +1,25 @@
+{
+    "extends": ["../../.eslintrc.json"],
+    "ignorePatterns": ["!**/*", "files/mermaid.min.js"],
+    "parserOptions": {
+        "project": [
+            "packages/propel-cli/tsconfig.json",
+            "packages/propel-cli/tsconfig.lib.json",
+            "packages/propel-cli/tsconfig.spec.json"
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+            "rules": {}
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "rules": {}
+        },
+        {
+            "files": ["*.js", "*.jsx"],
+            "rules": {}
+        }
+    ]
+}
