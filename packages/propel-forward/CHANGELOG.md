@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.1](https://github.com/CapsuleCat/propel/compare/propel-forward-0.1.0...propel-forward-0.1.1) (2023-01-25)
+
 ## 0.1.0 (2023-01-22)
 
 
@@ -17,4 +19,3 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * get publish scripts set up ([2836539](https://github.com/CapsuleCat/propel/commit/2836539bd9b38ed39bb6b38ee689800e013a1796))
 * merge new nx workspace ([2e68c36](https://github.com/CapsuleCat/propel/commit/2e68c363410dcc019196ccc2dd627d76c0f1d653))
 * update versions and scripts ([44cd8ab](https://github.com/CapsuleCat/propel/commit/44cd8abe5a558f10f8121871bce1ff0742d6b667))
-
