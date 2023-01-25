@@ -1,0 +1,5966 @@
+{
+	"id": 0,
+	"name": "Documentation",
+	"kind": 1,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "@capsule-cat/propel-cli",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/propel-cli/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-cli/src/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "@capsule-cat/propel-core",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 8,
+					"name": "AccessorOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 9,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Override the name of the dependency to inject."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L7"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								9
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/types.ts",
+							"line": 3,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L3"
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"id": 29,
+							"name": "InjectOptions"
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "InjectOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 30,
+							"name": "args",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 11,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L11"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "unknown"
+								}
+							}
+						},
+						{
+							"id": 31,
+							"name": "failIfMissing",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 12,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L12"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 36,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Override the name of the dependency to inject."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L7"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 9,
+								"name": "AccessorOptions.name"
+							}
+						},
+						{
+							"id": 32,
+							"name": "unbox",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 13,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L13"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 33,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-core/src/lib/types.ts",
+											"line": 13,
+											"character": 12,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L13"
+										}
+									],
+									"signatures": [
+										{
+											"id": 34,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"parameters": [
+												{
+													"id": 35,
+													"name": "injectable",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								30,
+								31,
+								36,
+								32
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/types.ts",
+							"line": 10,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L10"
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 8,
+							"name": "AccessorOptions"
+						}
+					]
+				},
+				{
+					"id": 10,
+					"name": "PropelPlugin",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "A plugin is a function that is registered with Propel and called when Propel is initialized."
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 11,
+							"name": "init",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 20,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L20"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 12,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-core/src/lib/types.ts",
+											"line": 20,
+											"character": 11,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L20"
+										}
+									],
+									"signatures": [
+										{
+											"id": 13,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												],
+												"name": "Promise",
+												"qualifiedName": "Promise",
+												"package": "typescript"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								11
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/types.ts",
+							"line": 19,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L19"
+						}
+					]
+				},
+				{
+					"id": 7,
+					"name": "AccessorKey",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/types.ts",
+							"line": 1,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L1"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 25,
+					"name": "TargetClass",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/toClass.ts",
+							"line": 1,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/toClass.ts#L1"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 26,
+							"name": "__type",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/toClass.ts",
+									"line": 1,
+									"character": 26,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/toClass.ts#L1"
+								}
+							],
+							"signatures": [
+								{
+									"id": 27,
+									"name": "__type",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 28,
+											"name": "arg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 37,
+					"name": "WhenCallback",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/types.ts",
+							"line": 23,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L23"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 38,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 23,
+									"character": 27,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 39,
+									"name": "__type",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 14,
+					"name": "createAccessorKey",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/accessors.ts",
+							"line": 10,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/accessors.ts#L10"
+						}
+					],
+					"signatures": [
+						{
+							"id": 15,
+							"name": "createAccessorKey",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Create a unique key for an accessor"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a unique key for the accessor/**"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 16,
+									"name": "propertyKey",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "the property key"
+											}
+										]
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "symbol"
+											}
+										]
+									}
+								},
+								{
+									"id": 17,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional params"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 8,
+										"name": "AccessorOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 7,
+								"name": "AccessorKey"
+							}
+						}
+					]
+				},
+				{
+					"id": 40,
+					"name": "createAppBottle",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/ioc.ts",
+							"line": 15,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L15"
+						}
+					],
+					"signatures": [
+						{
+							"id": 41,
+							"name": "createAppBottle",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Inject your own Bottle for propel to use."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- The Bottle instance"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 42,
+									"name": "bottleInstance",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The Bottle instance to use"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Bottle",
+										"qualifiedName": "Bottle",
+										"package": "bottlejs"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									}
+								],
+								"name": "Bottle",
+								"qualifiedName": "Bottle",
+								"package": "bottlejs"
+							}
+						}
+					]
+				},
+				{
+					"id": 56,
+					"name": "debugBottle",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/ioc.ts",
+							"line": 63,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L63"
+						}
+					],
+					"signatures": [
+						{
+							"id": 57,
+							"name": "debugBottle",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 43,
+					"name": "getDependency",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/ioc.ts",
+							"line": 26,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L26"
+						}
+					],
+					"signatures": [
+						{
+							"id": 44,
+							"name": "getDependency",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "Dependency"
+											}
+										]
+									}
+								]
+							},
+							"typeParameter": [
+								{
+									"id": 45,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {},
+									"default": {
+										"type": "reference",
+										"name": "SomeInstance"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 46,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the dependency to get"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 45,
+										"name": "T"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 18,
+					"name": "logger",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/logging.ts",
+							"line": 5,
+							"character": 6,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/logging.ts#L5"
+						}
+					],
+					"signatures": [
+						{
+							"id": 19,
+							"name": "logger",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 20,
+									"name": "formatter",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 21,
+									"name": "args",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isRest": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 49,
+					"name": "register",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/ioc.ts",
+							"line": 47,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L47"
+						}
+					],
+					"signatures": [
+						{
+							"id": 50,
+							"name": "register",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Register a dependency with propel"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 51,
+									"name": "accessorKey",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the dependency to register"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 52,
+									"name": "service",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The service to register"
+											}
+										]
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"id": 25,
+												"name": "TargetClass"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 53,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/propel-core/src/lib/ioc.ts",
+															"line": 49,
+															"character": 14,
+															"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L49"
+														}
+													],
+													"signatures": [
+														{
+															"id": 54,
+															"name": "__type",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"parameters": [
+																{
+																	"id": 55,
+																	"name": "any",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isRest": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "unknown"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 47,
+					"name": "resetAppBottle",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/ioc.ts",
+							"line": 37,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/ioc.ts#L37"
+						}
+					],
+					"signatures": [
+						{
+							"id": 48,
+							"name": "resetAppBottle",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 22,
+					"name": "toClass",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-core/src/lib/toClass.ts",
+							"line": 9,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/toClass.ts#L9"
+						}
+					],
+					"signatures": [
+						{
+							"id": 23,
+							"name": "toClass",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Typecast a target to a class"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 24,
+									"name": "target",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "a target"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 25,
+								"name": "TargetClass"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						8,
+						29,
+						10
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						7,
+						25,
+						37
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						14,
+						40,
+						56,
+						43,
+						18,
+						49,
+						47,
+						22
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/propel-core/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "@capsule-cat/propel-express",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 73,
+					"name": "PropelExpressPlugin",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 74,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 15,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+								}
+							],
+							"signatures": [
+								{
+									"id": 75,
+									"name": "new PropelExpressPlugin",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 76,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 70,
+												"name": "PropelExpressPluginOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 73,
+										"name": "PropelExpressPlugin"
+									}
+								}
+							]
+						},
+						{
+							"id": 77,
+							"name": "options",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 15,
+									"character": 24,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 70,
+								"name": "PropelExpressPluginOptions"
+							}
+						},
+						{
+							"id": 78,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 16,
+									"character": 10,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L16"
+								}
+							],
+							"signatures": [
+								{
+									"id": 79,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"name": "PropelPlugin.init"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"name": "PropelPlugin.init"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								74
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								77
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								78
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+							"line": 14,
+							"character": 13,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L14"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "PropelPlugin"
+						}
+					]
+				},
+				{
+					"id": 70,
+					"name": "PropelExpressPluginOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 71,
+							"name": "enableBodyParser",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 10,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L10"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 72,
+							"name": "port",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 11,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L11"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								71,
+								72
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+							"line": 9,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/PropelExpressPlugin.ts#L9"
+						}
+					]
+				},
+				{
+					"id": 115,
+					"name": "RequestMappingOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 117,
+							"name": "contentType",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+									"line": 15,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L15"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 116,
+							"name": "middleware",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+									"line": 14,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L14"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"typeArguments": [
+										{
+											"type": "reference",
+											"name": "ParamsDictionary",
+											"qualifiedName": "ParamsDictionary",
+											"package": "@types/express-serve-static-core"
+										},
+										{
+											"type": "intrinsic",
+											"name": "any"
+										},
+										{
+											"type": "intrinsic",
+											"name": "any"
+										},
+										{
+											"type": "reference",
+											"name": "ParsedQs",
+											"qualifiedName": "QueryString.ParsedQs",
+											"package": "@types/qs"
+										},
+										{
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "intrinsic",
+													"name": "string"
+												},
+												{
+													"type": "intrinsic",
+													"name": "any"
+												}
+											],
+											"name": "Record",
+											"qualifiedName": "Record",
+											"package": "typescript"
+										}
+									],
+									"name": "RequestHandler",
+									"qualifiedName": "e.RequestHandler",
+									"package": "@types/express"
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								117,
+								116
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+							"line": 13,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L13"
+						}
+					]
+				},
+				{
+					"id": 64,
+					"name": "Validator",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Validator interface for Propel\n\nUse this interface to create custom validators that work with the "
+							},
+							{
+								"kind": "code",
+								"text": "`@Validate`"
+							},
+							{
+								"kind": "text",
+								"text": " decorator."
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 65,
+							"name": "validate",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/types.ts",
+									"line": 12,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/types.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 66,
+									"name": "validate",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 67,
+											"name": "v",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 68,
+												"name": "T"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 69,
+										"name": "U"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"children": [
+								65
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/types.ts",
+							"line": 11,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/types.ts#L11"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 68,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						},
+						{
+							"id": 69,
+							"name": "U",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"default": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "Class",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/types.ts",
+							"line": 4,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/types.ts#L4"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 62,
+							"name": "I",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						},
+						{
+							"id": 63,
+							"name": "Args",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							},
+							"default": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 59,
+							"name": "__type",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/types.ts",
+									"line": 4,
+									"character": 51,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/types.ts#L4"
+								}
+							],
+							"signatures": [
+								{
+									"id": 60,
+									"name": "__type",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Class type with constructor arguments"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 61,
+											"name": "args",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 63,
+												"name": "Args"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 62,
+										"name": "I"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 138,
+					"name": "ControllerOptions",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
+							"line": 24,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/services/Controller.ts#L24"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "AccessorOptions"
+					}
+				},
+				{
+					"id": 83,
+					"name": "ExpressBootstrapOptions",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
+							"line": 9,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L9"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "AccessorOptions"
+					}
+				},
+				{
+					"id": 108,
+					"name": "RouteMapping",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+							"line": 4,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L4"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "get"
+							},
+							{
+								"type": "literal",
+								"value": "post"
+							},
+							{
+								"type": "literal",
+								"value": "patch"
+							},
+							{
+								"type": "literal",
+								"value": "delete"
+							}
+						]
+					}
+				},
+				{
+					"id": 137,
+					"name": "RouteType",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
+							"line": 14,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/services/Controller.ts#L14"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "literal",
+								"value": "all"
+							},
+							{
+								"type": "literal",
+								"value": "get"
+							},
+							{
+								"type": "literal",
+								"value": "post"
+							},
+							{
+								"type": "literal",
+								"value": "put"
+							},
+							{
+								"type": "literal",
+								"value": "delete"
+							},
+							{
+								"type": "literal",
+								"value": "patch"
+							},
+							{
+								"type": "literal",
+								"value": "options"
+							},
+							{
+								"type": "literal",
+								"value": "head"
+							}
+						]
+					}
+				},
+				{
+					"id": 129,
+					"name": "ValidatorClass",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
+							"line": 4,
+							"character": 12,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Validate.ts#L4"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 130,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						},
+						{
+							"id": 131,
+							"name": "U",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 58,
+						"typeArguments": [
+							{
+								"type": "reference",
+								"id": 64,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 130,
+										"name": "T"
+									},
+									{
+										"type": "reference",
+										"id": 131,
+										"name": "U"
+									}
+								],
+								"name": "Validator"
+							},
+							{
+								"type": "tuple"
+							}
+						],
+						"name": "Class"
+					}
+				},
+				{
+					"id": 109,
+					"name": "RouteMappings",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+							"line": 6,
+							"character": 13,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 110,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 114,
+									"name": "delete",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+											"line": 10,
+											"character": 4,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L10"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": "delete"
+									},
+									"defaultValue": "\"delete\""
+								},
+								{
+									"id": 111,
+									"name": "get",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+											"line": 7,
+											"character": 4,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L7"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": "get"
+									},
+									"defaultValue": "\"get\""
+								},
+								{
+									"id": 113,
+									"name": "patch",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+											"line": 9,
+											"character": 4,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L9"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": "patch"
+									},
+									"defaultValue": "\"patch\""
+								},
+								{
+									"id": 112,
+									"name": "post",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+											"line": 8,
+											"character": 4,
+											"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L8"
+										}
+									],
+									"type": {
+										"type": "literal",
+										"value": "post"
+									},
+									"defaultValue": "\"post\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										114,
+										111,
+										113,
+										112
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+									"line": 6,
+									"character": 29,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+								}
+							]
+						}
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 132,
+					"name": "Controller",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
+							"line": 37,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/services/Controller.ts#L37"
+						}
+					],
+					"signatures": [
+						{
+							"id": 133,
+							"name": "Controller",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Controller Decorator Factory\n\nRegister the decorated class as a Controller that will register all route\nmethods with Express auto-magically."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 134,
+									"name": "baseUrl",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "base url for the route. Defaults to '/'"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 135,
+									"name": "middlewares",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "list of middelwares to apply to all routes"
+											}
+										]
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "reference",
+													"name": "ParamsDictionary",
+													"qualifiedName": "ParamsDictionary",
+													"package": "@types/express-serve-static-core"
+												},
+												{
+													"type": "intrinsic",
+													"name": "any"
+												},
+												{
+													"type": "intrinsic",
+													"name": "any"
+												},
+												{
+													"type": "reference",
+													"name": "ParsedQs",
+													"qualifiedName": "QueryString.ParsedQs",
+													"package": "@types/qs"
+												},
+												{
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "intrinsic",
+															"name": "string"
+														},
+														{
+															"type": "intrinsic",
+															"name": "any"
+														}
+													],
+													"name": "Record",
+													"qualifiedName": "Record",
+													"package": "typescript"
+												}
+											],
+											"name": "RequestHandler",
+											"qualifiedName": "e.RequestHandler",
+											"package": "@types/express"
+										}
+									},
+									"defaultValue": "[]"
+								},
+								{
+									"id": 136,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "options for the controller"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "AccessorOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClassDecorator",
+								"qualifiedName": "ClassDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 84,
+					"name": "Delete",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Delete.ts",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Delete.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 85,
+							"name": "Delete",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Delete Route Decorator Factory\n\nRegister the class method as a DELETE route. Will pass in the\nrequest and response from Express."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 86,
+									"name": "routePath",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The route path to register the method as."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 87,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Options for the request mapping"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 115,
+										"name": "RequestMappingOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 80,
+					"name": "ExpressBootstrap",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
+							"line": 29,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L29"
+						}
+					],
+					"signatures": [
+						{
+							"id": 81,
+							"name": "ExpressBootstrap",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "/**\n * ExpressBootstrap Decorator Factory\n *\n * Add the decorated class method to the express bootstrap sequence that happens at the start\n * of the application. Propel will run all express bootstrapped methods in sequence, awaiting\n * any that are async.\n *\n *"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\n* class MyClass {\n *   @ExpressBootstrap()\n *   async init(app: IRouter) {\n *     // Do express bootstrap work\n *   }\n * }\n *\n```"
+											}
+										]
+									},
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 82,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional set of arguments for bootstrapping\n *"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "AccessorOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 88,
+					"name": "Get",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Get.ts",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Get.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 89,
+							"name": "Get",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Get Route Decorator Factory\n\nRegister the class method as a GET route. Will pass in the\nrequest and response from Express."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 90,
+									"name": "routePath",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The route path to register the method as."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 91,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Options for the request mapping"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 115,
+										"name": "RequestMappingOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 92,
+					"name": "Patch",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Patch.ts",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Patch.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 93,
+							"name": "Patch",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Patch Route Decorator Factory\n\nRegister the class method as a PATCH route. Will pass in the\nrequest and response from Express."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 94,
+									"name": "routePath",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The route path to register the method as."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 95,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Options for the request mapping"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 115,
+										"name": "RequestMappingOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 96,
+					"name": "Post",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Post.ts",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Post.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 97,
+							"name": "Post",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Post Route Decorator Factory\n\nRegister the class method as a POST route. Will pass in the\nrequest and response from Express."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 98,
+									"name": "routePath",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The route path to register the method as."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 99,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Options for the request mapping"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 115,
+										"name": "RequestMappingOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 100,
+					"name": "RequestBody",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestBody.ts",
+							"line": 14,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestBody.ts#L14"
+						}
+					],
+					"signatures": [
+						{
+							"id": 101,
+							"name": "RequestBody",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Request Mapping Decorator Factory\n\nReturns a parameter decorator that maps the request body to the request.\n\nIf no propertyName is passed, the entire body will be mapped to the request.\nIf a propertyName is passed, the property will be mapped to the request."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Parameter decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 102,
+									"name": "propertyName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the property to map"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ParameterDecorator",
+								"qualifiedName": "ParameterDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 103,
+					"name": "RequestMapping",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
+							"line": 31,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L31"
+						}
+					],
+					"signatures": [
+						{
+							"id": 104,
+							"name": "RequestMapping",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Request Mapping Decorator Factory\n\nWire the method to the route and method. Use "
+									},
+									{
+										"kind": "code",
+										"text": "`@RequestParam`"
+									},
+									{
+										"kind": "text",
+										"text": " and\n"
+									},
+									{
+										"kind": "code",
+										"text": "`@RequestBody`"
+									},
+									{
+										"kind": "text",
+										"text": " to map the parameters and body to the request.\n\nAny return value from the method will be set as the response."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 105,
+									"name": "routePath",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The route to map the method to"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 106,
+									"name": "method",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The method to map the route to"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 108,
+										"name": "RouteMapping"
+									}
+								},
+								{
+									"id": 107,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Options for the route"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 115,
+										"name": "RequestMappingOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 118,
+					"name": "RequestParam",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestParam.ts",
+							"line": 11,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestParam.ts#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 119,
+							"name": "RequestParam",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Request Mapping Decorator Factory\n\nReturns a parameter decorator that maps the parameter to the request."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Parameter decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 120,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the parameter to map"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ParameterDecorator",
+								"qualifiedName": "ParameterDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 121,
+					"name": "RequestQuery",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestQuery.ts",
+							"line": 19,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/RequestQuery.ts#L19"
+						}
+					],
+					"signatures": [
+						{
+							"id": 122,
+							"name": "RequestQuery",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Request Query Decorator Factory\n\nReturns a parameter decorator that maps the query string to the parameter."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```\nclass MyController {\n \\@Get(\"/hello\")\n  hello(@RequestQuery(\"name\") name: string) {\n   return \\`Hello \\${name}\\`;\n }\n```"
+											}
+										]
+									},
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Parameter decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 123,
+									"name": "queryName",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The name of the query to map"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ParameterDecorator",
+								"qualifiedName": "ParameterDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 124,
+					"name": "Validate",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
+							"line": 17,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/lib/decorators/requests/Validate.ts#L17"
+						}
+					],
+					"signatures": [
+						{
+							"id": 125,
+							"name": "Validate",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Validate Parameter Decorator Factory\n\nReturns a parameter decorator that validates the parameter. Expects\na validator class to be passed in. If the Validator.validate method\nreturns a value, the value will be set as the parameter. If the\nValidator.validate method throws an error, the error will be passed up."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- Parameter decorator"
+											}
+										]
+									}
+								]
+							},
+							"typeParameter": [
+								{
+									"id": 126,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {}
+								},
+								{
+									"id": 127,
+									"name": "U",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {}
+								}
+							],
+							"parameters": [
+								{
+									"id": 128,
+									"name": "validator",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The validator class to use"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 129,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 126,
+												"name": "T"
+											},
+											{
+												"type": "reference",
+												"id": 127,
+												"name": "U"
+											}
+										],
+										"name": "ValidatorClass"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ParameterDecorator",
+								"qualifiedName": "ParameterDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						73
+					]
+				},
+				{
+					"title": "Interfaces",
+					"children": [
+						70,
+						115,
+						64
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						58,
+						138,
+						83,
+						108,
+						137,
+						129
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						109
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						132,
+						84,
+						80,
+						88,
+						92,
+						96,
+						100,
+						103,
+						118,
+						121,
+						124
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/propel-express/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-express/src/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "@capsule-cat/propel-forward",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 169,
+					"name": "PropelForwardPlugin",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 170,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 171,
+									"name": "new PropelForwardPlugin",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 169,
+										"name": "PropelForwardPlugin"
+									}
+								}
+							]
+						},
+						{
+							"id": 172,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
+									"line": 5,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L5"
+								}
+							],
+							"signatures": [
+								{
+									"id": 173,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"name": "PropelPlugin.init"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"name": "PropelPlugin.init"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								170
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								172
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
+							"line": 3,
+							"character": 13,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L3"
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "PropelPlugin"
+						}
+					]
+				},
+				{
+					"id": 149,
+					"name": "Cache",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 150,
+							"name": "get",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
+									"line": 2,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/Cache.ts#L2"
+								}
+							],
+							"signatures": [
+								{
+									"id": 151,
+									"name": "get",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 152,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 153,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"id": 152,
+														"name": "T"
+													}
+												]
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 154,
+							"name": "remove",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
+									"line": 3,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/Cache.ts#L3"
+								}
+							],
+							"signatures": [
+								{
+									"id": 155,
+									"name": "remove",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 156,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 157,
+							"name": "store",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
+									"line": 4,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/Cache.ts#L4"
+								}
+							],
+							"signatures": [
+								{
+									"id": 158,
+									"name": "store",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 159,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 160,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 161,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 159,
+												"name": "T"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"children": [
+								150,
+								154,
+								157
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
+							"line": 1,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/Cache.ts#L1"
+						}
+					]
+				},
+				{
+					"id": 162,
+					"name": "ExceptionLogger",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 163,
+							"name": "notify",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
+									"line": 2,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L2"
+								}
+							],
+							"signatures": [
+								{
+									"id": 164,
+									"name": "notify",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 165,
+											"name": "error",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Error",
+												"qualifiedName": "Error",
+												"package": "typescript"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"children": [
+								163
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
+							"line": 1,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L1"
+						}
+					]
+				},
+				{
+					"id": 139,
+					"name": "Log",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 146,
+							"name": "error",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
+									"line": 11,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/common/Logger.ts#L11"
+								}
+							],
+							"signatures": [
+								{
+									"id": 147,
+									"name": "error",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 148,
+											"name": "args",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "unknown"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 140,
+							"name": "info",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
+									"line": 9,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/common/Logger.ts#L9"
+								}
+							],
+							"signatures": [
+								{
+									"id": 141,
+									"name": "info",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 142,
+											"name": "args",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "unknown"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 143,
+							"name": "log",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
+									"line": 10,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/common/Logger.ts#L10"
+								}
+							],
+							"signatures": [
+								{
+									"id": 144,
+									"name": "log",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 145,
+											"name": "args",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "unknown"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Methods",
+							"children": [
+								146,
+								140,
+								143
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
+							"line": 8,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/common/Logger.ts#L8"
+						}
+					]
+				},
+				{
+					"id": 166,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-forward/src/lib/init.ts",
+							"line": 11,
+							"character": 22,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/lib/init.ts#L11"
+						}
+					],
+					"signatures": [
+						{
+							"id": 167,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 168,
+									"name": "additionalPlugins",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Additional plugins to use"
+											}
+										]
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "PropelPlugin"
+										}
+									},
+									"defaultValue": "[]"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "void"
+									}
+								],
+								"name": "Promise",
+								"qualifiedName": "Promise",
+								"package": "typescript"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						169
+					]
+				},
+				{
+					"title": "Interfaces",
+					"children": [
+						149,
+						162,
+						139
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						166
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/propel-forward/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-forward/src/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "@capsule-cat/propel-sequelize",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 174,
+					"name": "BaseRepository",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isAbstract": true
+					},
+					"children": [
+						{
+							"id": 175,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 6,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+								}
+							],
+							"signatures": [
+								{
+									"id": 176,
+									"name": "new BaseRepository",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 177,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 178,
+											"name": "modelKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 174,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 177,
+												"name": "T"
+											}
+										],
+										"name": "BaseRepository"
+									}
+								}
+							]
+						},
+						{
+							"id": 179,
+							"name": "modelKey",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 4,
+									"character": 12,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L4"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"model\""
+						},
+						{
+							"id": 180,
+							"name": "getModel",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 12,
+									"character": 14,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 181,
+									"name": "getModel",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 177,
+														"name": "T"
+													},
+													{
+														"type": "reference",
+														"id": 177,
+														"name": "T"
+													}
+												],
+												"name": "Model",
+												"qualifiedName": "Model",
+												"package": "sequelize"
+											}
+										],
+										"name": "ModelStatic",
+										"qualifiedName": "ModelStatic",
+										"package": "sequelize"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								175
+							]
+						},
+						{
+							"title": "Properties",
+							"children": [
+								179
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								180
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+							"line": 3,
+							"character": 22,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L3"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 182,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"id": 183,
+							"name": "CRUDRepository"
+						},
+						{
+							"type": "reference",
+							"id": 212,
+							"name": "SingletonRepository"
+						}
+					]
+				},
+				{
+					"id": 183,
+					"name": "CRUDRepository",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isAbstract": true
+					},
+					"children": [
+						{
+							"id": 184,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 6,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+								}
+							],
+							"signatures": [
+								{
+									"id": 185,
+									"name": "new CRUDRepository",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 186,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										},
+										{
+											"id": 187,
+											"name": "PrimaryKeyType",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"name": "Identifier",
+														"qualifiedName": "Identifier",
+														"package": "sequelize"
+													}
+												]
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 188,
+											"name": "modelKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 183,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 186,
+												"name": "T"
+											},
+											{
+												"type": "reference",
+												"id": 187,
+												"name": "PrimaryKeyType"
+											}
+										],
+										"name": "CRUDRepository"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 176,
+										"name": "BaseRepository.constructor"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 175,
+								"name": "BaseRepository.constructor"
+							}
+						},
+						{
+							"id": 194,
+							"name": "create",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+									"line": 17,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L17"
+								}
+							],
+							"signatures": [
+								{
+									"id": 195,
+									"name": "create",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 196,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 186,
+														"name": "T"
+													}
+												],
+												"name": "MakeNullishOptional"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 186,
+																"name": "T"
+															},
+															{
+																"type": "reference",
+																"id": 186,
+																"name": "T"
+															}
+														],
+														"name": "Model",
+														"qualifiedName": "Model",
+														"package": "sequelize"
+													}
+												]
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 201,
+							"name": "delete",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+									"line": 37,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L37"
+								}
+							],
+							"signatures": [
+								{
+									"id": 202,
+									"name": "delete",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 203,
+											"name": "id",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 187,
+												"name": "PrimaryKeyType"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 191,
+							"name": "get",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+									"line": 13,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L13"
+								}
+							],
+							"signatures": [
+								{
+									"id": 192,
+									"name": "get",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 193,
+											"name": "id",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 187,
+												"name": "PrimaryKeyType"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 186,
+																"name": "T"
+															},
+															{
+																"type": "reference",
+																"id": 186,
+																"name": "T"
+															}
+														],
+														"name": "Model",
+														"qualifiedName": "Model",
+														"package": "sequelize"
+													}
+												]
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 189,
+							"name": "getAll",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+									"line": 9,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L9"
+								}
+							],
+							"signatures": [
+								{
+									"id": 190,
+									"name": "getAll",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 186,
+															"name": "T"
+														},
+														{
+															"type": "reference",
+															"id": 186,
+															"name": "T"
+														}
+													],
+													"name": "Model",
+													"qualifiedName": "Model",
+													"package": "sequelize"
+												}
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 204,
+							"name": "getModel",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 12,
+									"character": 14,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 205,
+									"name": "getModel",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 186,
+														"name": "T"
+													},
+													{
+														"type": "reference",
+														"id": 186,
+														"name": "T"
+													}
+												],
+												"name": "Model",
+												"qualifiedName": "Model",
+												"package": "sequelize"
+											}
+										],
+										"name": "ModelStatic",
+										"qualifiedName": "ModelStatic",
+										"package": "sequelize"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 181,
+										"name": "BaseRepository.getModel"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 180,
+								"name": "BaseRepository.getModel"
+							}
+						},
+						{
+							"id": 197,
+							"name": "update",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+									"line": 23,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L23"
+								}
+							],
+							"signatures": [
+								{
+									"id": 198,
+									"name": "update",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 199,
+											"name": "id",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 187,
+												"name": "PrimaryKeyType"
+											}
+										},
+										{
+											"id": 200,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 186,
+														"name": "T"
+													}
+												],
+												"name": "MakeNullishOptional"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								184
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								194,
+								201,
+								191,
+								189,
+								204,
+								197
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
+							"line": 5,
+							"character": 22,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L5"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 206,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 207,
+							"name": "PrimaryKeyType",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Identifier",
+										"qualifiedName": "Identifier",
+										"package": "sequelize"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 174,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"id": 186,
+									"name": "T"
+								}
+							],
+							"name": "BaseRepository"
+						}
+					]
+				},
+				{
+					"id": 212,
+					"name": "SingletonRepository",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isAbstract": true
+					},
+					"children": [
+						{
+							"id": 213,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 6,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+								}
+							],
+							"signatures": [
+								{
+									"id": 214,
+									"name": "new SingletonRepository",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 215,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 216,
+											"name": "modelKey",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 212,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 215,
+												"name": "T"
+											}
+										],
+										"name": "SingletonRepository"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 176,
+										"name": "BaseRepository.constructor"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 175,
+								"name": "BaseRepository.constructor"
+							}
+						},
+						{
+							"id": 217,
+							"name": "get",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
+									"line": 8,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L8"
+								}
+							],
+							"signatures": [
+								{
+									"id": 218,
+									"name": "get",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "literal",
+														"value": null
+													},
+													{
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 215,
+																"name": "T"
+															},
+															{
+																"type": "reference",
+																"id": 215,
+																"name": "T"
+															}
+														],
+														"name": "Model",
+														"qualifiedName": "Model",
+														"package": "sequelize"
+													}
+												]
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 222,
+							"name": "getModel",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
+									"line": 12,
+									"character": 14,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 223,
+									"name": "getModel",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 215,
+														"name": "T"
+													},
+													{
+														"type": "reference",
+														"id": 215,
+														"name": "T"
+													}
+												],
+												"name": "Model",
+												"qualifiedName": "Model",
+												"package": "sequelize"
+											}
+										],
+										"name": "ModelStatic",
+										"qualifiedName": "ModelStatic",
+										"package": "sequelize"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 181,
+										"name": "BaseRepository.getModel"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 180,
+								"name": "BaseRepository.getModel"
+							}
+						},
+						{
+							"id": 219,
+							"name": "set",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
+									"line": 12,
+									"character": 17,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L12"
+								}
+							],
+							"signatures": [
+								{
+									"id": 220,
+									"name": "set",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 221,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 215,
+														"name": "T"
+													}
+												],
+												"name": "MakeNullishOptional"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 215,
+														"name": "T"
+													},
+													{
+														"type": "reference",
+														"id": 215,
+														"name": "T"
+													}
+												],
+												"name": "Model",
+												"qualifiedName": "Model",
+												"package": "sequelize"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								213
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								217,
+								222,
+								219
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
+							"line": 5,
+							"character": 22,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L5"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 224,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 174,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"id": 215,
+									"name": "T"
+								}
+							],
+							"name": "BaseRepository"
+						}
+					]
+				},
+				{
+					"id": 208,
+					"name": "Database",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
+							"line": 29,
+							"character": 13,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 209,
+							"name": "__type",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
+									"line": 29,
+									"character": 37,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+								}
+							],
+							"signatures": [
+								{
+									"id": 210,
+									"name": "new Database",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 211,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"type": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reference",
+												"id": 211,
+												"name": "T"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 211,
+														"name": "T"
+													}
+												],
+												"name": "DBProxier"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						174,
+						183,
+						212
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						208
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/propel-sequelize/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-sequelize/src/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "@capsule-cat/propel-server",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 235,
+					"name": "BootstrapOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 238,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Override the name of the dependency to inject."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L7"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "AccessorOptions.name"
+							}
+						},
+						{
+							"id": 236,
+							"name": "priority",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
+									"line": 6,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L6"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 237,
+							"name": "when",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L7"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WhenCallback"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								238,
+								236,
+								237
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
+							"line": 5,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L5"
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "AccessorOptions"
+						}
+					]
+				},
+				{
+					"id": 245,
+					"name": "FactoryOptions",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"children": [
+						{
+							"id": 246,
+							"name": "args",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
+									"line": 5,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Factory.ts#L5"
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "unknown"
+								}
+							}
+						},
+						{
+							"id": 248,
+							"name": "name",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Override the name of the dependency to inject."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 7,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-core/src/lib/types.ts#L7"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "EntityOptions.name"
+							}
+						},
+						{
+							"id": 247,
+							"name": "when",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-server/src/lib/types.ts",
+									"line": 12,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/types.ts#L12"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "WhenCallback"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"name": "EntityOptions.when"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								246,
+								248,
+								247
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
+							"line": 4,
+							"character": 17,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Factory.ts#L4"
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "EntityOptions"
+						}
+					]
+				},
+				{
+					"id": 255,
+					"name": "BaseEntity",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
+							"line": 39,
+							"character": 13,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 256,
+							"name": "__type",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
+									"line": 39,
+									"character": 42,
+									"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+								}
+							],
+							"signatures": [
+								{
+									"id": 257,
+									"name": "new BaseEntity",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 258,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"type": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reference",
+												"id": 258,
+												"name": "T"
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 258,
+														"name": "T"
+													}
+												],
+												"name": "ModelProxier"
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 225,
+					"name": "Autowired",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/iocs/Autowired.ts",
+							"line": 16,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/iocs/Autowired.ts#L16"
+						}
+					],
+					"signatures": [
+						{
+							"id": 226,
+							"name": "Autowired",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Autowired Decorator Factory\n\nAutomaticaly wire up a dependency into a class. This is a helper\nfor Inject that will automatically determine the name of the\nservice to inject."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a property decorator"
+											}
+										]
+									},
+									{
+										"tag": "@see",
+										"content": [
+											{
+												"kind": "inline-tag",
+												"tag": "@link",
+												"text": "Inject",
+												"target": 228
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 227,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional params"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "InjectOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "PropertyDecorator",
+								"qualifiedName": "PropertyDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 232,
+					"name": "Bootstrap",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
+							"line": 29,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L29"
+						}
+					],
+					"signatures": [
+						{
+							"id": 233,
+							"name": "Bootstrap",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Bootstrap Decorator Factory\n\nAdd the decorated class method to the bootstrap sequence that happens at the start\nof the application. Propel will run all bootstrapped methods in sequence, awaiting\nany that are async.\n\nThe higher the number, the earlier the bootstrap will be called"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\nclass MyClass {\n  @Bootstrap()\n  async init() {\n    // Do bootstrap work\n  }\n}\n```"
+											}
+										]
+									},
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a method decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 234,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional set of arguments for bootstrapping"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 235,
+										"name": "BootstrapOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "MethodDecorator",
+								"qualifiedName": "MethodDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 239,
+					"name": "Entity",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/services/Entity.ts",
+							"line": 12,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Entity.ts#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 240,
+							"name": "Entity",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Entity Decorator Factory\n\nAdd the decorated class to the app Bottle."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 241,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Optional arguments"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "EntityOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClassDecorator",
+								"qualifiedName": "ClassDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 242,
+					"name": "Factory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
+							"line": 28,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Factory.ts#L28"
+						}
+					],
+					"signatures": [
+						{
+							"id": 243,
+							"name": "Factory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Factory Decorator Factory\n\nAnnotate a class with the Factory decorator so that each time\nit is Injected, a new instance will be created with provided\nargs, or the default args if none are provided."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\n@Factory('Logger', {\n  args: [\"no namespace provided\"]\n})\nclass Logger {\n  private namespace: string;\n  constructor(namespace: string) {\n    this.namespace = namespace;\n  }\n}\n```"
+											}
+										]
+									},
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 244,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional params"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"id": 245,
+										"name": "FactoryOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClassDecorator",
+								"qualifiedName": "ClassDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 228,
+					"name": "Inject",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/iocs/Inject.ts",
+							"line": 30,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/iocs/Inject.ts#L30"
+						}
+					],
+					"signatures": [
+						{
+							"id": 229,
+							"name": "Inject",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Inject Decorator Factory\n\nPrefer using Autowired instead of this.\n\nAutomaticaly wire up a dependency into a class\nproperty. Any Service, Entity, or Factory can be injected.\n\nWhen injecting a Factory, "
+									},
+									{
+										"kind": "code",
+										"text": "`args`"
+									},
+									{
+										"kind": "text",
+										"text": " can be provided to\npass into the Factory."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "code",
+												"text": "```ts\nclass MyClass {\n  @Entity(\"Logger\")\n  loggger!: Logger;\n}\n```"
+											}
+										]
+									},
+									{
+										"tag": "@example",
+										"content": [
+											{
+												"kind": "text",
+												"text": "Example using Factory\n"
+											},
+											{
+												"kind": "code",
+												"text": "```ts\nclass MyClass {\n  @Entity(\"Logger\", { args: [\"MyClass\"] })\n  logger!: Logger;\n}\n```"
+											}
+										]
+									},
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a property decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 230,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "provide the name"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 231,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "optional params"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "InjectOptions"
+											},
+											{
+												"type": "literal",
+												"value": "name"
+											}
+										],
+										"name": "Omit",
+										"qualifiedName": "Omit",
+										"package": "typescript"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "PropertyDecorator",
+								"qualifiedName": "PropertyDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 249,
+					"name": "Repository",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/services/Repository.ts",
+							"line": 12,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Repository.ts#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 250,
+							"name": "Repository",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Repository Decorator Factory\n\nAdd the decorated class to the app Bottle."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 251,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Optional arguments"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "EntityOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClassDecorator",
+								"qualifiedName": "ClassDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 252,
+					"name": "Service",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/decorators/services/Service.ts",
+							"line": 12,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/decorators/services/Service.ts#L12"
+						}
+					],
+					"signatures": [
+						{
+							"id": 253,
+							"name": "Service",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Service Decorator Factory\n\nAdd the decorated class to the app Bottle."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "- a class decorator"
+											}
+										]
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 254,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Optional arguments"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "EntityOptions"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClassDecorator",
+								"qualifiedName": "ClassDecorator",
+								"package": "typescript"
+							}
+						}
+					]
+				},
+				{
+					"id": 259,
+					"name": "propel",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/propel-server/src/lib/init.ts",
+							"line": 37,
+							"character": 16,
+							"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/lib/init.ts#L37"
+						}
+					],
+					"signatures": [
+						{
+							"id": 260,
+							"name": "propel",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Creates a new Propel instance"
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "A new Propel instance"
+											}
+										]
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"name": "Propel"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"children": [
+						235,
+						245
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						255
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						225,
+						232,
+						239,
+						242,
+						228,
+						249,
+						252,
+						259
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/propel-server/src/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/CapsuleCat/propel/blob/a0c8586/packages/propel-server/src/index.ts#L1"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"children": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	]
+}
