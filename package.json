@@ -21,7 +21,7 @@
         "prepare": "husky install",
         "start": "nx run-many --target=serve",
         "start:prod": "echo 'Not implemented yet'",
-        "version": "nx affected --target version"
+        "version": "nx run-many --target=version --parallel 1"
     },
     "private": true,
     "overrides": {

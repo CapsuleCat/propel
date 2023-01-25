@@ -4,7 +4,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## 0.1.0 (2023-01-25)
 
-
 ### Features
 
 * add LICENSE entries to package.jsons ([87f902f](https://github.com/CapsuleCat/propel/commit/87f902fa89d2a9f7111fdd92c4eca5d2373b90ab))

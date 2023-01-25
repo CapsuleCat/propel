@@ -2,7 +2,7 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## 0.1.0 (2023-01-25)
+## 0.1.0 (2023-01-22)
 
 
 ### Features
@@ -18,12 +18,3 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * merge new nx workspace ([2e68c36](https://github.com/CapsuleCat/propel/commit/2e68c363410dcc019196ccc2dd627d76c0f1d653))
 * update versions and scripts ([44cd8ab](https://github.com/CapsuleCat/propel/commit/44cd8abe5a558f10f8121871bce1ff0742d6b667))
 
-## 0.1.0 (2023-01-22)
-
-
-### Features
-
-* add example and fix issues with files 725c2b5
-* add propel-forward 4993b09
-* add tests, set up code coverage 6c9eccf
-* update versions and scripts 44cd8ab

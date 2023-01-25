@@ -2,7 +2,7 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## 0.1.0 (2023-01-25)
+## 0.1.0 (2023-01-22)
 
 
 ### Features
@@ -22,18 +22,3 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * get publish scripts set up ([2836539](https://github.com/CapsuleCat/propel/commit/2836539bd9b38ed39bb6b38ee689800e013a1796))
 * setup nx ([02e1676](https://github.com/CapsuleCat/propel/commit/02e167632050106f09631acdb2de815d1e97e135))
 * update versions and scripts ([44cd8ab](https://github.com/CapsuleCat/propel/commit/44cd8abe5a558f10f8121871bce1ff0742d6b667))
-
-## 0.1.0 (2023-01-22)
-
-
-### Features
-
-* add example and fix issues with files 725c2b5
-* add import type linter 63e3404
-* add Inject and Repository decorators cf3861a
-* add propel-forward 4993b09
-* add request decorators and definitions 4ef0f58
-* add tests, set up code coverage 6c9eccf
-* get build to work 97078a5
-* setup nx 02e1676
-* update versions and scripts 44cd8ab

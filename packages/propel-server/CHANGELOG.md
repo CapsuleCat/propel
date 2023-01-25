@@ -2,7 +2,7 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## 0.1.0 (2023-01-25)
+## 0.1.0 (2023-01-22)
 
 
 ### Features
@@ -20,17 +20,3 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * get publish scripts set up ([2836539](https://github.com/CapsuleCat/propel/commit/2836539bd9b38ed39bb6b38ee689800e013a1796))
 * migrate propel to propel-server ([a808e3e](https://github.com/CapsuleCat/propel/commit/a808e3e44cd15115c5677ee2ead792c974903e6a))
 * update versions and scripts ([44cd8ab](https://github.com/CapsuleCat/propel/commit/44cd8abe5a558f10f8121871bce1ff0742d6b667))
-
-## 0.1.0 (2023-01-22)
-
-
-### Features
-
-* add example and fix issues with files 725c2b5
-* add Factory decorator 22efbe5
-* add Inject and Repository decorators cf3861a
-* add propel-forward 4993b09
-* add request decorators and definitions 4ef0f58
-* add tests, set up code coverage 6c9eccf
-* migrate propel to propel-server a808e3e
-* update versions and scripts 44cd8ab
