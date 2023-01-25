@@ -1,0 +1,25 @@
+{
+    "extends": ["../../.eslintrc.json"],
+    "ignorePatterns": ["!**/*"],
+    "parserOptions": {
+        "project": [
+            "packages/propel-sequelize/tsconfig.json",
+            "packages/propel-sequelize/tsconfig.lib.json",
+            "packages/propel-sequelize/tsconfig.spec.json"
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+            "rules": {}
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "rules": {}
+        },
+        {
+            "files": ["*.js", "*.jsx"],
+            "rules": {}
+        }
+    ]
+}

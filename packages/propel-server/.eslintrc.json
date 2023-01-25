@@ -1,0 +1,27 @@
+{
+    "extends": ["../../.eslintrc.json"],
+    "ignorePatterns": ["!**/*"],
+    "parserOptions": {
+        "project": [
+            "packages/propel-server/tsconfig.json",
+            "packages/propel-server/tsconfig.lib.json",
+            "packages/propel-server/tsconfig.spec.json"
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+            "rules": {}
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "rules": {
+                "@typescript-eslint/no-explicit-any": "off"
+            }
+        },
+        {
+            "files": ["*.js", "*.jsx"],
+            "rules": {}
+        }
+    ]
+}
