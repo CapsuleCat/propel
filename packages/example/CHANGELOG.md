@@ -2,6 +2,7 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.1](https://github.com/CapsuleCat/propel/compare/example-0.1.0...example-0.1.1) (2023-01-25)
 
 ## 0.1.0 (2023-01-22)
 
