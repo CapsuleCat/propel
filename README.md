@@ -1,5 +1,7 @@
 # Propel
 
+[Documentation](http://capsulecat.com/propel/)
+
 A set of packages to create clients and services quickly with a standard way
 of wiring up dependencies and endpoints.
 
