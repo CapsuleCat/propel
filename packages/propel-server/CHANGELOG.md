@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/CapsuleCat/propel/compare/propel-server-0.1.1...propel-server-0.2.0) (2023-02-05)
+
+
+### Features
+
+* add test inits ([bd9924f](https://github.com/CapsuleCat/propel/commit/bd9924fd55bba4c151eb149f4d73174a67c10cd5))
+
 ### [0.1.1](https://github.com/CapsuleCat/propel/compare/propel-server-0.1.0...propel-server-0.1.1) (2023-01-25)
 
 ## 0.1.0 (2023-01-22)
