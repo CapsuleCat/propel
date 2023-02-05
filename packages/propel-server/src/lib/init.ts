@@ -5,6 +5,10 @@ class DefaultPlugin implements PropelPlugin {
     async init() {
         await executeDeferStack();
     }
+
+    async initTest() {
+        await executeDeferStack();
+    }
 }
 
 class Propel {
@@ -22,7 +26,9 @@ class Propel {
 
     async init() {
         for (const plugin of this.plugins) {
-            if (plugin.init) {
+            if (process.env.NODE_ENV === "test" && plugin.initTest) {
+                await plugin.initTest();
+            } else if (process.env.NODE_ENV !== "test" && plugin.init) {
                 await plugin.init();
             }
         }

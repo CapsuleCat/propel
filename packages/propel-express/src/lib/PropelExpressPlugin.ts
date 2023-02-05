@@ -36,4 +36,21 @@ export class PropelExpressPlugin implements PropelPlugin {
             console.log(`Server running on port ${port}`);
         });
     }
+
+    async initTest() {
+        register("express", function () {
+            return express();
+        });
+
+        const enableBodyParser = this.options?.enableBodyParser ?? true;
+        const app = getDependency<Application>("express");
+
+        if (enableBodyParser) {
+            app?.use(bodyParser.json());
+        }
+
+        executeControllerStack();
+
+        await executeBootstrapStack();
+    }
 }

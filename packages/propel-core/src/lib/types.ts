@@ -18,6 +18,7 @@ export interface InjectOptions extends AccessorOptions {
  */
 export interface PropelPlugin {
     init?: () => Promise<void>;
+    initTest?: () => Promise<void>;
 }
 
 export type WhenCallback = () => boolean;

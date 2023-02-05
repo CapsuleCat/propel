@@ -13,6 +13,7 @@
         "publish": "npm-run-all publish:* --serial",
         "publish-dry-run": "npm-run-all \"publish:* -- --dry-run\" --serial",
         "publish:core": "nx deploy propel-core",
+        "publish:forward": "nx deploy propel-forward",
         "publish:server": "nx deploy propel-server",
         "publish:sequelize": "nx deploy propel-sequelize",
         "publish:express": "nx deploy propel-express",
