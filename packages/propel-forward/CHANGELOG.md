@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.2](https://github.com/CapsuleCat/propel/compare/propel-forward-0.1.1...propel-forward-0.1.2) (2023-02-05)
+
 ### [0.1.1](https://github.com/CapsuleCat/propel/compare/propel-forward-0.1.0...propel-forward-0.1.1) (2023-01-25)
 
 ## 0.1.0 (2023-01-22)

@@ -1,7 +1,7 @@
 {
     "name": "@capsule-cat/propel-forward",
     "license": "MIT",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "type": "commonjs",
     "typedoc": {
         "entryPoint": "./src/index.ts",
