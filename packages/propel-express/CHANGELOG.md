@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.2](https://github.com/CapsuleCat/propel/compare/propel-express-0.2.1...propel-express-0.2.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* pass request and response by default ([280af30](https://github.com/CapsuleCat/propel/commit/280af3088acd17512f34ea340b72ad7a9e8592e5))
+
 ### [0.2.1](https://github.com/CapsuleCat/propel/compare/propel-express-0.2.0...propel-express-0.2.1) (2023-02-06)
 
 
