@@ -41,7 +41,7 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                 try {
                     const expectedNumberOfArguments = originalMethod.length;
 
-                    const newArgs = Array.from({
+                    let newArgs = Array.from({
                         length: expectedNumberOfArguments,
                     })
                         .fill(null)
@@ -52,6 +52,7 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                                 index,
                                 req
                             );
+
                             return validateValue(
                                 targetClass,
                                 propertyKey,
@@ -61,10 +62,10 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                         });
 
                     let autoHandleRequest = true;
-                    if (newArgs.length === 0) {
+                    if (newArgs.every((arg) => arg === undefined)) {
                         autoHandleRequest = false;
                         // Inject the request and response objects
-                        newArgs.push(req, res);
+                        newArgs = [req, res];
                     }
 
                     const response = await originalMethod.apply(this, newArgs);
