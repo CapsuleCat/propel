@@ -26,6 +26,7 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
         const method = this.method;
         const middleware = this.options?.middleware ?? [];
 
+        // eslint-disable-next-line sonarjs/cognitive-complexity
         return function RequestMappingDecorator(
             target: any,
             propertyKey: string | symbol,
@@ -59,13 +60,22 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                             );
                         });
 
-                    const response = await originalMethod.apply(this, newArgs);
-
-                    if (contentType) {
-                        res.contentType(contentType);
+                    let autoHandleRequest = true;
+                    if (newArgs.length === 0) {
+                        autoHandleRequest = false;
+                        // Inject the request and response objects
+                        newArgs.push(req, res);
                     }
 
-                    res.send(response);
+                    const response = await originalMethod.apply(this, newArgs);
+
+                    if (autoHandleRequest) {
+                        if (contentType) {
+                            res.contentType(contentType);
+                        }
+
+                        res.send(response);
+                    }
                 } catch (error) {
                     if (createHttpError.isHttpError(error)) {
                         const safeError = error as HttpError;
