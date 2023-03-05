@@ -16,7 +16,7 @@
 					"fileName": "packages/propel-cli/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-cli/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-cli/src/index.ts#L1"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -77,26 +77,26 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 3,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L3"
 						}
 					],
 					"extendedBy": [
 						{
 							"type": "reference",
-							"id": 29,
+							"id": 32,
 							"name": "InjectOptions"
 						}
 					]
 				},
 				{
-					"id": 29,
+					"id": 32,
 					"name": "InjectOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 30,
+							"id": 33,
 							"name": "args",
 							"kind": 1024,
 							"kindString": "Property",
@@ -108,7 +108,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L11"
 								}
 							],
 							"type": {
@@ -120,7 +120,7 @@
 							}
 						},
 						{
-							"id": 31,
+							"id": 34,
 							"name": "failIfMissing",
 							"kind": 1024,
 							"kindString": "Property",
@@ -132,7 +132,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L12"
 								}
 							],
 							"type": {
@@ -141,7 +141,7 @@
 							}
 						},
 						{
-							"id": 36,
+							"id": 39,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -161,7 +161,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -175,7 +175,7 @@
 							}
 						},
 						{
-							"id": 32,
+							"id": 35,
 							"name": "unbox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -187,13 +187,13 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 13,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L13"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L13"
 								}
 							],
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 33,
+									"id": 36,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -203,19 +203,19 @@
 											"fileName": "packages/propel-core/src/lib/types.ts",
 											"line": 13,
 											"character": 12,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L13"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L13"
 										}
 									],
 									"signatures": [
 										{
-											"id": 34,
+											"id": 37,
 											"name": "__type",
 											"kind": 4096,
 											"kindString": "Call signature",
 											"flags": {},
 											"parameters": [
 												{
-													"id": 35,
+													"id": 38,
 													"name": "injectable",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -240,10 +240,10 @@
 						{
 							"title": "Properties",
 							"children": [
-								30,
-								31,
-								36,
-								32
+								33,
+								34,
+								39,
+								35
 							]
 						}
 					],
@@ -252,7 +252,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 10,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L10"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L10"
 						}
 					],
 					"extendedTypes": [
@@ -291,7 +291,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 20,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L20"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L20"
 								}
 							],
 							"type": {
@@ -307,12 +307,68 @@
 											"fileName": "packages/propel-core/src/lib/types.ts",
 											"line": 20,
 											"character": 11,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L20"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L20"
 										}
 									],
 									"signatures": [
 										{
 											"id": 13,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												],
+												"name": "Promise",
+												"qualifiedName": "Promise",
+												"package": "typescript"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 14,
+							"name": "initTest",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "packages/propel-core/src/lib/types.ts",
+									"line": 21,
+									"character": 4,
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L21"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 15,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "packages/propel-core/src/lib/types.ts",
+											"line": 21,
+											"character": 15,
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L21"
+										}
+									],
+									"signatures": [
+										{
+											"id": 16,
 											"name": "__type",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -339,7 +395,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								11
+								11,
+								14
 							]
 						}
 					],
@@ -348,7 +405,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 19,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L19"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L19"
 						}
 					]
 				},
@@ -363,7 +420,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 1,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L1"
 						}
 					],
 					"type": {
@@ -372,7 +429,7 @@
 					}
 				},
 				{
-					"id": 25,
+					"id": 28,
 					"name": "TargetClass",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -382,13 +439,13 @@
 							"fileName": "packages/propel-core/src/lib/toClass.ts",
 							"line": 1,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/toClass.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L1"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 26,
+							"id": 29,
 							"name": "__type",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -398,19 +455,19 @@
 									"fileName": "packages/propel-core/src/lib/toClass.ts",
 									"line": 1,
 									"character": 26,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/toClass.ts#L1"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L1"
 								}
 							],
 							"signatures": [
 								{
-									"id": 27,
+									"id": 30,
 									"name": "__type",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 28,
+											"id": 31,
 											"name": "arg",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -436,7 +493,7 @@
 					}
 				},
 				{
-					"id": 37,
+					"id": 40,
 					"name": "WhenCallback",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -444,15 +501,15 @@
 					"sources": [
 						{
 							"fileName": "packages/propel-core/src/lib/types.ts",
-							"line": 23,
+							"line": 24,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L23"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L24"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 38,
+							"id": 41,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -460,14 +517,14 @@
 							"sources": [
 								{
 									"fileName": "packages/propel-core/src/lib/types.ts",
-									"line": 23,
+									"line": 24,
 									"character": 27,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L23"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L24"
 								}
 							],
 							"signatures": [
 								{
-									"id": 39,
+									"id": 42,
 									"name": "__type",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -482,7 +539,7 @@
 					}
 				},
 				{
-					"id": 14,
+					"id": 17,
 					"name": "createAccessorKey",
 					"kind": 64,
 					"kindString": "Function",
@@ -492,12 +549,12 @@
 							"fileName": "packages/propel-core/src/lib/accessors.ts",
 							"line": 10,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/accessors.ts#L10"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/accessors.ts#L10"
 						}
 					],
 					"signatures": [
 						{
-							"id": 15,
+							"id": 18,
 							"name": "createAccessorKey",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -523,7 +580,7 @@
 							},
 							"parameters": [
 								{
-									"id": 16,
+									"id": 19,
 									"name": "propertyKey",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -551,7 +608,7 @@
 									}
 								},
 								{
-									"id": 17,
+									"id": 20,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -582,7 +639,7 @@
 					]
 				},
 				{
-					"id": 40,
+					"id": 43,
 					"name": "createAppBottle",
 					"kind": 64,
 					"kindString": "Function",
@@ -592,12 +649,12 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 15,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L15"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L15"
 						}
 					],
 					"signatures": [
 						{
-							"id": 41,
+							"id": 44,
 							"name": "createAppBottle",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -623,7 +680,7 @@
 							},
 							"parameters": [
 								{
-									"id": 42,
+									"id": 45,
 									"name": "bottleInstance",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -668,7 +725,7 @@
 					]
 				},
 				{
-					"id": 56,
+					"id": 59,
 					"name": "debugBottle",
 					"kind": 64,
 					"kindString": "Function",
@@ -678,12 +735,12 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 63,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L63"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L63"
 						}
 					],
 					"signatures": [
 						{
-							"id": 57,
+							"id": 60,
 							"name": "debugBottle",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -696,7 +753,7 @@
 					]
 				},
 				{
-					"id": 43,
+					"id": 46,
 					"name": "getDependency",
 					"kind": 64,
 					"kindString": "Function",
@@ -706,12 +763,12 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 26,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L26"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L26"
 						}
 					],
 					"signatures": [
 						{
-							"id": 44,
+							"id": 47,
 							"name": "getDependency",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -732,7 +789,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 45,
+									"id": 48,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -745,7 +802,7 @@
 							],
 							"parameters": [
 								{
-									"id": 46,
+									"id": 49,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -769,7 +826,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 45,
+										"id": 48,
 										"name": "T"
 									},
 									{
@@ -782,7 +839,7 @@
 					]
 				},
 				{
-					"id": 18,
+					"id": 21,
 					"name": "logger",
 					"kind": 64,
 					"kindString": "Function",
@@ -792,19 +849,19 @@
 							"fileName": "packages/propel-core/src/lib/logging.ts",
 							"line": 5,
 							"character": 6,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/logging.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/logging.ts#L5"
 						}
 					],
 					"signatures": [
 						{
-							"id": 19,
+							"id": 22,
 							"name": "logger",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 20,
+									"id": 23,
 									"name": "formatter",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -815,7 +872,7 @@
 									}
 								},
 								{
-									"id": 21,
+									"id": 24,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -839,7 +896,7 @@
 					]
 				},
 				{
-					"id": 49,
+					"id": 52,
 					"name": "register",
 					"kind": 64,
 					"kindString": "Function",
@@ -849,12 +906,12 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 47,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L47"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L47"
 						}
 					],
 					"signatures": [
 						{
-							"id": 50,
+							"id": 53,
 							"name": "register",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -869,7 +926,7 @@
 							},
 							"parameters": [
 								{
-									"id": 51,
+									"id": 54,
 									"name": "accessorKey",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -888,7 +945,7 @@
 									}
 								},
 								{
-									"id": 52,
+									"id": 55,
 									"name": "service",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -906,13 +963,13 @@
 										"types": [
 											{
 												"type": "reference",
-												"id": 25,
+												"id": 28,
 												"name": "TargetClass"
 											},
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 53,
+													"id": 56,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -922,19 +979,19 @@
 															"fileName": "packages/propel-core/src/lib/ioc.ts",
 															"line": 49,
 															"character": 14,
-															"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L49"
+															"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L49"
 														}
 													],
 													"signatures": [
 														{
-															"id": 54,
+															"id": 57,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 55,
+																	"id": 58,
 																	"name": "any",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -970,7 +1027,7 @@
 					]
 				},
 				{
-					"id": 47,
+					"id": 50,
 					"name": "resetAppBottle",
 					"kind": 64,
 					"kindString": "Function",
@@ -980,12 +1037,12 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 37,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/ioc.ts#L37"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L37"
 						}
 					],
 					"signatures": [
 						{
-							"id": 48,
+							"id": 51,
 							"name": "resetAppBottle",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -998,7 +1055,7 @@
 					]
 				},
 				{
-					"id": 22,
+					"id": 25,
 					"name": "toClass",
 					"kind": 64,
 					"kindString": "Function",
@@ -1008,12 +1065,12 @@
 							"fileName": "packages/propel-core/src/lib/toClass.ts",
 							"line": 9,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/toClass.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L9"
 						}
 					],
 					"signatures": [
 						{
-							"id": 23,
+							"id": 26,
 							"name": "toClass",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1039,7 +1096,7 @@
 							},
 							"parameters": [
 								{
-									"id": 24,
+									"id": 27,
 									"name": "target",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1060,7 +1117,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 25,
+								"id": 28,
 								"name": "TargetClass"
 							}
 						}
@@ -1072,7 +1129,7 @@
 					"title": "Interfaces",
 					"children": [
 						8,
-						29,
+						32,
 						10
 					]
 				},
@@ -1080,21 +1137,21 @@
 					"title": "Type Aliases",
 					"children": [
 						7,
-						25,
-						37
+						28,
+						40
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						14,
-						40,
-						56,
+						17,
 						43,
-						18,
-						49,
-						47,
-						22
+						59,
+						46,
+						21,
+						52,
+						50,
+						25
 					]
 				}
 			],
@@ -1103,7 +1160,7 @@
 					"fileName": "packages/propel-core/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/index.ts#L1"
 				}
 			]
 		},
@@ -1115,14 +1172,14 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 73,
+					"id": 76,
 					"name": "PropelExpressPlugin",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 74,
+							"id": 77,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1132,19 +1189,19 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 15,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
 								}
 							],
 							"signatures": [
 								{
-									"id": 75,
+									"id": 78,
 									"name": "new PropelExpressPlugin",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 76,
+											"id": 79,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1153,21 +1210,21 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 70,
+												"id": 73,
 												"name": "PropelExpressPluginOptions"
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
-										"id": 73,
+										"id": 76,
 										"name": "PropelExpressPlugin"
 									}
 								}
 							]
 						},
 						{
-							"id": 77,
+							"id": 80,
 							"name": "options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1180,17 +1237,17 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 15,
 									"character": 24,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
 								}
 							],
 							"type": {
 								"type": "reference",
-								"id": 70,
+								"id": 73,
 								"name": "PropelExpressPluginOptions"
 							}
 						},
 						{
-							"id": 78,
+							"id": 81,
 							"name": "init",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1200,12 +1257,12 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 16,
 									"character": 10,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L16"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L16"
 								}
 							],
 							"signatures": [
 								{
-									"id": 79,
+									"id": 82,
 									"name": "init",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1232,25 +1289,70 @@
 								"type": "reference",
 								"name": "PropelPlugin.init"
 							}
+						},
+						{
+							"id": 83,
+							"name": "initTest",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
+									"line": 40,
+									"character": 10,
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L40"
+								}
+							],
+							"signatures": [
+								{
+									"id": 84,
+									"name": "initTest",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise",
+										"qualifiedName": "Promise",
+										"package": "typescript"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"name": "PropelPlugin.initTest"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"name": "PropelPlugin.initTest"
+							}
 						}
 					],
 					"groups": [
 						{
 							"title": "Constructors",
 							"children": [
-								74
+								77
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								77
+								80
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								78
+								81,
+								83
 							]
 						}
 					],
@@ -1259,7 +1361,7 @@
 							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 							"line": 14,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L14"
 						}
 					],
 					"implementedTypes": [
@@ -1270,14 +1372,14 @@
 					]
 				},
 				{
-					"id": 70,
+					"id": 73,
 					"name": "PropelExpressPluginOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 71,
+							"id": 74,
 							"name": "enableBodyParser",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1289,7 +1391,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L10"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L10"
 								}
 							],
 							"type": {
@@ -1298,7 +1400,7 @@
 							}
 						},
 						{
-							"id": 72,
+							"id": 75,
 							"name": "port",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1310,7 +1412,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L11"
 								}
 							],
 							"type": {
@@ -1323,8 +1425,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								71,
-								72
+								74,
+								75
 							]
 						}
 					],
@@ -1333,19 +1435,19 @@
 							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 							"line": 9,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/PropelExpressPlugin.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L9"
 						}
 					]
 				},
 				{
-					"id": 115,
+					"id": 120,
 					"name": "RequestMappingOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 117,
+							"id": 122,
 							"name": "contentType",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1357,7 +1459,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 15,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L15"
 								}
 							],
 							"type": {
@@ -1366,7 +1468,7 @@
 							}
 						},
 						{
-							"id": 116,
+							"id": 121,
 							"name": "middleware",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1378,7 +1480,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 14,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L14"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L14"
 								}
 							],
 							"type": {
@@ -1434,8 +1536,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								117,
-								116
+								122,
+								121
 							]
 						}
 					],
@@ -1444,12 +1546,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 13,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L13"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L13"
 						}
 					]
 				},
 				{
-					"id": 64,
+					"id": 67,
 					"name": "Validator",
 					"kind": 256,
 					"kindString": "Interface",
@@ -1472,7 +1574,7 @@
 					},
 					"children": [
 						{
-							"id": 65,
+							"id": 68,
 							"name": "validate",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1482,33 +1584,33 @@
 									"fileName": "packages/propel-express/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 66,
+									"id": 69,
 									"name": "validate",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 67,
+											"id": 70,
 											"name": "v",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 68,
+												"id": 71,
 												"name": "T"
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
-										"id": 69,
+										"id": 72,
 										"name": "U"
 									}
 								}
@@ -1519,7 +1621,7 @@
 						{
 							"title": "Methods",
 							"children": [
-								65
+								68
 							]
 						}
 					],
@@ -1528,19 +1630,19 @@
 							"fileName": "packages/propel-express/src/lib/types.ts",
 							"line": 11,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/types.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L11"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 68,
+							"id": 71,
 							"name": "T",
 							"kind": 131072,
 							"kindString": "Type parameter",
 							"flags": {}
 						},
 						{
-							"id": 69,
+							"id": 72,
 							"name": "U",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -1553,7 +1655,7 @@
 					]
 				},
 				{
-					"id": 58,
+					"id": 61,
 					"name": "Class",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1563,19 +1665,19 @@
 							"fileName": "packages/propel-express/src/lib/types.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/types.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L4"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 62,
+							"id": 65,
 							"name": "I",
 							"kind": 131072,
 							"kindString": "Type parameter",
 							"flags": {}
 						},
 						{
-							"id": 63,
+							"id": 66,
 							"name": "Args",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -1599,7 +1701,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 59,
+							"id": 62,
 							"name": "__type",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1609,12 +1711,12 @@
 									"fileName": "packages/propel-express/src/lib/types.ts",
 									"line": 4,
 									"character": 51,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/types.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L4"
 								}
 							],
 							"signatures": [
 								{
-									"id": 60,
+									"id": 63,
 									"name": "__type",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -1629,7 +1731,7 @@
 									},
 									"parameters": [
 										{
-											"id": 61,
+											"id": 64,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1638,14 +1740,14 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 63,
+												"id": 66,
 												"name": "Args"
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
-										"id": 62,
+										"id": 65,
 										"name": "I"
 									}
 								}
@@ -1654,7 +1756,7 @@
 					}
 				},
 				{
-					"id": 138,
+					"id": 143,
 					"name": "ControllerOptions",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1664,7 +1766,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 24,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/services/Controller.ts#L24"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L24"
 						}
 					],
 					"type": {
@@ -1673,7 +1775,7 @@
 					}
 				},
 				{
-					"id": 83,
+					"id": 88,
 					"name": "ExpressBootstrapOptions",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1683,7 +1785,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
 							"line": 9,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L9"
 						}
 					],
 					"type": {
@@ -1692,7 +1794,7 @@
 					}
 				},
 				{
-					"id": 108,
+					"id": 113,
 					"name": "RouteMapping",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1702,7 +1804,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L4"
 						}
 					],
 					"type": {
@@ -1728,7 +1830,7 @@
 					}
 				},
 				{
-					"id": 137,
+					"id": 142,
 					"name": "RouteType",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1738,7 +1840,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 14,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/services/Controller.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L14"
 						}
 					],
 					"type": {
@@ -1780,7 +1882,7 @@
 					}
 				},
 				{
-					"id": 129,
+					"id": 134,
 					"name": "ValidatorClass",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -1790,19 +1892,19 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Validate.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Validate.ts#L4"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 130,
+							"id": 135,
 							"name": "T",
 							"kind": 131072,
 							"kindString": "Type parameter",
 							"flags": {}
 						},
 						{
-							"id": 131,
+							"id": 136,
 							"name": "U",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -1811,20 +1913,20 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 58,
+						"id": 61,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 64,
+								"id": 67,
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 130,
+										"id": 135,
 										"name": "T"
 									},
 									{
 										"type": "reference",
-										"id": 131,
+										"id": 136,
 										"name": "U"
 									}
 								],
@@ -1838,7 +1940,7 @@
 					}
 				},
 				{
-					"id": 109,
+					"id": 114,
 					"name": "RouteMappings",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1850,20 +1952,20 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 6,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 110,
+							"id": 115,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
 							"flags": {},
 							"children": [
 								{
-									"id": 114,
+									"id": 119,
 									"name": "delete",
 									"kind": 1024,
 									"kindString": "Property",
@@ -1873,7 +1975,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 10,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L10"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L10"
 										}
 									],
 									"type": {
@@ -1883,7 +1985,7 @@
 									"defaultValue": "\"delete\""
 								},
 								{
-									"id": 111,
+									"id": 116,
 									"name": "get",
 									"kind": 1024,
 									"kindString": "Property",
@@ -1893,7 +1995,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 7,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L7"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L7"
 										}
 									],
 									"type": {
@@ -1903,7 +2005,7 @@
 									"defaultValue": "\"get\""
 								},
 								{
-									"id": 113,
+									"id": 118,
 									"name": "patch",
 									"kind": 1024,
 									"kindString": "Property",
@@ -1913,7 +2015,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 9,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L9"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L9"
 										}
 									],
 									"type": {
@@ -1923,7 +2025,7 @@
 									"defaultValue": "\"patch\""
 								},
 								{
-									"id": 112,
+									"id": 117,
 									"name": "post",
 									"kind": 1024,
 									"kindString": "Property",
@@ -1933,7 +2035,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 8,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L8"
+											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L8"
 										}
 									],
 									"type": {
@@ -1947,10 +2049,10 @@
 								{
 									"title": "Properties",
 									"children": [
-										114,
-										111,
-										113,
-										112
+										119,
+										116,
+										118,
+										117
 									]
 								}
 							],
@@ -1959,7 +2061,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 6,
 									"character": 29,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
 								}
 							]
 						}
@@ -1967,7 +2069,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 132,
+					"id": 137,
 					"name": "Controller",
 					"kind": 64,
 					"kindString": "Function",
@@ -1977,12 +2079,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 37,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/services/Controller.ts#L37"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L37"
 						}
 					],
 					"signatures": [
 						{
-							"id": 133,
+							"id": 138,
 							"name": "Controller",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2008,7 +2110,7 @@
 							},
 							"parameters": [
 								{
-									"id": 134,
+									"id": 139,
 									"name": "baseUrl",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2029,7 +2131,7 @@
 									}
 								},
 								{
-									"id": 135,
+									"id": 140,
 									"name": "middlewares",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2092,7 +2194,7 @@
 									"defaultValue": "[]"
 								},
 								{
-									"id": 136,
+									"id": 141,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2123,7 +2225,7 @@
 					]
 				},
 				{
-					"id": 84,
+					"id": 89,
 					"name": "Delete",
 					"kind": 64,
 					"kindString": "Function",
@@ -2133,12 +2235,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Delete.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Delete.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Delete.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 85,
+							"id": 90,
 							"name": "Delete",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2164,7 +2266,7 @@
 							},
 							"parameters": [
 								{
-									"id": 86,
+									"id": 91,
 									"name": "routePath",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2183,7 +2285,7 @@
 									}
 								},
 								{
-									"id": 87,
+									"id": 92,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2200,7 +2302,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 115,
+										"id": 120,
 										"name": "RequestMappingOptions"
 									}
 								}
@@ -2215,7 +2317,7 @@
 					]
 				},
 				{
-					"id": 80,
+					"id": 85,
 					"name": "ExpressBootstrap",
 					"kind": 64,
 					"kindString": "Function",
@@ -2225,12 +2327,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
 							"line": 29,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L29"
 						}
 					],
 					"signatures": [
 						{
-							"id": 81,
+							"id": 86,
 							"name": "ExpressBootstrap",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2265,7 +2367,7 @@
 							},
 							"parameters": [
 								{
-									"id": 82,
+									"id": 87,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2296,7 +2398,7 @@
 					]
 				},
 				{
-					"id": 88,
+					"id": 93,
 					"name": "Get",
 					"kind": 64,
 					"kindString": "Function",
@@ -2306,12 +2408,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Get.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Get.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Get.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 89,
+							"id": 94,
 							"name": "Get",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2337,7 +2439,7 @@
 							},
 							"parameters": [
 								{
-									"id": 90,
+									"id": 95,
 									"name": "routePath",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2356,7 +2458,7 @@
 									}
 								},
 								{
-									"id": 91,
+									"id": 96,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2373,7 +2475,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 115,
+										"id": 120,
 										"name": "RequestMappingOptions"
 									}
 								}
@@ -2388,7 +2490,7 @@
 					]
 				},
 				{
-					"id": 92,
+					"id": 97,
 					"name": "Patch",
 					"kind": 64,
 					"kindString": "Function",
@@ -2398,12 +2500,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Patch.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Patch.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Patch.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 93,
+							"id": 98,
 							"name": "Patch",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2429,7 +2531,7 @@
 							},
 							"parameters": [
 								{
-									"id": 94,
+									"id": 99,
 									"name": "routePath",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2448,7 +2550,7 @@
 									}
 								},
 								{
-									"id": 95,
+									"id": 100,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2465,7 +2567,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 115,
+										"id": 120,
 										"name": "RequestMappingOptions"
 									}
 								}
@@ -2480,7 +2582,7 @@
 					]
 				},
 				{
-					"id": 96,
+					"id": 101,
 					"name": "Post",
 					"kind": 64,
 					"kindString": "Function",
@@ -2490,12 +2592,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Post.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Post.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Post.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 97,
+							"id": 102,
 							"name": "Post",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2521,7 +2623,7 @@
 							},
 							"parameters": [
 								{
-									"id": 98,
+									"id": 103,
 									"name": "routePath",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2540,7 +2642,7 @@
 									}
 								},
 								{
-									"id": 99,
+									"id": 104,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2557,7 +2659,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 115,
+										"id": 120,
 										"name": "RequestMappingOptions"
 									}
 								}
@@ -2572,7 +2674,7 @@
 					]
 				},
 				{
-					"id": 100,
+					"id": 105,
 					"name": "RequestBody",
 					"kind": 64,
 					"kindString": "Function",
@@ -2582,12 +2684,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestBody.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestBody.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestBody.ts#L14"
 						}
 					],
 					"signatures": [
 						{
-							"id": 101,
+							"id": 106,
 							"name": "RequestBody",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2613,7 +2715,7 @@
 							},
 							"parameters": [
 								{
-									"id": 102,
+									"id": 107,
 									"name": "propertyName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2644,7 +2746,7 @@
 					]
 				},
 				{
-					"id": 103,
+					"id": 108,
 					"name": "RequestMapping",
 					"kind": 64,
 					"kindString": "Function",
@@ -2654,12 +2756,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 31,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L31"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L31"
 						}
 					],
 					"signatures": [
 						{
-							"id": 104,
+							"id": 109,
 							"name": "RequestMapping",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2701,7 +2803,7 @@
 							},
 							"parameters": [
 								{
-									"id": 105,
+									"id": 110,
 									"name": "routePath",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2720,7 +2822,7 @@
 									}
 								},
 								{
-									"id": 106,
+									"id": 111,
 									"name": "method",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2735,12 +2837,12 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 108,
+										"id": 113,
 										"name": "RouteMapping"
 									}
 								},
 								{
-									"id": 107,
+									"id": 112,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2757,7 +2859,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 115,
+										"id": 120,
 										"name": "RequestMappingOptions"
 									}
 								}
@@ -2772,7 +2874,7 @@
 					]
 				},
 				{
-					"id": 118,
+					"id": 123,
 					"name": "RequestParam",
 					"kind": 64,
 					"kindString": "Function",
@@ -2782,12 +2884,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestParam.ts",
 							"line": 11,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestParam.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestParam.ts#L11"
 						}
 					],
 					"signatures": [
 						{
-							"id": 119,
+							"id": 124,
 							"name": "RequestParam",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2813,7 +2915,7 @@
 							},
 							"parameters": [
 								{
-									"id": 120,
+									"id": 125,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2842,7 +2944,7 @@
 					]
 				},
 				{
-					"id": 121,
+					"id": 126,
 					"name": "RequestQuery",
 					"kind": 64,
 					"kindString": "Function",
@@ -2852,12 +2954,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestQuery.ts",
 							"line": 19,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/RequestQuery.ts#L19"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestQuery.ts#L19"
 						}
 					],
 					"signatures": [
 						{
-							"id": 122,
+							"id": 127,
 							"name": "RequestQuery",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2892,7 +2994,7 @@
 							},
 							"parameters": [
 								{
-									"id": 123,
+									"id": 128,
 									"name": "queryName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2923,7 +3025,7 @@
 					]
 				},
 				{
-					"id": 124,
+					"id": 129,
 					"name": "Validate",
 					"kind": 64,
 					"kindString": "Function",
@@ -2933,12 +3035,12 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
 							"line": 17,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/lib/decorators/requests/Validate.ts#L17"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Validate.ts#L17"
 						}
 					],
 					"signatures": [
 						{
-							"id": 125,
+							"id": 130,
 							"name": "Validate",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2964,14 +3066,14 @@
 							},
 							"typeParameter": [
 								{
-									"id": 126,
+									"id": 131,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
 									"flags": {}
 								},
 								{
-									"id": 127,
+									"id": 132,
 									"name": "U",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -2980,7 +3082,7 @@
 							],
 							"parameters": [
 								{
-									"id": 128,
+									"id": 133,
 									"name": "validator",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2995,16 +3097,16 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 129,
+										"id": 134,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 126,
+												"id": 131,
 												"name": "T"
 											},
 											{
 												"type": "reference",
-												"id": 127,
+												"id": 132,
 												"name": "U"
 											}
 										],
@@ -3026,48 +3128,48 @@
 				{
 					"title": "Classes",
 					"children": [
-						73
+						76
 					]
 				},
 				{
 					"title": "Interfaces",
 					"children": [
-						70,
-						115,
-						64
+						73,
+						120,
+						67
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						58,
-						138,
-						83,
-						108,
-						137,
-						129
+						61,
+						143,
+						88,
+						113,
+						142,
+						134
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						109
+						114
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						132,
-						84,
-						80,
-						88,
-						92,
-						96,
-						100,
-						103,
-						118,
-						121,
-						124
+						137,
+						89,
+						85,
+						93,
+						97,
+						101,
+						105,
+						108,
+						123,
+						126,
+						129
 					]
 				}
 			],
@@ -3076,7 +3178,7 @@
 					"fileName": "packages/propel-express/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-express/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/index.ts#L1"
 				}
 			]
 		},
@@ -3088,35 +3190,35 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 169,
+					"id": 174,
 					"name": "PropelForwardPlugin",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 170,
+							"id": 175,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
 							"flags": {},
 							"signatures": [
 								{
-									"id": 171,
+									"id": 176,
 									"name": "new PropelForwardPlugin",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"type": {
 										"type": "reference",
-										"id": 169,
+										"id": 174,
 										"name": "PropelForwardPlugin"
 									}
 								}
 							]
 						},
 						{
-							"id": 172,
+							"id": 177,
 							"name": "init",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3128,12 +3230,12 @@
 									"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
 									"line": 5,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L5"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L5"
 								}
 							],
 							"signatures": [
 								{
-									"id": 173,
+									"id": 178,
 									"name": "init",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3166,13 +3268,13 @@
 						{
 							"title": "Constructors",
 							"children": [
-								170
+								175
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								172
+								177
 							]
 						}
 					],
@@ -3181,7 +3283,7 @@
 							"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
 							"line": 3,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L3"
 						}
 					],
 					"implementedTypes": [
@@ -3192,14 +3294,14 @@
 					]
 				},
 				{
-					"id": 149,
+					"id": 154,
 					"name": "Cache",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 150,
+							"id": 155,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3209,19 +3311,19 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 2,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/Cache.ts#L2"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L2"
 								}
 							],
 							"signatures": [
 								{
-									"id": 151,
+									"id": 156,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 152,
+											"id": 157,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3230,7 +3332,7 @@
 									],
 									"parameters": [
 										{
-											"id": 153,
+											"id": 158,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3253,7 +3355,7 @@
 													},
 													{
 														"type": "reference",
-														"id": 152,
+														"id": 157,
 														"name": "T"
 													}
 												]
@@ -3267,7 +3369,7 @@
 							]
 						},
 						{
-							"id": 154,
+							"id": 159,
 							"name": "remove",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3277,19 +3379,19 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 3,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/Cache.ts#L3"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L3"
 								}
 							],
 							"signatures": [
 								{
-									"id": 155,
+									"id": 160,
 									"name": "remove",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 156,
+											"id": 161,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3316,7 +3418,7 @@
 							]
 						},
 						{
-							"id": 157,
+							"id": 162,
 							"name": "store",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3326,19 +3428,19 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 4,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/Cache.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L4"
 								}
 							],
 							"signatures": [
 								{
-									"id": 158,
+									"id": 163,
 									"name": "store",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 159,
+											"id": 164,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3347,7 +3449,7 @@
 									],
 									"parameters": [
 										{
-											"id": 160,
+											"id": 165,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3358,14 +3460,14 @@
 											}
 										},
 										{
-											"id": 161,
+											"id": 166,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 159,
+												"id": 164,
 												"name": "T"
 											}
 										}
@@ -3390,9 +3492,9 @@
 						{
 							"title": "Methods",
 							"children": [
-								150,
-								154,
-								157
+								155,
+								159,
+								162
 							]
 						}
 					],
@@ -3401,19 +3503,19 @@
 							"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 							"line": 1,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/Cache.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L1"
 						}
 					]
 				},
 				{
-					"id": 162,
+					"id": 167,
 					"name": "ExceptionLogger",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 163,
+							"id": 168,
 							"name": "notify",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3423,19 +3525,19 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
 									"line": 2,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L2"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L2"
 								}
 							],
 							"signatures": [
 								{
-									"id": 164,
+									"id": 169,
 									"name": "notify",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 165,
+											"id": 170,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3460,7 +3562,7 @@
 						{
 							"title": "Methods",
 							"children": [
-								163
+								168
 							]
 						}
 					],
@@ -3469,19 +3571,19 @@
 							"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
 							"line": 1,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L1"
 						}
 					]
 				},
 				{
-					"id": 139,
+					"id": 144,
 					"name": "Log",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 146,
+							"id": 151,
 							"name": "error",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3491,19 +3593,19 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/common/Logger.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L11"
 								}
 							],
 							"signatures": [
 								{
-									"id": 147,
+									"id": 152,
 									"name": "error",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 148,
+											"id": 153,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3527,7 +3629,7 @@
 							]
 						},
 						{
-							"id": 140,
+							"id": 145,
 							"name": "info",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3537,19 +3639,19 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/common/Logger.ts#L9"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L9"
 								}
 							],
 							"signatures": [
 								{
-									"id": 141,
+									"id": 146,
 									"name": "info",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 142,
+											"id": 147,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3573,7 +3675,7 @@
 							]
 						},
 						{
-							"id": 143,
+							"id": 148,
 							"name": "log",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3583,19 +3685,19 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/common/Logger.ts#L10"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L10"
 								}
 							],
 							"signatures": [
 								{
-									"id": 144,
+									"id": 149,
 									"name": "log",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 145,
+											"id": 150,
 											"name": "args",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3623,9 +3725,9 @@
 						{
 							"title": "Methods",
 							"children": [
-								146,
-								140,
-								143
+								151,
+								145,
+								148
 							]
 						}
 					],
@@ -3634,12 +3736,12 @@
 							"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 							"line": 8,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/common/Logger.ts#L8"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L8"
 						}
 					]
 				},
 				{
-					"id": 166,
+					"id": 171,
 					"name": "init",
 					"kind": 64,
 					"kindString": "Function",
@@ -3649,19 +3751,19 @@
 							"fileName": "packages/propel-forward/src/lib/init.ts",
 							"line": 11,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/lib/init.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/init.ts#L11"
 						}
 					],
 					"signatures": [
 						{
-							"id": 167,
+							"id": 172,
 							"name": "init",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 168,
+									"id": 173,
 									"name": "additionalPlugins",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3704,21 +3806,21 @@
 				{
 					"title": "Classes",
 					"children": [
-						169
+						174
 					]
 				},
 				{
 					"title": "Interfaces",
 					"children": [
-						149,
-						162,
-						139
+						154,
+						167,
+						144
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						166
+						171
 					]
 				}
 			],
@@ -3727,7 +3829,7 @@
 					"fileName": "packages/propel-forward/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-forward/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/index.ts#L1"
 				}
 			]
 		},
@@ -3739,7 +3841,7 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 174,
+					"id": 179,
 					"name": "BaseRepository",
 					"kind": 128,
 					"kindString": "Class",
@@ -3748,7 +3850,7 @@
 					},
 					"children": [
 						{
-							"id": 175,
+							"id": 180,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3758,19 +3860,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
 								{
-									"id": 176,
+									"id": 181,
 									"name": "new BaseRepository",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 177,
+											"id": 182,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3783,7 +3885,7 @@
 									],
 									"parameters": [
 										{
-											"id": 178,
+											"id": 183,
 											"name": "modelKey",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3798,11 +3900,11 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 174,
+										"id": 179,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 177,
+												"id": 182,
 												"name": "T"
 											}
 										],
@@ -3812,7 +3914,7 @@
 							]
 						},
 						{
-							"id": 179,
+							"id": 184,
 							"name": "modelKey",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3824,7 +3926,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 4,
 									"character": 12,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L4"
 								}
 							],
 							"type": {
@@ -3834,7 +3936,7 @@
 							"defaultValue": "\"model\""
 						},
 						{
-							"id": 180,
+							"id": 185,
 							"name": "getModel",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3846,12 +3948,12 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 181,
+									"id": 186,
 									"name": "getModel",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3864,12 +3966,12 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 177,
+														"id": 182,
 														"name": "T"
 													},
 													{
 														"type": "reference",
-														"id": 177,
+														"id": 182,
 														"name": "T"
 													}
 												],
@@ -3890,19 +3992,19 @@
 						{
 							"title": "Constructors",
 							"children": [
-								175
+								180
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								179
+								184
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								180
+								185
 							]
 						}
 					],
@@ -3911,12 +4013,12 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 							"line": 3,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L3"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 182,
+							"id": 187,
 							"name": "T",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -3930,18 +4032,18 @@
 					"extendedBy": [
 						{
 							"type": "reference",
-							"id": 183,
+							"id": 188,
 							"name": "CRUDRepository"
 						},
 						{
 							"type": "reference",
-							"id": 212,
+							"id": 217,
 							"name": "SingletonRepository"
 						}
 					]
 				},
 				{
-					"id": 183,
+					"id": 188,
 					"name": "CRUDRepository",
 					"kind": 128,
 					"kindString": "Class",
@@ -3950,7 +4052,7 @@
 					},
 					"children": [
 						{
-							"id": 184,
+							"id": 189,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3960,19 +4062,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
 								{
-									"id": 185,
+									"id": 190,
 									"name": "new CRUDRepository",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 186,
+											"id": 191,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3983,7 +4085,7 @@
 											}
 										},
 										{
-											"id": 187,
+											"id": 192,
 											"name": "PrimaryKeyType",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4007,7 +4109,7 @@
 									],
 									"parameters": [
 										{
-											"id": 188,
+											"id": 193,
 											"name": "modelKey",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4022,16 +4124,16 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 183,
+										"id": 188,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 186,
+												"id": 191,
 												"name": "T"
 											},
 											{
 												"type": "reference",
-												"id": 187,
+												"id": 192,
 												"name": "PrimaryKeyType"
 											}
 										],
@@ -4039,19 +4141,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 176,
+										"id": 181,
 										"name": "BaseRepository.constructor"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 175,
+								"id": 180,
 								"name": "BaseRepository.constructor"
 							}
 						},
 						{
-							"id": 194,
+							"id": 199,
 							"name": "create",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4063,19 +4165,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 17,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L17"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L17"
 								}
 							],
 							"signatures": [
 								{
-									"id": 195,
+									"id": 200,
 									"name": "create",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 196,
+											"id": 201,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4085,7 +4187,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 186,
+														"id": 191,
 														"name": "T"
 													}
 												],
@@ -4108,12 +4210,12 @@
 														"typeArguments": [
 															{
 																"type": "reference",
-																"id": 186,
+																"id": 191,
 																"name": "T"
 															},
 															{
 																"type": "reference",
-																"id": 186,
+																"id": 191,
 																"name": "T"
 															}
 														],
@@ -4132,7 +4234,7 @@
 							]
 						},
 						{
-							"id": 201,
+							"id": 206,
 							"name": "delete",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4144,26 +4246,26 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 37,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L37"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L37"
 								}
 							],
 							"signatures": [
 								{
-									"id": 202,
+									"id": 207,
 									"name": "delete",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 203,
+											"id": 208,
 											"name": "id",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 187,
+												"id": 192,
 												"name": "PrimaryKeyType"
 											}
 										}
@@ -4184,7 +4286,7 @@
 							]
 						},
 						{
-							"id": 191,
+							"id": 196,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4196,26 +4298,26 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 13,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L13"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L13"
 								}
 							],
 							"signatures": [
 								{
-									"id": 192,
+									"id": 197,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 193,
+											"id": 198,
 											"name": "id",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 187,
+												"id": 192,
 												"name": "PrimaryKeyType"
 											}
 										}
@@ -4235,12 +4337,12 @@
 														"typeArguments": [
 															{
 																"type": "reference",
-																"id": 186,
+																"id": 191,
 																"name": "T"
 															},
 															{
 																"type": "reference",
-																"id": 186,
+																"id": 191,
 																"name": "T"
 															}
 														],
@@ -4259,7 +4361,7 @@
 							]
 						},
 						{
-							"id": 189,
+							"id": 194,
 							"name": "getAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4271,12 +4373,12 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 9,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L9"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L9"
 								}
 							],
 							"signatures": [
 								{
-									"id": 190,
+									"id": 195,
 									"name": "getAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4291,12 +4393,12 @@
 													"typeArguments": [
 														{
 															"type": "reference",
-															"id": 186,
+															"id": 191,
 															"name": "T"
 														},
 														{
 															"type": "reference",
-															"id": 186,
+															"id": 191,
 															"name": "T"
 														}
 													],
@@ -4314,7 +4416,7 @@
 							]
 						},
 						{
-							"id": 204,
+							"id": 209,
 							"name": "getModel",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4326,12 +4428,12 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 205,
+									"id": 210,
 									"name": "getModel",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4344,12 +4446,12 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 186,
+														"id": 191,
 														"name": "T"
 													},
 													{
 														"type": "reference",
-														"id": 186,
+														"id": 191,
 														"name": "T"
 													}
 												],
@@ -4364,19 +4466,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 181,
+										"id": 186,
 										"name": "BaseRepository.getModel"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 180,
+								"id": 185,
 								"name": "BaseRepository.getModel"
 							}
 						},
 						{
-							"id": 197,
+							"id": 202,
 							"name": "update",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4388,31 +4490,31 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 23,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L23"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L23"
 								}
 							],
 							"signatures": [
 								{
-									"id": 198,
+									"id": 203,
 									"name": "update",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 199,
+											"id": 204,
 											"name": "id",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 187,
+												"id": 192,
 												"name": "PrimaryKeyType"
 											}
 										},
 										{
-											"id": 200,
+											"id": 205,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4422,7 +4524,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 186,
+														"id": 191,
 														"name": "T"
 													}
 												],
@@ -4450,18 +4552,18 @@
 						{
 							"title": "Constructors",
 							"children": [
-								184
+								189
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
+								199,
+								206,
+								196,
 								194,
-								201,
-								191,
-								189,
-								204,
-								197
+								209,
+								202
 							]
 						}
 					],
@@ -4470,12 +4572,12 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 							"line": 5,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L5"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 206,
+							"id": 211,
 							"name": "T",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -4486,7 +4588,7 @@
 							}
 						},
 						{
-							"id": 207,
+							"id": 212,
 							"name": "PrimaryKeyType",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -4511,11 +4613,11 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 174,
+							"id": 179,
 							"typeArguments": [
 								{
 									"type": "reference",
-									"id": 186,
+									"id": 191,
 									"name": "T"
 								}
 							],
@@ -4524,7 +4626,7 @@
 					]
 				},
 				{
-					"id": 212,
+					"id": 217,
 					"name": "SingletonRepository",
 					"kind": 128,
 					"kindString": "Class",
@@ -4533,7 +4635,7 @@
 					},
 					"children": [
 						{
-							"id": 213,
+							"id": 218,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4543,19 +4645,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
 								{
-									"id": 214,
+									"id": 219,
 									"name": "new SingletonRepository",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 215,
+											"id": 220,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4568,7 +4670,7 @@
 									],
 									"parameters": [
 										{
-											"id": 216,
+											"id": 221,
 											"name": "modelKey",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4583,11 +4685,11 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 212,
+										"id": 217,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 215,
+												"id": 220,
 												"name": "T"
 											}
 										],
@@ -4595,19 +4697,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 176,
+										"id": 181,
 										"name": "BaseRepository.constructor"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 175,
+								"id": 180,
 								"name": "BaseRepository.constructor"
 							}
 						},
 						{
-							"id": 217,
+							"id": 222,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4619,12 +4721,12 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 									"line": 8,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L8"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L8"
 								}
 							],
 							"signatures": [
 								{
-									"id": 218,
+									"id": 223,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4644,12 +4746,12 @@
 														"typeArguments": [
 															{
 																"type": "reference",
-																"id": 215,
+																"id": 220,
 																"name": "T"
 															},
 															{
 																"type": "reference",
-																"id": 215,
+																"id": 220,
 																"name": "T"
 															}
 														],
@@ -4668,7 +4770,7 @@
 							]
 						},
 						{
-							"id": 222,
+							"id": 227,
 							"name": "getModel",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4680,12 +4782,12 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 223,
+									"id": 228,
 									"name": "getModel",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4698,12 +4800,12 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 215,
+														"id": 220,
 														"name": "T"
 													},
 													{
 														"type": "reference",
-														"id": 215,
+														"id": 220,
 														"name": "T"
 													}
 												],
@@ -4718,19 +4820,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 181,
+										"id": 186,
 										"name": "BaseRepository.getModel"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 180,
+								"id": 185,
 								"name": "BaseRepository.getModel"
 							}
 						},
 						{
-							"id": 219,
+							"id": 224,
 							"name": "set",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4742,19 +4844,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 									"line": 12,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 220,
+									"id": 225,
 									"name": "set",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 221,
+											"id": 226,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4764,7 +4866,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 215,
+														"id": 220,
 														"name": "T"
 													}
 												],
@@ -4780,12 +4882,12 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 215,
+														"id": 220,
 														"name": "T"
 													},
 													{
 														"type": "reference",
-														"id": 215,
+														"id": 220,
 														"name": "T"
 													}
 												],
@@ -4806,15 +4908,15 @@
 						{
 							"title": "Constructors",
 							"children": [
-								213
+								218
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								217,
 								222,
-								219
+								227,
+								224
 							]
 						}
 					],
@@ -4823,12 +4925,12 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 							"line": 5,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L5"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 224,
+							"id": 229,
 							"name": "T",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -4842,11 +4944,11 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 174,
+							"id": 179,
 							"typeArguments": [
 								{
 									"type": "reference",
-									"id": 215,
+									"id": 220,
 									"name": "T"
 								}
 							],
@@ -4855,7 +4957,7 @@
 					]
 				},
 				{
-					"id": 208,
+					"id": 213,
 					"name": "Database",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4867,13 +4969,13 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
 							"line": 29,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 209,
+							"id": 214,
 							"name": "__type",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4883,19 +4985,19 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
 									"line": 29,
 									"character": 37,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
 								}
 							],
 							"signatures": [
 								{
-									"id": 210,
+									"id": 215,
 									"name": "new Database",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 211,
+											"id": 216,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4911,7 +5013,7 @@
 										"types": [
 											{
 												"type": "reference",
-												"id": 211,
+												"id": 216,
 												"name": "T"
 											},
 											{
@@ -4919,7 +5021,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 211,
+														"id": 216,
 														"name": "T"
 													}
 												],
@@ -4938,15 +5040,15 @@
 				{
 					"title": "Classes",
 					"children": [
-						174,
-						183,
-						212
+						179,
+						188,
+						217
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						208
+						213
 					]
 				}
 			],
@@ -4955,7 +5057,7 @@
 					"fileName": "packages/propel-sequelize/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-sequelize/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/index.ts#L1"
 				}
 			]
 		},
@@ -4967,14 +5069,14 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 235,
+					"id": 240,
 					"name": "BootstrapOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 238,
+							"id": 243,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4994,7 +5096,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -5007,7 +5109,7 @@
 							}
 						},
 						{
-							"id": 236,
+							"id": 241,
 							"name": "priority",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5019,7 +5121,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L6"
 								}
 							],
 							"type": {
@@ -5028,7 +5130,7 @@
 							}
 						},
 						{
-							"id": 237,
+							"id": 242,
 							"name": "when",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5040,7 +5142,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L7"
 								}
 							],
 							"type": {
@@ -5053,9 +5155,9 @@
 						{
 							"title": "Properties",
 							"children": [
-								238,
-								236,
-								237
+								243,
+								241,
+								242
 							]
 						}
 					],
@@ -5064,7 +5166,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 							"line": 5,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L5"
 						}
 					],
 					"extendedTypes": [
@@ -5075,14 +5177,14 @@
 					]
 				},
 				{
-					"id": 245,
+					"id": 250,
 					"name": "FactoryOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 246,
+							"id": 251,
 							"name": "args",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5094,7 +5196,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 									"line": 5,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Factory.ts#L5"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L5"
 								}
 							],
 							"type": {
@@ -5106,7 +5208,7 @@
 							}
 						},
 						{
-							"id": 248,
+							"id": 253,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5126,7 +5228,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -5139,7 +5241,7 @@
 							}
 						},
 						{
-							"id": 247,
+							"id": 252,
 							"name": "when",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5151,7 +5253,7 @@
 									"fileName": "packages/propel-server/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/types.ts#L12"
 								}
 							],
 							"type": {
@@ -5168,9 +5270,9 @@
 						{
 							"title": "Properties",
 							"children": [
-								246,
-								248,
-								247
+								251,
+								253,
+								252
 							]
 						}
 					],
@@ -5179,7 +5281,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 							"line": 4,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Factory.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L4"
 						}
 					],
 					"extendedTypes": [
@@ -5190,7 +5292,7 @@
 					]
 				},
 				{
-					"id": 255,
+					"id": 260,
 					"name": "BaseEntity",
 					"kind": 32,
 					"kindString": "Variable",
@@ -5202,13 +5304,13 @@
 							"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
 							"line": 39,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 256,
+							"id": 261,
 							"name": "__type",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -5218,19 +5320,19 @@
 									"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
 									"line": 39,
 									"character": 42,
-									"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
 								}
 							],
 							"signatures": [
 								{
-									"id": 257,
+									"id": 262,
 									"name": "new BaseEntity",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"typeParameter": [
 										{
-											"id": 258,
+											"id": 263,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -5246,7 +5348,7 @@
 										"types": [
 											{
 												"type": "reference",
-												"id": 258,
+												"id": 263,
 												"name": "T"
 											},
 											{
@@ -5254,7 +5356,7 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"id": 258,
+														"id": 263,
 														"name": "T"
 													}
 												],
@@ -5269,7 +5371,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 225,
+					"id": 230,
 					"name": "Autowired",
 					"kind": 64,
 					"kindString": "Function",
@@ -5279,12 +5381,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/iocs/Autowired.ts",
 							"line": 16,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/iocs/Autowired.ts#L16"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/iocs/Autowired.ts#L16"
 						}
 					],
 					"signatures": [
 						{
-							"id": 226,
+							"id": 231,
 							"name": "Autowired",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5313,7 +5415,7 @@
 												"kind": "inline-tag",
 												"tag": "@link",
 												"text": "Inject",
-												"target": 228
+												"target": 233
 											}
 										]
 									}
@@ -5321,7 +5423,7 @@
 							},
 							"parameters": [
 								{
-									"id": 227,
+									"id": 232,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5352,7 +5454,7 @@
 					]
 				},
 				{
-					"id": 232,
+					"id": 237,
 					"name": "Bootstrap",
 					"kind": 64,
 					"kindString": "Function",
@@ -5362,12 +5464,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 							"line": 29,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L29"
 						}
 					],
 					"signatures": [
 						{
-							"id": 233,
+							"id": 238,
 							"name": "Bootstrap",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5402,7 +5504,7 @@
 							},
 							"parameters": [
 								{
-									"id": 234,
+									"id": 239,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5419,7 +5521,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 235,
+										"id": 240,
 										"name": "BootstrapOptions"
 									}
 								}
@@ -5434,7 +5536,7 @@
 					]
 				},
 				{
-					"id": 239,
+					"id": 244,
 					"name": "Entity",
 					"kind": 64,
 					"kindString": "Function",
@@ -5444,12 +5546,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Entity.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Entity.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Entity.ts#L12"
 						}
 					],
 					"signatures": [
 						{
-							"id": 240,
+							"id": 245,
 							"name": "Entity",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5475,7 +5577,7 @@
 							},
 							"parameters": [
 								{
-									"id": 241,
+									"id": 246,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5506,7 +5608,7 @@
 					]
 				},
 				{
-					"id": 242,
+					"id": 247,
 					"name": "Factory",
 					"kind": 64,
 					"kindString": "Function",
@@ -5516,12 +5618,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 							"line": 28,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Factory.ts#L28"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L28"
 						}
 					],
 					"signatures": [
 						{
-							"id": 243,
+							"id": 248,
 							"name": "Factory",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5556,7 +5658,7 @@
 							},
 							"parameters": [
 								{
-									"id": 244,
+									"id": 249,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5573,7 +5675,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 245,
+										"id": 250,
 										"name": "FactoryOptions"
 									}
 								}
@@ -5588,7 +5690,7 @@
 					]
 				},
 				{
-					"id": 228,
+					"id": 233,
 					"name": "Inject",
 					"kind": 64,
 					"kindString": "Function",
@@ -5598,12 +5700,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/iocs/Inject.ts",
 							"line": 30,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/iocs/Inject.ts#L30"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/iocs/Inject.ts#L30"
 						}
 					],
 					"signatures": [
 						{
-							"id": 229,
+							"id": 234,
 							"name": "Inject",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5659,7 +5761,7 @@
 							},
 							"parameters": [
 								{
-									"id": 230,
+									"id": 235,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5678,7 +5780,7 @@
 									}
 								},
 								{
-									"id": 231,
+									"id": 236,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5721,7 +5823,7 @@
 					]
 				},
 				{
-					"id": 249,
+					"id": 254,
 					"name": "Repository",
 					"kind": 64,
 					"kindString": "Function",
@@ -5731,12 +5833,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Repository.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Repository.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Repository.ts#L12"
 						}
 					],
 					"signatures": [
 						{
-							"id": 250,
+							"id": 255,
 							"name": "Repository",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5762,7 +5864,7 @@
 							},
 							"parameters": [
 								{
-									"id": 251,
+									"id": 256,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5793,7 +5895,7 @@
 					]
 				},
 				{
-					"id": 252,
+					"id": 257,
 					"name": "Service",
 					"kind": 64,
 					"kindString": "Function",
@@ -5803,12 +5905,12 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Service.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/decorators/services/Service.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Service.ts#L12"
 						}
 					],
 					"signatures": [
 						{
-							"id": 253,
+							"id": 258,
 							"name": "Service",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5834,7 +5936,7 @@
 							},
 							"parameters": [
 								{
-									"id": 254,
+									"id": 259,
 									"name": "options",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5865,7 +5967,7 @@
 					]
 				},
 				{
-					"id": 259,
+					"id": 264,
 					"name": "propel",
 					"kind": 64,
 					"kindString": "Function",
@@ -5873,14 +5975,14 @@
 					"sources": [
 						{
 							"fileName": "packages/propel-server/src/lib/init.ts",
-							"line": 37,
+							"line": 43,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/lib/init.ts#L37"
+							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/init.ts#L43"
 						}
 					],
 					"signatures": [
 						{
-							"id": 260,
+							"id": 265,
 							"name": "propel",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5916,27 +6018,27 @@
 				{
 					"title": "Interfaces",
 					"children": [
-						235,
-						245
+						240,
+						250
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						255
+						260
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						225,
-						232,
-						239,
-						242,
-						228,
-						249,
-						252,
-						259
+						230,
+						237,
+						244,
+						247,
+						233,
+						254,
+						257,
+						264
 					]
 				}
 			],
@@ -5945,7 +6047,7 @@
 					"fileName": "packages/propel-server/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/a7bdc35/packages/propel-server/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/index.ts#L1"
 				}
 			]
 		}
