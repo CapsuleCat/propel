@@ -1,7 +1,7 @@
 {
     "name": "@capsule-cat/propel-express",
     "license": "MIT",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "typedoc": {
         "entryPoint": "./src/index.ts",
         "readmeFile": "./README.md",
