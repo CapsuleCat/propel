@@ -25,9 +25,9 @@ export class PropelExpressPlugin implements PropelPlugin {
             app?.use(bodyParser.json());
         }
 
-        executeControllerStack();
-
         await executeBootstrapStack();
+
+        executeControllerStack();
 
         const port = this.options?.port ?? 3000;
 
