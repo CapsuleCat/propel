@@ -62,7 +62,10 @@ export class RequestMethodBuilder implements IBuilder<MethodDecorator> {
                         });
 
                     let autoHandleRequest = true;
-                    if (newArgs.every((arg) => arg === undefined)) {
+                    if (
+                        newArgs.length > 0 &&
+                        newArgs.every((arg) => arg === undefined)
+                    ) {
                         autoHandleRequest = false;
                         // Inject the request and response objects
                         newArgs = [req, res];
