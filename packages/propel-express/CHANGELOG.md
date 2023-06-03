@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.5](https://github.com/CapsuleCat/propel/compare/propel-express-0.2.4...propel-express-0.2.5) (2023-06-03)
+
+
+### Bug Fixes
+
+* fix test bootstrapping ([fb220c7](https://github.com/CapsuleCat/propel/commit/fb220c76c081e53d5e1710da189c0a11d2ba314f))
+
 ### [0.2.4](https://github.com/CapsuleCat/propel/compare/propel-express-0.2.3...propel-express-0.2.4) (2023-03-05)
 
 
