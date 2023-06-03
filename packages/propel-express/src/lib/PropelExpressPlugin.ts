@@ -49,8 +49,8 @@ export class PropelExpressPlugin implements PropelPlugin {
             app?.use(bodyParser.json());
         }
 
-        executeControllerStack();
-
         await executeBootstrapStack();
+
+        executeControllerStack();
     }
 }
