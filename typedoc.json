@@ -16,7 +16,7 @@
 					"fileName": "packages/propel-cli/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-cli/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-cli/src/index.ts#L1"
 				}
 			]
 		},
@@ -55,7 +55,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -77,7 +77,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 3,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L3"
 						}
 					],
 					"extendedBy": [
@@ -108,7 +108,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L11"
 								}
 							],
 							"type": {
@@ -132,7 +132,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L12"
 								}
 							],
 							"type": {
@@ -161,7 +161,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -187,7 +187,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 13,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L13"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L13"
 								}
 							],
 							"type": {
@@ -203,7 +203,7 @@
 											"fileName": "packages/propel-core/src/lib/types.ts",
 											"line": 13,
 											"character": 12,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L13"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L13"
 										}
 									],
 									"signatures": [
@@ -252,7 +252,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 10,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L10"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L10"
 						}
 					],
 					"extendedTypes": [
@@ -291,7 +291,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 20,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L20"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L20"
 								}
 							],
 							"type": {
@@ -307,7 +307,7 @@
 											"fileName": "packages/propel-core/src/lib/types.ts",
 											"line": 20,
 											"character": 11,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L20"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L20"
 										}
 									],
 									"signatures": [
@@ -347,7 +347,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 21,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L21"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L21"
 								}
 							],
 							"type": {
@@ -363,7 +363,7 @@
 											"fileName": "packages/propel-core/src/lib/types.ts",
 											"line": 21,
 											"character": 15,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L21"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L21"
 										}
 									],
 									"signatures": [
@@ -405,7 +405,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 19,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L19"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L19"
 						}
 					]
 				},
@@ -420,7 +420,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 1,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L1"
 						}
 					],
 					"type": {
@@ -439,7 +439,7 @@
 							"fileName": "packages/propel-core/src/lib/toClass.ts",
 							"line": 1,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/toClass.ts#L1"
 						}
 					],
 					"type": {
@@ -455,7 +455,7 @@
 									"fileName": "packages/propel-core/src/lib/toClass.ts",
 									"line": 1,
 									"character": 26,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L1"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/toClass.ts#L1"
 								}
 							],
 							"signatures": [
@@ -503,7 +503,7 @@
 							"fileName": "packages/propel-core/src/lib/types.ts",
 							"line": 24,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L24"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L24"
 						}
 					],
 					"type": {
@@ -519,7 +519,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 24,
 									"character": 27,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L24"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L24"
 								}
 							],
 							"signatures": [
@@ -549,7 +549,7 @@
 							"fileName": "packages/propel-core/src/lib/accessors.ts",
 							"line": 10,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/accessors.ts#L10"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/accessors.ts#L10"
 						}
 					],
 					"signatures": [
@@ -649,7 +649,7 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 15,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L15"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L15"
 						}
 					],
 					"signatures": [
@@ -735,7 +735,7 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 63,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L63"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L63"
 						}
 					],
 					"signatures": [
@@ -763,7 +763,7 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 26,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L26"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L26"
 						}
 					],
 					"signatures": [
@@ -849,7 +849,7 @@
 							"fileName": "packages/propel-core/src/lib/logging.ts",
 							"line": 5,
 							"character": 6,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/logging.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/logging.ts#L5"
 						}
 					],
 					"signatures": [
@@ -906,7 +906,7 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 47,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L47"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L47"
 						}
 					],
 					"signatures": [
@@ -979,7 +979,7 @@
 															"fileName": "packages/propel-core/src/lib/ioc.ts",
 															"line": 49,
 															"character": 14,
-															"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L49"
+															"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L49"
 														}
 													],
 													"signatures": [
@@ -1037,7 +1037,7 @@
 							"fileName": "packages/propel-core/src/lib/ioc.ts",
 							"line": 37,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/ioc.ts#L37"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/ioc.ts#L37"
 						}
 					],
 					"signatures": [
@@ -1065,7 +1065,7 @@
 							"fileName": "packages/propel-core/src/lib/toClass.ts",
 							"line": 9,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/toClass.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/toClass.ts#L9"
 						}
 					],
 					"signatures": [
@@ -1160,7 +1160,7 @@
 					"fileName": "packages/propel-core/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/index.ts#L1"
 				}
 			]
 		},
@@ -1189,7 +1189,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 15,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
 								}
 							],
 							"signatures": [
@@ -1237,7 +1237,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 15,
 									"character": 24,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L15"
 								}
 							],
 							"type": {
@@ -1257,7 +1257,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 16,
 									"character": 10,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L16"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L16"
 								}
 							],
 							"signatures": [
@@ -1301,7 +1301,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 40,
 									"character": 10,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L40"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L40"
 								}
 							],
 							"signatures": [
@@ -1361,7 +1361,7 @@
 							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 							"line": 14,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L14"
 						}
 					],
 					"implementedTypes": [
@@ -1391,7 +1391,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L10"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L10"
 								}
 							],
 							"type": {
@@ -1412,7 +1412,7 @@
 									"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L11"
 								}
 							],
 							"type": {
@@ -1435,7 +1435,7 @@
 							"fileName": "packages/propel-express/src/lib/PropelExpressPlugin.ts",
 							"line": 9,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/PropelExpressPlugin.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/PropelExpressPlugin.ts#L9"
 						}
 					]
 				},
@@ -1459,7 +1459,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 15,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L15"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L15"
 								}
 							],
 							"type": {
@@ -1480,7 +1480,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 14,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L14"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L14"
 								}
 							],
 							"type": {
@@ -1546,7 +1546,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 13,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L13"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L13"
 						}
 					]
 				},
@@ -1584,7 +1584,7 @@
 									"fileName": "packages/propel-express/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/types.ts#L12"
 								}
 							],
 							"signatures": [
@@ -1630,7 +1630,7 @@
 							"fileName": "packages/propel-express/src/lib/types.ts",
 							"line": 11,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/types.ts#L11"
 						}
 					],
 					"typeParameters": [
@@ -1665,7 +1665,7 @@
 							"fileName": "packages/propel-express/src/lib/types.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/types.ts#L4"
 						}
 					],
 					"typeParameters": [
@@ -1711,7 +1711,7 @@
 									"fileName": "packages/propel-express/src/lib/types.ts",
 									"line": 4,
 									"character": 51,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/types.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/types.ts#L4"
 								}
 							],
 							"signatures": [
@@ -1766,7 +1766,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 24,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L24"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/services/Controller.ts#L24"
 						}
 					],
 					"type": {
@@ -1785,7 +1785,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
 							"line": 9,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L9"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L9"
 						}
 					],
 					"type": {
@@ -1804,7 +1804,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L4"
 						}
 					],
 					"type": {
@@ -1840,7 +1840,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 14,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/services/Controller.ts#L14"
 						}
 					],
 					"type": {
@@ -1892,7 +1892,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Validate.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Validate.ts#L4"
 						}
 					],
 					"typeParameters": [
@@ -1952,7 +1952,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 6,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
 						}
 					],
 					"type": {
@@ -1975,7 +1975,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 10,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L10"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L10"
 										}
 									],
 									"type": {
@@ -1995,7 +1995,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 7,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L7"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L7"
 										}
 									],
 									"type": {
@@ -2015,7 +2015,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 9,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L9"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L9"
 										}
 									],
 									"type": {
@@ -2035,7 +2035,7 @@
 											"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 											"line": 8,
 											"character": 4,
-											"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L8"
+											"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L8"
 										}
 									],
 									"type": {
@@ -2061,7 +2061,7 @@
 									"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 									"line": 6,
 									"character": 29,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L6"
 								}
 							]
 						}
@@ -2079,7 +2079,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/services/Controller.ts",
 							"line": 37,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/services/Controller.ts#L37"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/services/Controller.ts#L37"
 						}
 					],
 					"signatures": [
@@ -2235,7 +2235,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Delete.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Delete.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Delete.ts#L14"
 						}
 					],
 					"signatures": [
@@ -2327,7 +2327,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts",
 							"line": 29,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/lifecycle/ExpressBootstrap.ts#L29"
 						}
 					],
 					"signatures": [
@@ -2408,7 +2408,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Get.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Get.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Get.ts#L14"
 						}
 					],
 					"signatures": [
@@ -2500,7 +2500,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Patch.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Patch.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Patch.ts#L14"
 						}
 					],
 					"signatures": [
@@ -2592,7 +2592,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Post.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Post.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Post.ts#L14"
 						}
 					],
 					"signatures": [
@@ -2684,7 +2684,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestBody.ts",
 							"line": 14,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestBody.ts#L14"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestBody.ts#L14"
 						}
 					],
 					"signatures": [
@@ -2756,7 +2756,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestMapping.ts",
 							"line": 31,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L31"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestMapping.ts#L31"
 						}
 					],
 					"signatures": [
@@ -2884,7 +2884,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestParam.ts",
 							"line": 11,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestParam.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestParam.ts#L11"
 						}
 					],
 					"signatures": [
@@ -2954,7 +2954,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/RequestQuery.ts",
 							"line": 19,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/RequestQuery.ts#L19"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/RequestQuery.ts#L19"
 						}
 					],
 					"signatures": [
@@ -3035,7 +3035,7 @@
 							"fileName": "packages/propel-express/src/lib/decorators/requests/Validate.ts",
 							"line": 17,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/lib/decorators/requests/Validate.ts#L17"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/lib/decorators/requests/Validate.ts#L17"
 						}
 					],
 					"signatures": [
@@ -3178,7 +3178,7 @@
 					"fileName": "packages/propel-express/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-express/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-express/src/index.ts#L1"
 				}
 			]
 		},
@@ -3230,7 +3230,7 @@
 									"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
 									"line": 5,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L5"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L5"
 								}
 							],
 							"signatures": [
@@ -3283,7 +3283,7 @@
 							"fileName": "packages/propel-forward/src/lib/PropelForwardPlugin.ts",
 							"line": 3,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/PropelForwardPlugin.ts#L3"
 						}
 					],
 					"implementedTypes": [
@@ -3311,7 +3311,7 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 2,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L2"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/Cache.ts#L2"
 								}
 							],
 							"signatures": [
@@ -3379,7 +3379,7 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 3,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L3"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/Cache.ts#L3"
 								}
 							],
 							"signatures": [
@@ -3428,7 +3428,7 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 									"line": 4,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/Cache.ts#L4"
 								}
 							],
 							"signatures": [
@@ -3503,7 +3503,7 @@
 							"fileName": "packages/propel-forward/src/lib/definitions/Cache.ts",
 							"line": 1,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/Cache.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/Cache.ts#L1"
 						}
 					]
 				},
@@ -3525,7 +3525,7 @@
 									"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
 									"line": 2,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L2"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L2"
 								}
 							],
 							"signatures": [
@@ -3571,7 +3571,7 @@
 							"fileName": "packages/propel-forward/src/lib/definitions/ExceptionLogger.ts",
 							"line": 1,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L1"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/definitions/ExceptionLogger.ts#L1"
 						}
 					]
 				},
@@ -3593,7 +3593,7 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 11,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L11"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/common/Logger.ts#L11"
 								}
 							],
 							"signatures": [
@@ -3639,7 +3639,7 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L9"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/common/Logger.ts#L9"
 								}
 							],
 							"signatures": [
@@ -3685,7 +3685,7 @@
 									"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L10"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/common/Logger.ts#L10"
 								}
 							],
 							"signatures": [
@@ -3736,7 +3736,7 @@
 							"fileName": "packages/propel-forward/src/lib/common/Logger.ts",
 							"line": 8,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/common/Logger.ts#L8"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/common/Logger.ts#L8"
 						}
 					]
 				},
@@ -3751,7 +3751,7 @@
 							"fileName": "packages/propel-forward/src/lib/init.ts",
 							"line": 11,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/lib/init.ts#L11"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/lib/init.ts#L11"
 						}
 					],
 					"signatures": [
@@ -3829,7 +3829,7 @@
 					"fileName": "packages/propel-forward/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-forward/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-forward/src/index.ts#L1"
 				}
 			]
 		},
@@ -3860,7 +3860,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
@@ -3926,7 +3926,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 4,
 									"character": 12,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L4"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L4"
 								}
 							],
 							"type": {
@@ -3948,7 +3948,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
@@ -4013,7 +4013,7 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 							"line": 3,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L3"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L3"
 						}
 					],
 					"typeParameters": [
@@ -4062,7 +4062,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
@@ -4165,7 +4165,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 17,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L17"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L17"
 								}
 							],
 							"signatures": [
@@ -4246,7 +4246,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 37,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L37"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L37"
 								}
 							],
 							"signatures": [
@@ -4298,7 +4298,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 13,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L13"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L13"
 								}
 							],
 							"signatures": [
@@ -4373,7 +4373,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 9,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L9"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L9"
 								}
 							],
 							"signatures": [
@@ -4428,7 +4428,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
@@ -4490,7 +4490,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 									"line": 23,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L23"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L23"
 								}
 							],
 							"signatures": [
@@ -4572,7 +4572,7 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts",
 							"line": 5,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/CRUDRepository.ts#L5"
 						}
 					],
 					"typeParameters": [
@@ -4645,7 +4645,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L6"
 								}
 							],
 							"signatures": [
@@ -4721,7 +4721,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 									"line": 8,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L8"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L8"
 								}
 							],
 							"signatures": [
@@ -4782,7 +4782,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/BaseRepository.ts",
 									"line": 12,
 									"character": 14,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/BaseRepository.ts#L12"
 								}
 							],
 							"signatures": [
@@ -4844,7 +4844,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 									"line": 12,
 									"character": 17,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L12"
 								}
 							],
 							"signatures": [
@@ -4925,7 +4925,7 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts",
 							"line": 5,
 							"character": 22,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/SingletonRepository.ts#L5"
 						}
 					],
 					"typeParameters": [
@@ -4969,7 +4969,7 @@
 							"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
 							"line": 29,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
 						}
 					],
 					"type": {
@@ -4985,7 +4985,7 @@
 									"fileName": "packages/propel-sequelize/src/lib/definitions/Database.ts",
 									"line": 29,
 									"character": 37,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/lib/definitions/Database.ts#L29"
 								}
 							],
 							"signatures": [
@@ -5057,7 +5057,7 @@
 					"fileName": "packages/propel-sequelize/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-sequelize/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-sequelize/src/index.ts#L1"
 				}
 			]
 		},
@@ -5096,7 +5096,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -5121,7 +5121,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 									"line": 6,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L6"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L6"
 								}
 							],
 							"type": {
@@ -5142,7 +5142,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L7"
 								}
 							],
 							"type": {
@@ -5166,7 +5166,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 							"line": 5,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L5"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L5"
 						}
 					],
 					"extendedTypes": [
@@ -5196,7 +5196,7 @@
 									"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 									"line": 5,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L5"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Factory.ts#L5"
 								}
 							],
 							"type": {
@@ -5228,7 +5228,7 @@
 									"fileName": "packages/propel-core/src/lib/types.ts",
 									"line": 7,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-core/src/lib/types.ts#L7"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-core/src/lib/types.ts#L7"
 								}
 							],
 							"type": {
@@ -5253,7 +5253,7 @@
 									"fileName": "packages/propel-server/src/lib/types.ts",
 									"line": 12,
 									"character": 4,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/types.ts#L12"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/types.ts#L12"
 								}
 							],
 							"type": {
@@ -5281,7 +5281,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 							"line": 4,
 							"character": 17,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L4"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Factory.ts#L4"
 						}
 					],
 					"extendedTypes": [
@@ -5304,7 +5304,7 @@
 							"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
 							"line": 39,
 							"character": 13,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
 						}
 					],
 					"type": {
@@ -5320,7 +5320,7 @@
 									"fileName": "packages/propel-server/src/lib/definitions/BaseEntity.ts",
 									"line": 39,
 									"character": 42,
-									"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
+									"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/definitions/BaseEntity.ts#L39"
 								}
 							],
 							"signatures": [
@@ -5381,7 +5381,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/iocs/Autowired.ts",
 							"line": 16,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/iocs/Autowired.ts#L16"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/iocs/Autowired.ts#L16"
 						}
 					],
 					"signatures": [
@@ -5464,7 +5464,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts",
 							"line": 29,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L29"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/lifecycle/Bootstrap.ts#L29"
 						}
 					],
 					"signatures": [
@@ -5546,7 +5546,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Entity.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Entity.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Entity.ts#L12"
 						}
 					],
 					"signatures": [
@@ -5618,7 +5618,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Factory.ts",
 							"line": 28,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Factory.ts#L28"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Factory.ts#L28"
 						}
 					],
 					"signatures": [
@@ -5700,7 +5700,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/iocs/Inject.ts",
 							"line": 30,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/iocs/Inject.ts#L30"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/iocs/Inject.ts#L30"
 						}
 					],
 					"signatures": [
@@ -5833,7 +5833,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Repository.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Repository.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Repository.ts#L12"
 						}
 					],
 					"signatures": [
@@ -5905,7 +5905,7 @@
 							"fileName": "packages/propel-server/src/lib/decorators/services/Service.ts",
 							"line": 12,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/decorators/services/Service.ts#L12"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/decorators/services/Service.ts#L12"
 						}
 					],
 					"signatures": [
@@ -5977,7 +5977,7 @@
 							"fileName": "packages/propel-server/src/lib/init.ts",
 							"line": 43,
 							"character": 16,
-							"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/lib/init.ts#L43"
+							"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/lib/init.ts#L43"
 						}
 					],
 					"signatures": [
@@ -6047,7 +6047,7 @@
 					"fileName": "packages/propel-server/src/index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/CapsuleCat/propel/blob/59dbc64/packages/propel-server/src/index.ts#L1"
+					"url": "https://github.com/CapsuleCat/propel/blob/4846caa/packages/propel-server/src/index.ts#L1"
 				}
 			]
 		}
